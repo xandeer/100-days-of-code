@@ -1,5 +1,10 @@
 # I've joined the #100DaysOfCode Challenge.
 
+## My Progress
+
+[day 0][0]
+[day 01][01]
+
 ## Contents
 * [Rules](rules.md)
 * [Log - click here to see my progress](log.md)
@@ -20,3 +25,6 @@
 ## Note
 * If you have any questions or ideas about 100DaysOfCode (or other ideas), feel free to reach out to me on Twitter: [@ka11away](https://twitter.com/ka11away)
 * If you like this repo and find it useful, please consider &#9733; starring it (on top right of the page) :)
+
+[0]: /log.md#0
+[01]: /log.md#01
