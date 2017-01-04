@@ -12,7 +12,7 @@
 * [FAQ](FAQ.md)
 * [Resources](resources.md)
 
-## If you've decided to join
+## If you've decided to join:
 1. Read [Join the #100DaysOfCode](https://medium.freecodecamp.com/join-the-100daysofcode-556ddb4579e4)
 2. Fork this repo and commit to the [Log](log.md) daily. [Example](https://github.com/Kallaway/100-days-kallaway-log).
 3. **Code minimum an hour every day for the next 100 days.**
