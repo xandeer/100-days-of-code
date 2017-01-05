@@ -13,3 +13,9 @@
 **Thoughts**: Bootstrap has done something I don't know. So if a class I'll use from Bootstrap, I'd look at how it implements.
 
 **Link(s) to work**: [Tribute](http://codepen.io/xandeer/pen/bgGgBm)
+
+### Day 02: January 05, 2017
+
+**Today's Progress**: Resolved 5 simple javascript algorithm problems. At the same time, I tried to use `mocha` & `chai` to test my scripts.
+
+**Thoughts**: That 5 problems give me a chance to review the methods of `String` & `Array`.

@@ -4,6 +4,7 @@
 
 | [day 0][0]
 | [day 01][01]
+| [day 02][02]
 |
 
 ## Contents
@@ -37,3 +38,4 @@ Me,/xandeer
 
 [0]: /log.md#day-0-january-03-2017
 [01]: /log.md#day-01-january-04-2017
+[02]: /log.md#day-02-january-05-2017
