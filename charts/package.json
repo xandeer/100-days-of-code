@@ -4,12 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "webpack-dev-server"
   },
   "keywords": [],
   "author": "Kevin <kkxandeer@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "echarts": "3.3.2",
+    "echarts": "3.3.2"
   }
 }
