@@ -1,4 +1,5 @@
 var webpack = require('webpack');
+var HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   entry: './main.js',
@@ -15,6 +16,9 @@ module.exports = {
     }, {
       test: /bootstrap\/dist\/js\/umd\//,
       loader: 'imports?jQuery=jquery'
+    }, {
+      test: /\.jade$/,
+      loader: 'jade'
     }]
   },
   plugins: [
@@ -23,6 +27,9 @@ module.exports = {
       jQuery: 'jquery',
       $: 'jquery',
       jquery: 'jquery'
+    }),
+    new HtmlWebpackPlugin({
+      template: './index.jade'
     })
   ],
   devServer: {
