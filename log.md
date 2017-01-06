@@ -22,6 +22,13 @@
 
 ### Day 03: January 06, 2017
 
-**Today's Progress**: Resolved 3 simple js algorithm problems.
+**Today's Progress**:
 
-**Thoughts**: Meet some puzzles for testing with deep Array.
+1. Resolved 3 simple JavaScript algorithm problems.
+2. Build a Echarts demo.
+3. Init portfolio project.
+
+**Thoughts**:
+
+1. Meet some puzzles for testing with deep Array.
+2. When I want to use webpack to start a bootstrap project, I encountered several troubles, and then I found there's a project [bootstrap-loader](https://github.com/shakacode/bootstrap-loader), that really helped me.
