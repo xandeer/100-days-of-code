@@ -1,0 +1,15 @@
+nav {
+  &.navbar {
+    margin-bottom: 0;
+  }
+}
+
+main {
+  .home {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../img/Meditating-Ganges.jpg');
+    background-position: center center;
+    background-size: cover;
+  }
+}

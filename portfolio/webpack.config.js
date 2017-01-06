@@ -9,9 +9,9 @@ module.exports = {
   module: {
     loaders: [{
       test: /\.scss$/,
-      loaders: ['style', 'css', 'postcss', 'sass']
+      loaders: ['style', 'css', 'sass']
     }, {
-      test: /\.(woff2?|ttf|eot|svg)$/,
+      test: /\.(woff2?|ttf|eot|svg|jpg)$/,
       loader: 'url?limit=10000'
     }, {
       test: /bootstrap\/dist\/js\/umd\//,
