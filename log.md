@@ -19,3 +19,9 @@
 **Today's Progress**: Resolved 5 simple javascript algorithm problems. At the same time, I tried to use `mocha` & `chai` to test my scripts.
 
 **Thoughts**: That 5 problems give me a chance to review the methods of `String` & `Array`.
+
+### Day 03: January 06, 2017
+
+**Today's Progress**: Resolved 3 simple js algorithm problems.
+
+**Thoughts**: Meet some puzzles for testing with deep Array.
