@@ -1,0 +1,25 @@
+{
+  "name": "@username/portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "1.14.0",
+    "bootstrap-loader": "1.3.3",
+    "bootstrap-sass": "3.3.7",
+    "css-loader": "0.26.1",
+    "jquery": "3.1.1",
+    "node-sass": "4.1.1",
+    "resolve-url-loader": "1.6.1",
+    "sass-loader": "4.1.1",
+    "style-loader": "0.13.1",
+    "url-loader": "0.5.7"
+  },
+  "scripts": {
+    "test": "webpack-dev-server"
+  },
+  "keywords": [],
+  "author": "Kevin <kkxandeer@gmail.com>",
+  "license": "ISC"
+}
