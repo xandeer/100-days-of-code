@@ -77,7 +77,9 @@ That 5 problems give me a chance to review the methods of `String` & `Array`.
 ### Today's Progress
 
 1. Resolved 3 algorithm problems.
+2. Added portfolio's main framework.
 
 ### Thoughts
 
 1. Reviewed Array's prototype methods: `filter`, `every`, `sort`.
+2. I paid much time for layout, I think CSS is more difficult than JavaScript. So I need to do more practice on CSS.
