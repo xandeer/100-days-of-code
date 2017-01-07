@@ -10,6 +10,8 @@ module.exports = {
     loaders: [{
       test: /\.scss$/,
       loaders: ['style', 'css', 'sass']
+        // what did the postcss do?
+        // loaders: ['style', 'css', 'postcss', 'sass']
     }, {
       test: /\.(woff2?|ttf|eot|svg|jpg)$/,
       loader: 'url?limit=10000'
@@ -36,4 +38,6 @@ module.exports = {
     inline: true,
     port: 3636
   }
+}
+}
 }
