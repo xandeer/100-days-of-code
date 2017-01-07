@@ -1,5 +1,26 @@
 # 100 Days Of Code - Log
 
+<!-- toc -->
+
+- [Day 0: January 03, 2017](#day-0-january-03-2017)
+  * [Today's Progress](#todays-progress)
+  * [Thoughts](#thoughts)
+- [Day 01: January 04, 2017](#day-01-january-04-2017)
+  * [Today's Progress](#todays-progress-1)
+  * [Thoughts](#thoughts-1)
+  * [Link(s) to work](#links-to-work)
+- [Day 02: January 05, 2017](#day-02-january-05-2017)
+  * [Today's Progress](#todays-progress-2)
+  * [Thoughts](#thoughts-2)
+- [Day 03: January 06, 2017](#day-03-january-06-2017)
+  * [Today's Progress](#todays-progress-3)
+  * [Thoughts](#thoughts-3)
+- [Day 04: January 07, 2017](#day-04-january-07-2017)
+  * [Today's Progress](#todays-progress-4)
+  * [Thoughts](#thoughts-4)
+
+<!-- tocstop -->
+
 ## Day 0: January 03, 2017
 
 ### Today's Progress
