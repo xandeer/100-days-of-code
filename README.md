@@ -2,11 +2,12 @@
 
 ## My Progress
 
-| [day 0][0]
+| [day 00][00]
 | [day 01][01]
 | [day 02][02]
 | [day 03][03]
 | [day 04][04]
+| [day 05][05]
 |
 
 ## Contents
@@ -38,8 +39,9 @@ Me,/xandeer
 - Free Code Camp [profile](https://www.freecodecamp.com/xandeer)
 - Code Pen [profile](http://codepen.io/xandeer/)
 
-[0]: /log.md#day-0-january-03-2017
+[00]: /log.md#day-00-january-03-2017
 [01]: /log.md#day-01-january-04-2017
 [02]: /log.md#day-02-january-05-2017
 [03]: /log.md#day-03-january-06-2017
 [04]: /log.md#day-04-january-07-2017
+[05]: /log.md#day-05-january-08-2017

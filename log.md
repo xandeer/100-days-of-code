@@ -2,7 +2,7 @@
 
 <!-- toc -->
 
-- [Day 0: January 03, 2017](#day-0-january-03-2017)
+- [Day 00: January 03, 2017](#day-00-january-03-2017)
   * [Today's Progress](#todays-progress)
   * [Thoughts](#thoughts)
 - [Day 01: January 04, 2017](#day-01-january-04-2017)
@@ -18,10 +18,13 @@
 - [Day 04: January 07, 2017](#day-04-january-07-2017)
   * [Today's Progress](#todays-progress-4)
   * [Thoughts](#thoughts-4)
+- [Day 05: January 08, 2017](#day-05-january-08-2017)
+  * [Today's Progress](#todays-progress-5)
+  * [Thoughts](#thoughts-5)
 
 <!-- tocstop -->
 
-## Day 0: January 03, 2017
+## Day 00: January 03, 2017
 
 ### Today's Progress
 
@@ -83,3 +86,14 @@ That 5 problems give me a chance to review the methods of `String` & `Array`.
 
 1. Reviewed Array's prototype methods: `filter`, `every`, `sort`.
 2. I paid much time for layout, I think CSS is more difficult than JavaScript. So I need to do more practice on CSS.
+
+
+## Day 05: January 08, 2017
+
+### Today's Progress
+
+1. Resolved 3 algorithm problems.
+
+### Thoughts
+
+1. When we want to diff two arrays, we could get their sum and intersection first, then remove intersection's element from sum, the rest is what we want.
