@@ -1,5 +1,9 @@
 // output: ./index.html
 
+- var portfolio = [{img: './img/calc.jpg', title: 'Calculator'}, {img: '/img/wiki.jpg', title: 'Wikipedia Search Engine'}, {img: './img/weather.jpg', title: 'Weather App'}, {img: './img/pacman.jpg', title: 'Pacman Tic Tac Toe'}];
+- var aboutImg = './img/me.jpg';
+- var aboutText = ' Holisticly re-engineer quality solutions after turnkey vortals. Objectively predominate cross-media methodologies via quality schemas. Assertively evolve.';
+
 doctype html
 html
   head
@@ -30,43 +34,42 @@ html
                   a(href='#') Contact
 
     main
-      section.home.full-screen
+      section.content.home.full-screen
         .container
           .row
             .col-md-offset-1.col-md-10.col-sm-offset-1.col-sm-10.col-xs-12
-              h2.text-center Know why you're writing the code you're writing, and how it works.
+              h2.home_title.text-center Know why you're writing the code you're writing, and how it works.
 
-      section.about.full-screen
+      section.content.about.full-screen
         .container
           .row
             .col-md-offset-1.col-md-4.col-sm-offset-1.col-sm-4.col-xs-offset-1.col-xs-4
-              .thumbnail
-                img(src='./img/me.jpg').img-circle
+              .about_body.thumbnail
+                img.about_img(src=aboutImg).img-circle
                 .caption.text-center
-                  h3 About Me
-                  p Holisticly re-engineer quality solutions after turnkey vortals. Objectively predominate cross-media methodologies via quality schemas. Assertively evolve.
+                  h3.about_title About Me
+                  p.about_text= aboutText
 
-      section.portfolio
+      section.content.portfolio
         .container
           .row
-            .col-md-10.col-md-offset-1.col-sm-8.col-sm-offset-2
+            .portfolio_container.col-md-10.col-md-offset-1.col-sm-8.col-sm-offset-2
               .row
-                - var portfolio = [{img: './img/calc.jpg', title: 'Calculator'}, {img: '/img/wiki.jpg', title: 'Wikipedia Search Engine'}, {img: './img/weather.jpg', title: 'Weather App'}, {img: './img/pacman.jpg', title: 'Pacman Tic Tac Toe'}];
                 each val in portfolio
                   .col-md-6.col-sm-12.col-xs-12
-                    .thumbnail
-                      img.img-responsive(src=val.img)
+                    .portfolio_body.thumbnail
+                      img.portfolio_img.img-responsive(src=val.img)
                       .caption.text-center
-                        h3= val.title
+                        h3.portfolio_title= val.title
 
-      section.contact.full-screen
+      section.content.contact.full-screen
         .container
+          .contact_first.row
+            .col-md-4.col-sm-4.col-xs-4.col-md-offset-5.col-sm-offset-4.col-xs-offset-3
+              a.contact_btn.btn.btn-default.btn-lg(href='#') Github
           .row
             .col-md-4.col-sm-4.col-xs-4.col-md-offset-5.col-sm-offset-4.col-xs-offset-3
-              a.btn.btn-default.btn-lg(href='#') Github
-          .row
-            .col-md-4.col-sm-4.col-xs-4.col-md-offset-5.col-sm-offset-4.col-xs-offset-3
-              a.btn.btn-default.btn-lg(href='#') FreeCodeCamp
+              a.contact_btn.btn.btn-default.btn-lg(href='#') FreeCodeCamp
 
-    footer
-      p.text-center xandeer © 2017. All Rights Reversed
+    footer.footer
+      p.footer_body.text-center xandeer © 2017. All Rights Reversed

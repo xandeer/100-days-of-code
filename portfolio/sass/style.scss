@@ -1,3 +1,5 @@
+$bg: (home: url('../img/Filippijnen-Sambawan.jpg'), about: url('../img/Mostar-Bridge.jpg'), portfolio: url('../img/Mostar_Bridge_dive.jpg'), contact: url('../img/Shark-Dive-St-Maarten.jpg'));
+
 html {
   font-size: 100px;
 }
@@ -5,95 +7,120 @@ html {
 body {
   min-width: 3.2rem;
 }
+/**
+ * Make some sections with screen hight.
+ */
+.full-screen {
+  height: 8rem;
+  height: 100vh;
+}
+/**
+ * The common style.
+ */
+.content {
+  width: 100%;
+  background-color: #ccc;
+  background-position: center center;
+  background-size: cover;
+}
+/**
+ * --- home begin ---
+ */
+.home {
+  background-image: map-get($bg, 'home');
+}
 
-main {
-  .full-screen {
-    height: 8rem;
-    height: 100vh;
-  }
+.home_title {
+  padding-top: 1.5rem;
+}
+/**
+ * --- home end ---
+ */
+/**
+  * --- about begin ---
+  */
+.about {
+  background-image: map-get($bg, 'about');
+}
 
-  section {
-    width: 100%;
-    background-color: #ccc;
-    background-position: center center;
-    background-size: cover;
-  }
+.about_body {
+  min-width: 2rem;
+  margin-top: 1rem;
+  opacity: 0.8;
+  border-radius: 10%;
+  background-color: #ccc;
+}
 
-  .home {
-    font-size: 0.35rem;
-    font-weight: bold;
-    background-image: url('../img/Filippijnen-Sambawan.jpg');
+.about_img {
+  opacity: 0.95;
+  width: 50%;
+  height: 50%;
+}
+/**
+ * --- about end ---
+ */
+/**
+  * --- portfolio begin ---
+  */
+.portfolio {
+  background-image: map-get($bg, 'portfolio');
+}
 
-    h2 {
-      padding-top: 1.5rem;
-    }
-  }
+.portfolio_container {
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+}
 
-  .about {
-    background-image: url('../img/Mostar-Bridge.jpg');
+.portfolio_body {
+  background-color: rgba(255,255,255,0.5);
+  border: none;
+}
 
-    .thumbnail {
-      min-width: 2rem;
-      margin-top: 1rem;
-      opacity: 0.8;
-      border-radius: 10%;
-      background-color: #ccc;
+.portfolio_img {
+  opacity: 0.8;
+}
+/**
+ * --- portfolio end ---
+ */
+/**
+ * --- contact begin ---
+ */
+.contact {
+  background-image: map-get($bg, 'contact');
+}
 
-      img {
-        opacity: 0.95;
-        width: 50%;
-        height: 50%;
-      }
-    }
-  }
+.contact_first {
+  margin-bottom: 0.5rem;
 
-  .portfolio {
-    background-image: url('../img/Mostar_Bridge_dive.jpg');
-
-    & > .row > [class^='col-'] {
-      margin-top: 0.3rem;
-      margin-bottom: 0.3rem;
-    }
-
-    .thumbnail {
-      background-color: hsla(255, 255, 255, 0.5);
-      border: none;
-
-      img {
-        opacity: 0.8;
-      }
-    }
-  }
-
-  .contact {
-    background-image: url('../img/Shark-Dive-St-Maarten.jpg');
-
-    .row:first-child {
-      margin-bottom: 0.5rem;
-
-      & [class^='col-'] {
-        margin-top: 2.3rem;
-      }
-    }
-
-    .btn {
-      width: 1.5rem;
-      background-color: hsla(200, 200, 200, 0.7);
-    }
+  & [class^='col'] {
+    margin-top: 2.3rem;
   }
 }
 
-footer {
+.contact_btn {
+  width: 1.5rem;
+  background-color: rgba(200, 200, 200, 0.7);
+}
+/**
+ * --- contact end ---
+ */
+/**
+ * --- footer begin ---
+ */
+.footer {
   position: relative;
   width: 100%;
   height: 1rem;
   background-color: #ccc;
-
-  p {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 0.16rem;
-  }
 }
+
+.footer_body {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 0.16rem;
+}
+/**
+ *  --- footer end ---
+ */

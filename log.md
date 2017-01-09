@@ -109,6 +109,7 @@ That 5 problems give me a chance to review the methods of `String` & `Array`.
 
 1. Convert a given number into a Roman number.
 2. Finished the portfolio's layout.
+3. Optimized the style file, tried to use BEM like.
 
 ### Thoughts
 
