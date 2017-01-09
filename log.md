@@ -108,10 +108,12 @@ That 5 problems give me a chance to review the methods of `String` & `Array`.
 ### Today's Progress
 
 1. Convert a given number into a Roman number.
+2. Finished the portfolio's layout.
 
 ### Thoughts
 
 1. I took more than 1h to think it out. The most import is that the relation of the input arguments an d the output.
+2. Know why you're writing the code you're writing, and how it works. At begin, I used `.container-fluid`, but I didn't know the difference from `.container`, so that made me in trunk.
 
 ### Link(s) to work
 

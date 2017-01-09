@@ -3,11 +3,12 @@
 doctype html
 html
   head
+    meta(name='viewport' content="width=device-width,initial-scale=1")
     title Xandeer's Portfolio
     script(src='bundle.js')
   body
-    nav.navbar.navbar-default.navbar-fixed-top
-      .container-fluid
+    .container
+      nav.navbar.navbar-default.navbar-fixed-top
         .row
           .col-md-offset-1.col-md-10.col-sm-offset-1.col-sm-10.col-xs-12
             .navbar-header
@@ -29,51 +30,41 @@ html
                   a(href='#') Contact
 
     main
-      section#home
-        .container-fluid
-          .row
-            .col-md-offset-1.col-md-10.col-sm-offset-1.col-sm-10.col-xs-12
-              h2.text-center Know why you're writing the code you're writing, and how it works.
+      section.home.full-screen
+        .row
+          .col-md-offset-1.col-md-10.col-sm-offset-1.col-sm-10.col-xs-12
+            h2.text-center Know why you're writing the code you're writing, and how it works.
 
-      section#about
-        .container-fluid
-          .row
-            .col-md-offset-1.col-md-4.col-sm-offset-1.col-sm-4.col-xs-offset-1.col-xs-4
-              .thumbnail
-                img(src='./img/me.jpg').img-circle
-                .caption.text-center
-                  h3 About Me
-                  p Holisticly re-engineer quality solutions after turnkey vortals. Objectively predominate cross-media methodologies via quality schemas. Assertively evolve.
+      section.about.full-screen
+        .row
+          .col-md-offset-1.col-md-4.col-sm-offset-1.col-sm-4.col-xs-offset-1.col-xs-4
+            .thumbnail
+              img(src='./img/me.jpg').img-circle
+              .caption.text-center
+                h3 About Me
+                p Holisticly re-engineer quality solutions after turnkey vortals. Objectively predominate cross-media methodologies via quality schemas. Assertively evolve.
 
 
-      section#portfolio
-        .container-fluid
-          .row
-            .col-md-10.col-md-offset-1.col-sm-8.col-sm-offset-2
-              .row
+      section.portfolio
+        .row
+          .col-md-10.col-md-offset-1.col-sm-8.col-sm-offset-2
+            .row
+              - var portfolio = [{img: './img/calc.jpg', title: 'Calculator'}, {img: '/img/wiki.jpg', title: 'Wikipedia Search Engine'}, {img: './img/weather.jpg', title: 'Weather App'}, {img: './img/pacman.jpg', title: 'Pacman Tic Tac Toe'}];
+              each val in portfolio
                 .col-md-6.col-sm-12.col-xs-12
                   .thumbnail
-                    img.img-responsive(src='./img/calc.jpg')
-                    //- .caption.text-center
-                    //-   h3 Calculator
-                .col-md-6.col-sm-12.col-xs-12
-                  .thumbnail
-                    img.img-responsive(src='./img/wiki.jpg')
-                    //- .caption.text-center
-                    //-   h3 Wikipedia Search Engine
-                .col-md-6.col-sm-12.col-xs-12
-                  .thumbnail
-                    img.img-responsive(src='./img/weather.jpg')
-                    //- .caption.text-center
-                    //-   h3 Weather App
-                .col-md-6.col-sm-12.col-xs-12
-                  .thumbnail
-                    img.img-responsive(src='./img/pacman.jpg')
-                    //- .caption.text-center
-                    //-   h3 Pacman Tic Tac Toe
+                    img.img-responsive(src=val.img)
+                    .caption.text-center
+                      h3= val.title
 
 
-      section#contact
-        .container-fluid
-          .row
-            .col-md-offset-1.col-md-10.col-sm-offset-1.col-sm-10.col-xs-12
+      section.contact.full-screen
+        .row
+          .col-md-4.col-sm-4.col-xs-4.col-md-offset-5.col-sm-offset-4.col-xs-offset-3
+            a.btn.btn-default.btn-lg(href='#') Github
+        .row
+          .col-md-4.col-sm-4.col-xs-4.col-md-offset-5.col-sm-offset-4.col-xs-offset-3
+            a.btn.btn-default.btn-lg(href='#') FreeCodeCamp
+
+    footer
+      p.text-center xandeer © 2017. All Rights Reversed
