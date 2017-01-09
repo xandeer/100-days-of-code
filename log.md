@@ -21,6 +21,10 @@
 - [Day 05: January 08, 2017](#day-05-january-08-2017)
   * [Today's Progress](#todays-progress-5)
   * [Thoughts](#thoughts-5)
+- [Day 06: January 09, 2017](#day-06-january-09-2017)
+  * [Today's Progress](#todays-progress-6)
+  * [Thoughts](#thoughts-6)
+  * [Link(s) to work](#links-to-work-1)
 
 <!-- tocstop -->
 
@@ -97,3 +101,18 @@ That 5 problems give me a chance to review the methods of `String` & `Array`.
 ### Thoughts
 
 1. When we want to diff two arrays, we could get their sum and intersection first, then remove intersection's element from sum, the rest is what we want.
+
+
+## Day 06: January 09, 2017
+
+### Today's Progress
+
+1. Convert a given number into a Roman number.
+
+### Thoughts
+
+1. I took more than 1h to think it out. The most import is that the relation of the input arguments an d the output.
+
+### Link(s) to work
+
+1. [Convert to Roman](/basic-algorithm/convert-to-roman.js)
