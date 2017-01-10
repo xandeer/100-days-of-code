@@ -15,6 +15,7 @@
   "devDependencies": {
     "chai": "3.5.0",
     "chai-arrays": "0.0.1",
+    "chai-json-equal": "0.0.1",
     "mocha": "3.2.0"
   }
 }
