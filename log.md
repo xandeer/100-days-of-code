@@ -129,6 +129,7 @@ That 5 problems give me a chance to review the methods of `String` & `Array`.
 ### Today's Progress
 
 1. Resolved 3 algorithm problems.
+2. Started FlyBird.
 
 ### Thoughts
 
