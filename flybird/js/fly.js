@@ -2,6 +2,7 @@
   var imgSrcs = require('./config.js').imgSrcs;
   var Bird = require('./birds.js');
   var Sky = require('./sky.js');
+  var Land = require('./land.js');
 
   /**
    * [Fly constructor]
@@ -16,6 +17,7 @@
     this.delta = 0;
     this.bird = new Bird();
     this.sky = new Sky();
+    this.land = new Land();
   }
 
   /**
@@ -36,6 +38,11 @@
         ctx: that.ctx,
         img: that.imgs['sky']
       });
+      that.land.init({
+        ctx: that.ctx,
+        img: that.imgs['land'],
+        canvasH: that.cv.height
+      });
       // interval time
       var delta = 0;
       var lastFrameTime = new Date() - 0;
@@ -49,6 +56,7 @@
         that.ctx.clearRect(0, 0, that.cv.width, that.cv.height);
 
         that.sky.render(delta);
+        that.land.render(delta);
         that.bird.render(delta);
 
         // Call requestAnimationFrame recurrently to render the game.
