@@ -25,6 +25,9 @@
   * [Today's Progress](#todays-progress-6)
   * [Thoughts](#thoughts-6)
   * [Link(s) to work](#links-to-work-1)
+- [Day 07: January 10, 2017](#day-07-january-10-2017)
+  * [Today's Progress](#todays-progress-7)
+  * [Thoughts](#thoughts-7)
 
 <!-- tocstop -->
 
@@ -119,3 +122,14 @@ That 5 problems give me a chance to review the methods of `String` & `Array`.
 ### Link(s) to work
 
 1. [Convert to Roman](/basic-algorithm/convert-to-roman.js)
+
+
+## Day 07: January 10, 2017
+
+### Today's Progress
+
+1. Resolved 3 algorithm problems.
+
+### Thoughts
+
+1. `string` can't be changed, so all the change on it will return a new `string`.
