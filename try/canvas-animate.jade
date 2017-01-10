@@ -1,0 +1,84 @@
+// output: ./canvas-animate.html
+
+doctype html
+html
+  head
+    style.
+      #cv {
+        width: 500px;
+        height: 500px;
+        border: 1px solid #678;
+      }
+    title Canvas Animate
+
+  body
+    canvas#cv(width='500' height='500')
+
+    script.
+      window.onload = function () {
+        var cv = document.getElementById('cv');
+        var context = cv.getContext('2d');
+        var img = new Image();
+        img.src = 'img/NPCrabbitbaby.png';
+
+        var index = 0;
+        var x = 0;
+        var y = 200;
+        var timer;
+        var row = {left: 1, right: 2, forward: 0, backward: 3};
+        var dir;
+
+        var left = function() {
+          dir = row.left;
+          if (x >= 45) {
+            x -= 5;
+          }
+        };
+        var right = function() {
+          dir = row.right;
+          if (x <= 455) {
+            x += 5;
+          }
+        };
+        var forward = function() {
+          dir = row.forward;
+          if (y <= 70) {
+            y -= 5;
+          }
+        };
+        var backward = function() {
+          dir = row.backward;
+          if (y >= 430) {
+            y += 5;
+          }
+        };
+
+        var move = function(dir) {
+          switch(dir) {
+            case 'left':
+              left();
+              break;
+            case 'right':
+              right();
+              break;
+            case 'forward':
+              forward();
+              break;
+            case 'backward':
+              backward();
+              break;
+          }
+        }
+
+        img.onload = function() {
+          context.drawImage(img, 0, 0, 40, 65, 0, 200, 40, 65);
+
+          timer = setInterval(function() {
+            context.clearRect(0, 0, 500, 500);
+            index++;
+            index %= 4;
+            move('right');
+            context.drawImage(img, 40 * index, 65 * dir, 40, 65, x, y, 40, 65);
+          }, 200);
+        }
+      }
