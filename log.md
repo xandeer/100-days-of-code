@@ -28,6 +28,9 @@
 - [Day 07: January 10, 2017](#day-07-january-10-2017)
   * [Today's Progress](#todays-progress-7)
   * [Thoughts](#thoughts-7)
+- [Day 08: January 11, 2017](#day-08-january-11-2017)
+  * [Today's Progress](#todays-progress-8)
+  * [Thoughts](#thoughts-8)
 
 <!-- tocstop -->
 
@@ -134,3 +137,15 @@ That 5 problems give me a chance to review the methods of `String` & `Array`.
 ### Thoughts
 
 1. `string` can't be changed, so all the change on it will return a new `string`.
+
+
+## Day 08: January 11, 2017
+
+### Today's Progress
+
+1. Resolved 3 algorithm problems.
+2. Finished the simple functions of FlyBird.
+
+### Thoughts
+
+1. When I use `new Date() - 0` in `window.requestAnimationFrame`'s renderLoop, if I leave the page, the time will accumulate.

@@ -10,6 +10,7 @@
 | [day 05][05]
 | [day 06][06]
 | [day 07][07]
+| [day 08][08]
 |
 
 ## Contents
@@ -49,3 +50,4 @@ Me,/xandeer
 [05]: /log.md#day-05-january-08-2017
 [06]: /log.md#day-06-january-09-2017
 [07]: /log.md#day-07-january-10-2017
+[08]: /log.md#day-08-january-11-2017
