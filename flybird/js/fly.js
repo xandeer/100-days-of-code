@@ -3,6 +3,7 @@
   var Bird = require('./birds.js');
   var Sky = require('./sky.js');
   var Land = require('./land.js');
+  var Pipes = require('./pipes.js');
 
   /**
    * Fly constructor
@@ -18,6 +19,7 @@
     this.bird = new Bird();
     this.sky = new Sky();
     this.land = new Land();
+    this.pipes = new Pipes();
   }
 
   /**
@@ -32,16 +34,27 @@
       // init the bird
       that.bird.init({
         ctx: that.ctx,
-        img: that.imgs['birds']
+        img: that.imgs['birds'],
+        speed: 0.15
       });
       that.sky.init({
         ctx: that.ctx,
-        img: that.imgs['sky']
+        img: that.imgs['sky'],
+        speed: 0.15
       });
       that.land.init({
         ctx: that.ctx,
         img: that.imgs['land'],
-        canvasH: that.cv.height
+        canvasH: that.cv.height,
+        speed: 0.15
+      });
+      that.pipes.init({
+        ctx: that.ctx,
+        canvasH: that.cv.height,
+        canvasW: that.cv.width,
+        imgTop: that.imgs['pipe2'],
+        imgBottom: that.imgs['pipe1'],
+        speed: 0.15
       });
       // interval time
       var delta = 0;
@@ -56,6 +69,7 @@
         that.ctx.clearRect(0, 0, that.cv.width, that.cv.height);
 
         that.sky.render(delta);
+        that.pipes.render(delta);
         that.land.render(delta);
         that.bird.render(delta);
 

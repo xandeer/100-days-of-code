@@ -12,7 +12,7 @@
 
       this.ctx = option.ctx;
 
-      this.speed = option.speed || 2;
+      this.speed = option.speed || 0.1;
     },
     render: function(delta) {
       this.ctx.save();
@@ -22,7 +22,7 @@
         this.ctx.drawImage(this.img, this.imgW * i, 0);
       }
 
-      this.x += this.speed;
+      this.x += this.speed * delta;
 
       if (this.x >= this.imgW) {
         this.x = 0;
