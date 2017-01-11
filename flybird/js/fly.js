@@ -27,8 +27,45 @@
       birds: this.bird
     };
     this.handle = 0;
+    this.timeCount = 0;
   }
 
+  Fly.prototype.init = function() {
+    this.bird.init({
+      ctx: this.ctx,
+      img: this.imgs['birds'],
+      speed: 0.15
+    });
+    this.sky.init({
+      ctx: this.ctx,
+      img: this.imgs['sky'],
+      speed: 0.15
+    });
+    this.land.init({
+      ctx: this.ctx,
+      img: this.imgs['land'],
+      canvasH: this.cv.height,
+      speed: 0.15
+    });
+    this.pipes.init({
+      ctx: this.ctx,
+      canvasH: this.cv.height,
+      canvasW: this.cv.width,
+      imgTop: this.imgs['pipe2'],
+      imgBottom: this.imgs['pipe1'],
+      speed: 0.15
+    });
+  };
+
+  Fly.prototype.renderTimeCount = function() {
+    this.ctx.save();
+    this.ctx.font = '30px serif';
+    this.ctx.fillStyle = 'white';
+    this.ctx.translate(this.cv.width - 100, 50);
+    this.ctx.fillText(this.timeCount.toFixed(2) + 's', 0, 0);
+
+    this.ctx.restore();
+  };
   /**
    * start playing game
    * @return {undefined} none
@@ -39,30 +76,7 @@
     // When the images are loaded, the game starts.
     this.preLoadImage(imgSrcs, function() {
       // init
-      that.bird.init({
-        ctx: that.ctx,
-        img: that.imgs['birds'],
-        speed: 0.15
-      });
-      that.sky.init({
-        ctx: that.ctx,
-        img: that.imgs['sky'],
-        speed: 0.15
-      });
-      that.land.init({
-        ctx: that.ctx,
-        img: that.imgs['land'],
-        canvasH: that.cv.height,
-        speed: 0.15
-      });
-      that.pipes.init({
-        ctx: that.ctx,
-        canvasH: that.cv.height,
-        canvasW: that.cv.width,
-        imgTop: that.imgs['pipe2'],
-        imgBottom: that.imgs['pipe1'],
-        speed: 0.15
-      });
+      that.init();
 
       // interval time
       var delta = 0;
@@ -72,6 +86,7 @@
         var curFrameTime = new Date() - 0;
         delta = curFrameTime - lastFrameTime;
         lastFrameTime = curFrameTime;
+        that.timeCount += delta / 1000;
 
         // Clear the canvas
         that.ctx.clearRect(0, 0, that.cv.width, that.cv.height);
@@ -80,6 +95,8 @@
         for (var name in that.roles) {
           that.roles[name].render(delta);
         }
+
+        that.renderTimeCount();
 
         // Call requestAnimationFrame recurrently to render the game.
         that.handle = window.requestAnimationFrame(render);

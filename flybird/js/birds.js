@@ -54,7 +54,7 @@
     },
 
     up: function() {
-      this.speed = -0.2;
+      this.speed = -0.3;
     }
   }
 
