@@ -7,6 +7,7 @@
     // acceleration
     this.a = 0.0005;
     // the bird's position
+    this.x = 100;
     this.y = 100;
     // When the bird is falling, it's head should head over heels,
     // and when it is going up, it's head should turn up.
@@ -18,12 +19,10 @@
 
     init: function(option) {
       this.img = option.img;
-      this.ctx = option.ctx;
-
-      this.speed = option.speed || 100;
-
       this.imgH = this.img.height;
       this.imgW = this.img.width / 3;
+      this.ctx = option.ctx;
+      this.speed = option.speed || 100;
     },
 
     render: function(delta) {
@@ -37,7 +36,7 @@
       }
       this.curAngle = this.speed / this.maxSpeed * this.maxAngle;
 
-      this.ctx.translate(100, this.y);
+      this.ctx.translate(this.x, this.y);
       this.ctx.rotate(this.curAngle / 180 * Math.PI);
       this.ctx.drawImage(this.img, this.index++ * this.imgW, 0, this.imgW,
         this.imgH, -
@@ -55,7 +54,7 @@
     },
 
     up: function() {
-      this.speed = -0.3;
+      this.speed = -0.2;
     }
   }
 

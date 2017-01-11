@@ -4,9 +4,10 @@
     this.imgTop = option.imgTop;
     this.imgBottom = option.imgBottom;
     this.width = this.imgTop.width;
+    this.height = this.imgTop.height;
     this.canvasH = option.canvasH;
     this.MIN_HEIGHT = 50;
-    this.MAX_HEIGHT = 350;
+    this.MAX_HEIGHT = 250;
     this.x = option.x || 0;
     this.gapY = 150;
     this.topY = -300;
@@ -28,6 +29,10 @@
         .MIN_HEIGHT) + this.MIN_HEIGHT);
       this.topY = -this.imgTop.height + showHeight;
       this.bottomY = this.topY + this.imgTop.height + this.gapY;
+    },
+    drawRect: function() {
+      this.ctx.rect(this.x, this.topY, this.width, this.height);
+      this.ctx.rect(this.x, this.bottomY, this.width, this.height);
     }
   };
 
@@ -62,12 +67,12 @@
 
       for (var i = 0; i < this.length; i++) {
         sp = this.lists[i];
+        sp.x -= this.speed * delta;
         if (sp.x <= -sp.width) {
-          sp.x = this.canvasW + this.gap;
+          sp.x += this.canvasW + this.gap + sp.width;
           sp.setRandomY();
-        } else {
-          sp.x -= this.speed * delta;
         }
+        sp.drawRect();
         sp.render();
       }
     }

@@ -20,6 +20,13 @@
     this.sky = new Sky();
     this.land = new Land();
     this.pipes = new Pipes();
+    this.roles = {
+      sky: this.sky,
+      pipes: this.pipes,
+      land: this.land,
+      birds: this.bird
+    };
+    this.handle = 0;
   }
 
   /**
@@ -31,7 +38,7 @@
 
     // When the images are loaded, the game starts.
     this.preLoadImage(imgSrcs, function() {
-      // init the bird
+      // init
       that.bird.init({
         ctx: that.ctx,
         img: that.imgs['birds'],
@@ -56,6 +63,7 @@
         imgBottom: that.imgs['pipe1'],
         speed: 0.15
       });
+
       // interval time
       var delta = 0;
       var lastFrameTime = new Date() - 0;
@@ -67,16 +75,25 @@
 
         // Clear the canvas
         that.ctx.clearRect(0, 0, that.cv.width, that.cv.height);
+        that.ctx.beginPath();
 
-        that.sky.render(delta);
-        that.pipes.render(delta);
-        that.land.render(delta);
-        that.bird.render(delta);
+        for (var name in that.roles) {
+          that.roles[name].render(delta);
+        }
 
         // Call requestAnimationFrame recurrently to render the game.
-        window.requestAnimationFrame(render);
+        that.handle = window.requestAnimationFrame(render);
+
+        // game over
+        if ((that.bird.y >= that.cv.height - that.land.imgH - that.bird
+            .imgH * 1 / 6) ||
+          (that.bird.y - that.bird.imgH * 1 / 6 <= 0) ||
+          (that.ctx.isPointInPath(that.bird.x + that.bird.imgW / 4,
+            that.bird.y))) {
+          window.cancelAnimationFrame(that.handle);
+        }
       };
-      window.requestAnimationFrame(render);
+      this.handle = window.requestAnimationFrame(render);
     });
 
     // When you click the canvas, the bird will go up.
@@ -126,4 +143,4 @@
     this['Fly'] = Fly;
   }
 
-}).call(this);
+}).call(this);;
