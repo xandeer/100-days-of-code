@@ -5,8 +5,8 @@
   var Land = require('./land.js');
 
   /**
-   * [Fly constructor]
-   * @param {[String]} canvas [a canvas ID]
+   * Fly constructor
+   * @param {String} canvas a canvas ID
    */
   function Fly(canvas) {
     this.cv = document.getElementById(canvas);
@@ -21,8 +21,8 @@
   }
 
   /**
-   * [start playing game]
-   * @return {[undefined]} [none]
+   * start playing game
+   * @return {undefined} none
    */
   Fly.prototype.start = function() {
     var that = this;
@@ -73,9 +73,9 @@
 
   /**
    * To load the images.
-   * @param  {[Array]}   imgSrcs [images' name and src]
-   * @param  {Function} fn    [callback]
-   * @return {[undefined]}         [no return]
+   * @param  {Array}   imgSrcs images' name and src
+   * @param  {Function} fn    callback
+   * @return {undefined}         no return
    */
   Fly.prototype.preLoadImage = function(imgSrcs, fn) {
     var len = imgSrcs.length;
