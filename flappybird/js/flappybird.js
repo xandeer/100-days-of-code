@@ -6,11 +6,10 @@
   var Pipes = require('./pipes.js');
 
   /**
-   * _FlappyBird constructor
-   * @param {String} canvas a canvas ID
+   * FlappyBird constructor
    */
-  function _FlappyBird(canvas) {
-    this.cv = document.getElementById(canvas);
+  function FlappyBird() {
+    this.cv = document.getElementById('flappy-canvas');
     this.cv.width = 800;
     this.cv.height = 600;
 
@@ -36,16 +35,14 @@
       land: this.land,
       birds: this.bird
     };
-
-    this.instance = null;
   }
 
-  _FlappyBird.prototype = {
-    constructor: _FlappyBird,
+  FlappyBird.prototype = {
+    constructor: FlappyBird,
 
     init: function() {
       var that = this;
-      this.timeCount = 0;
+      this.score = 0;
 
       this.sky.init({
         ctx: this.ctx,
@@ -75,23 +72,15 @@
       });
     },
 
-    renderTimeCount: function(delta) {
+    renderScore: function(delta) {
       this.ctx.save();
       this.ctx.font = '30px serif';
       this.ctx.fillStyle = 'white';
-      this.timeCount += delta / 1000;
+      this.score += delta / 1000;
       this.ctx.translate(this.cv.width - 200, 50);
-      this.ctx.fillText('Score: ' + this.timeCount.toFixed(2) + 's', 0, 0);
+      this.ctx.fillText('Score: ' + this.score.toFixed(2) + 's', 0, 0);
 
       this.ctx.restore();
-    },
-
-    getInstance: function(canvas) {
-      if (this.instance == null) {
-        this.instance = new _FlappyBird(canvas);
-        this.instance.registerEvent();
-      }
-      return this.instance;
     },
 
     start: function() {
@@ -115,6 +104,7 @@
 
     ready: function() {
       var that = this;
+      this.registerEvent();
 
       // When the images are loaded, the game starts.
       this.preLoadImage(config.imgSrcs, function() {
@@ -145,7 +135,7 @@
               that.roles[name].render(delta);
             }
 
-            that.renderTimeCount(delta);
+            that.renderScore(delta);
           }
           // Call requestAnimationFrame recurrently to render the game.
           window.requestAnimationFrame(render);
@@ -172,6 +162,7 @@
       });
       document.addEventListener('keydown', function(event) {
         switch (event.keyCode) {
+          // Space
           case 32:
             if (that.isPlaying) {
               that.pause();
@@ -223,9 +214,12 @@
     }
   };
 
-  function FlappyBird(canvas) {
-    return _FlappyBird.prototype.getInstance(canvas);
-  }
+  var createFlappyBird = function() {
+    var flappyBird;
+    return function() {
+      return flappyBird || (flappyBird = new FlappyBird());
+    }
+  }();
 
   // Export the FlappyBird object for **Node.js**, with
   // backwards-compatibility for the old `require()` API. If we're in
@@ -233,11 +227,11 @@
   // for Closure Compiler "advanced" mode.
   if (typeof exports !== 'undefined') {
     if (typeof module !== 'undefined' && module.exports) {
-      exports = module.exports = FlappyBird;
+      exports = module.exports = createFlappyBird;
     }
-    exports.FlappyBird = FlappyBird;
+    exports.FlappyBird = createFlappyBird;
   } else {
-    this['FlappyBird'] = FlappyBird;
+    this['FlappyBird'] = createFlappyBird;
   }
 
 }).call(this);
