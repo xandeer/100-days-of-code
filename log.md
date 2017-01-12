@@ -147,7 +147,7 @@ That 5 problems give me a chance to review the methods of `String` & `Array`.
 ### Today's Progress
 
 1. Resolved 3 algorithm problems.
-2. Finished the simple functions of FlyBird.
+2. Finished the simple functions of FlappyBird.
 
 ### Thoughts
 
@@ -161,9 +161,11 @@ That 5 problems give me a chance to review the methods of `String` & `Array`.
 1. Sorted Union.
 2. Convert HTML.
 3. Spinal Case.
+4. Finished FlappyBird.
 
 ### Thoughts
 
 1. I made a mistake with its test case, it really wasted my much time.
 2. Learned a new usage of `String.prototype.replace`, we can put a `function` as its second param.
 3. Reviewed `String.prototype.replace`.
+4. Optimize the codes step by step. If I meet a problem, I'd just solve it.
