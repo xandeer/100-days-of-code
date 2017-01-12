@@ -22,6 +22,7 @@
     this.imgs = {};
 
     this.isPlaying = false;
+    this.isOver = false;
     this.delta = 0;
 
     this.bird = new Bird();
@@ -93,8 +94,22 @@
     },
 
     start: function() {
-      this.init();
+      this.status.classList.remove('flappy_show');
       this.isPlaying = true;
+    },
+
+    pause: function() {
+      this.isPlaying = false;
+      this.msg.innerHTML = 'Pausing';
+      this.status.classList.add('flappy_show');
+      this.btn.innerHTML = 'Resume';
+    },
+
+    restart: function() {
+      this.init();
+      this.isOver = false;
+      this.msg.classList.remove('flappy-msg_over');
+      this.start();
     },
 
     ready: function() {
@@ -148,14 +163,31 @@
 
       this.btn.addEventListener('click', function() {
         if (that.status.classList.contains('flappy_show')) {
-          that.start();
-          that.status.classList.remove('flappy_show');
+          if (that.msg.classList.contains('flappy-msg_over')) {
+            that.restart();
+          } else {
+            that.start();
+          }
+        }
+      });
+      document.addEventListener('keydown', function(event) {
+        switch (event.keyCode) {
+          case 32:
+            if (that.isPlaying) {
+              that.pause();
+            } else if (!that.isOver) {
+              that.start();
+            } else {
+              that.restart();
+            }
+            break;
         }
       });
     },
 
     gameOver: function() {
       this.isPlaying = false;
+      this.isOver = true;
       this.btn.innerHTML = 'Restart';
       this.msg.innerHTML = 'Game Over';
       this.msg.classList.add('flappy-msg_over');
