@@ -1,8 +1,15 @@
+body {
+  position: relative;
+  height: 97vh;
+}
+
 .flappy {
   width: 800px;
   height: 600px;
-  position: relative;
-  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   background-image: url('./img/bg.png');
   background-size: cover;
 }
