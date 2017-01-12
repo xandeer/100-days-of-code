@@ -75,10 +75,11 @@
       });
     },
 
-    renderTimeCount: function() {
+    renderTimeCount: function(delta) {
       this.ctx.save();
       this.ctx.font = '30px serif';
       this.ctx.fillStyle = 'white';
+      this.timeCount += delta / 1000;
       this.ctx.translate(this.cv.width - 200, 50);
       this.ctx.fillText('Score: ' + this.timeCount.toFixed(2) + 's', 0, 0);
 
@@ -134,7 +135,6 @@
           var curFrameTime = new Date() - 0;
           delta = curFrameTime - lastFrameTime;
           lastFrameTime = curFrameTime;
-          that.timeCount += delta / 1000;
 
           if (that.isPlaying) {
             // Clear the canvas
@@ -145,7 +145,7 @@
               that.roles[name].render(delta);
             }
 
-            that.renderTimeCount();
+            that.renderTimeCount(delta);
           }
           // Call requestAnimationFrame recurrently to render the game.
           window.requestAnimationFrame(render);
