@@ -10,27 +10,33 @@
    * @param {String} canvas a canvas ID
    */
   function _FlappyBird(canvas) {
-    this.instance = null;
     this.cv = document.getElementById(canvas);
+    this.cv.width = 800;
+    this.cv.height = 600;
+
     this.btn = document.getElementById('flappy-play');
     this.status = document.getElementById('flappy-status');
     this.msg = document.getElementById('flappy-msg');
-    this.cv.width = 800;
-    this.cv.height = 600;
+
     this.ctx = this.cv.getContext('2d');
     this.imgs = {};
+
     this.isPlaying = false;
     this.delta = 0;
+
     this.bird = new Bird();
     this.sky = new Sky();
     this.land = new Land();
     this.pipes = new Pipes();
+
     this.roles = {
       sky: this.sky,
       pipes: this.pipes,
       land: this.land,
       birds: this.bird
     };
+
+    this.instance = null;
   }
 
   _FlappyBird.prototype = {
@@ -66,10 +72,6 @@
         speed: config.fallSpeed,
         raiseSpeed: config.raiseSpeed
       });
-
-      this.bird.addListener(function() {
-        that.gameOver();
-      });
     },
 
     renderTimeCount: function() {
@@ -90,18 +92,24 @@
       return this.instance;
     },
 
-    welcome: function() {
-      this.isPlaying = false;
+    start: function() {
+      this.init();
+      this.isPlaying = true;
     },
 
-    start: function() {
+    ready: function() {
       var that = this;
-      this.isPlaying = true;
 
       // When the images are loaded, the game starts.
       this.preLoadImage(config.imgSrcs, function() {
+        that.status.classList.add('flappy_show');
+
         // init
         that.init();
+
+        that.bird.addListener(function() {
+          that.gameOver();
+        });
 
         // interval time
         var delta = 0;
@@ -113,20 +121,19 @@
           lastFrameTime = curFrameTime;
           that.timeCount += delta / 1000;
 
-          // Clear the canvas
-          that.ctx.clearRect(0, 0, that.cv.width, that.cv.height);
-          that.ctx.beginPath();
-
-          for (var name in that.roles) {
-            that.roles[name].render(delta);
-          }
-
-          that.renderTimeCount();
-
           if (that.isPlaying) {
-            // Call requestAnimationFrame recurrently to render the game.
-            window.requestAnimationFrame(render);
+            // Clear the canvas
+            that.ctx.clearRect(0, 0, that.cv.width, that.cv.height);
+            that.ctx.beginPath();
+
+            for (var name in that.roles) {
+              that.roles[name].render(delta);
+            }
+
+            that.renderTimeCount();
           }
+          // Call requestAnimationFrame recurrently to render the game.
+          window.requestAnimationFrame(render);
         };
         window.requestAnimationFrame(render);
       });
@@ -136,11 +143,10 @@
       var that = this;
       // When you click the canvas, the bird will go up.
       this.cv.addEventListener('click', function() {
-        that.bird.up();
+        that.bird.raise();
       });
 
       this.btn.addEventListener('click', function() {
-        console.log(that);
         if (that.status.classList.contains('flappy_show')) {
           that.start();
           that.status.classList.remove('flappy_show');

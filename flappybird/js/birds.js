@@ -21,17 +21,19 @@
         this.img = option.img;
         this.imgH = this.img.height;
         this.imgW = this.img.width / 3;
-        this.ctx = option.ctx;
         this.landH = option.landH;
+
+        this.ctx = option.ctx;
+
         this.speed = option.speed || 100;
         this.raiseSpeed = option.raiseSpeed;
+
         // the bird's position
         this.x = 100;
         this.y = 100;
       },
 
       render: function(delta) {
-        // store the canvas context's state
         this.ctx.save();
 
         if (this.speed > this.maxSpeed) {
@@ -85,7 +87,7 @@
             });
           },
 
-          up: function() {
+          raise: function() {
             this.speed = -this.raiseSpeed;
           }
       }
