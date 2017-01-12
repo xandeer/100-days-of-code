@@ -31,6 +31,9 @@
 - [Day 08: January 11, 2017](#day-08-january-11-2017)
   * [Today's Progress](#todays-progress-8)
   * [Thoughts](#thoughts-8)
+- [Day 09: January 12, 2017](#day-09-january-12-2017)
+  * [Today's Progress](#todays-progress-9)
+  * [Thoughts](#thoughts-9)
 
 <!-- tocstop -->
 
@@ -149,3 +152,14 @@ That 5 problems give me a chance to review the methods of `String` & `Array`.
 ### Thoughts
 
 1. When I use `new Date() - 0` in `window.requestAnimationFrame`'s renderLoop, if I leave the page, the time will accumulate.
+
+
+## Day 09: January 12, 2017
+
+### Today's Progress
+
+1. Sorted Union. [1]
+
+### Thoughts
+
+1. [1], I made a mistake with its test case, it really wasted my much time.
