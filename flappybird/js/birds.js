@@ -52,7 +52,7 @@
         this.imgW, this.imgH, -1 / 2 * this.imgW, -1 / 2 * this.imgH,
         this.imgW, this.imgH);
 
-      if (this.isCrashed()) {
+      if (this.isDied()) {
         this.trigger();
       }
 
@@ -65,15 +65,28 @@
       this.ctx.restore();
     },
 
-    isCrashed: function() {
-      if ((this.y >= this.landH - this
-          .imgH * 1 / 6) ||
-        (this.y <= this.imgH * 1 / 6) ||
-        (this.ctx.isPointInPath(this.x + this.imgW / 4,
-          this.y))) {
+    isDied: function() {
+      if (this.isOverSky() || this.isFallToGround() ||
+        this.isCrashedPipe()) {
         return true;
       }
       return false;
+    },
+
+    isOverSky: function() {
+      return this.y <= this.imgH * 1 / 3;
+    },
+
+    isFallToGround: function() {
+      return this.y >= this.landH - this.imgH * 1 / 3;
+    },
+
+    isCrashedPipe: function() {
+      var y = this.y;
+      y += this.speed > 0 ? this.imgW / 5 : -this.imgW / 5;
+      if (this.ctx.isPointInPath(this.x + this.imgW / 5, y)) {
+        return true;
+      }
     },
 
     addListener: function(fn) {
