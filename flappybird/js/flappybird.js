@@ -9,7 +9,7 @@
    * Fly constructor
    * @param {String} canvas a canvas ID
    */
-  function Fly(canvas) {
+  function FlappyBird(canvas) {
     this.cv = document.getElementById(canvas);
     this.cv.width = 800;
     this.cv.height = 600;
@@ -30,7 +30,7 @@
     this.timeCount = 0;
   }
 
-  Fly.prototype.init = function() {
+  FlappyBird.prototype.init = function() {
     this.bird.init({
       ctx: this.ctx,
       img: this.imgs['birds'],
@@ -57,7 +57,7 @@
     });
   };
 
-  Fly.prototype.renderTimeCount = function() {
+  FlappyBird.prototype.renderTimeCount = function() {
     this.ctx.save();
     this.ctx.font = '30px serif';
     this.ctx.fillStyle = 'white';
@@ -70,7 +70,7 @@
    * start playing game
    * @return {undefined} none
    */
-  Fly.prototype.start = function() {
+  FlappyBird.prototype.start = function() {
     var that = this;
 
     // When the images are loaded, the game starts.
@@ -125,7 +125,7 @@
    * @param  {Function} fn    callback
    * @return {undefined}         no return
    */
-  Fly.prototype.preLoadImage = function(imgSrcs, fn) {
+  FlappyBird.prototype.preLoadImage = function(imgSrcs, fn) {
     var len = imgSrcs.length;
     var count = 0;
     var img;
@@ -147,17 +147,17 @@
     }
   };
 
-  // Export the Fly object for **Node.js**, with
+  // Export the FlappyBird object for **Node.js**, with
   // backwards-compatibility for the old `require()` API. If we're in
-  // the browser, add `Fly` as a global object via a string identifier,
+  // the browser, add `FlappyBird` as a global object via a string identifier,
   // for Closure Compiler "advanced" mode.
   if (typeof exports !== 'undefined') {
     if (typeof module !== 'undefined' && module.exports) {
-      exports = module.exports = Fly;
+      exports = module.exports = FlappyBird;
     }
-    exports.Fly = Fly;
+    exports.FlappyBird = FlappyBird;
   } else {
-    this['Fly'] = Fly;
+    this['FlappyBird'] = FlappyBird;
   }
 
 }).call(this);;
