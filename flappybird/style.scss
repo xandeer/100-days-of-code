@@ -2,6 +2,7 @@
   width: 800px;
   height: 600px;
   position: relative;
+  margin: 0 auto;
   background-image: url('./img/bg.png');
   background-size: cover;
 }
@@ -9,7 +10,7 @@
 .flappy-status {
   width: 150px;
   height: 100px;
-  background-color: rgba(23,23,23,0.4);
+  background-color: rgba(23, 23, 23, 0.45);
   position: absolute;
   text-align: center;
   border-radius: 10px;
