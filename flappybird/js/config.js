@@ -11,7 +11,7 @@
   module.exports = {
     imgSrcs: imgSrcs,
     bgSpeed: 0.15,
-    fallSpeed: 200,
+    fallSpeed: 150,
     raiseSpeed: 0.3
   };
 }).call(this);
