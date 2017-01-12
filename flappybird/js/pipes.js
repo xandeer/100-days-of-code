@@ -1,21 +1,24 @@
 (function() {
   function PipePair(option) {
-    this.ctx = option.ctx;
-    this.imgTop = option.imgTop;
-    this.imgBottom = option.imgBottom;
-    this.width = this.imgTop.width;
-    this.height = this.imgTop.height;
-    this.canvasH = option.canvasH;
-    this.MIN_HEIGHT = 50;
-    this.MAX_HEIGHT = 250;
-    this.x = option.x || 0;
-    this.gapY = 150;
-    this.topY = -300;
-    this.bottomY = this.gapY + this.MAX_HEIGHT + this.topY;
+
   }
 
   PipePair.prototype = {
     constructor: PipePair,
+    init: function(option) {
+      this.ctx = option.ctx;
+      this.imgTop = option.imgTop;
+      this.imgBottom = option.imgBottom;
+      this.width = this.imgTop.width;
+      this.height = this.imgTop.height;
+      this.canvasH = option.canvasH;
+      this.MIN_HEIGHT = 50;
+      this.MAX_HEIGHT = 250;
+      this.x = option.x || 0;
+      this.gapY = 150;
+      this.topY = -300;
+      this.bottomY = this.gapY + this.MAX_HEIGHT + this.topY;
+    },
     render: function() {
       this.ctx.save();
 
@@ -39,28 +42,30 @@
   function Pipes() {
     this.lists = [];
     this.length = 6;
-    this.shift = 0;
+    for (var i = 0; i < this.length; i++) {
+      var sp = new PipePair();
+      this.lists.push(sp);
+    }
   }
 
   Pipes.prototype = {
     constructor: Pipes,
     init: function(option) {
+      var that = this;
       this.speed = option.speed || 0.1;
       this.canvasW = option.canvasW;
       this.gap = this.canvasW / (this.length - 1) - option.imgTop.width;
 
-      for (var i = 0; i < this.length; i++) {
-        var sp = new PipePair({
+      this.lists.forEach(function(sp, index) {
+        sp.init({
           ctx: option.ctx,
           imgTop: option.imgTop,
           imgBottom: option.imgBottom,
           canvasH: option.canvasH,
-          x: (this.gap + option.imgTop.width) * (i + 3)
+          x: (that.gap + option.imgTop.width) * (index + 2)
         });
         sp.setRandomY();
-        this.lists.push(sp);
-      }
-
+      });
     },
     render: function(delta) {
       var sp;

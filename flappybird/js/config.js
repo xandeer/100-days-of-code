@@ -9,6 +9,9 @@
   });
 
   module.exports = {
-    imgSrcs: imgSrcs
+    imgSrcs: imgSrcs,
+    bgSpeed: 0.15,
+    fallSpeed: 200,
+    raiseSpeed: 0.3
   };
 }).call(this);

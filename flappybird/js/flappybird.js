@@ -1,20 +1,25 @@
 (function() {
-  var imgSrcs = require('./config.js').imgSrcs;
+  var config = require('./config.js');
   var Bird = require('./birds.js');
   var Sky = require('./sky.js');
   var Land = require('./land.js');
   var Pipes = require('./pipes.js');
 
   /**
-   * Fly constructor
+   * _FlappyBird constructor
    * @param {String} canvas a canvas ID
    */
-  function FlappyBird(canvas) {
+  function _FlappyBird(canvas) {
+    this.instance = null;
     this.cv = document.getElementById(canvas);
+    this.btn = document.getElementById('flappy-play');
+    this.status = document.getElementById('flappy-status');
+    this.msg = document.getElementById('flappy-msg');
     this.cv.width = 800;
     this.cv.height = 600;
     this.ctx = this.cv.getContext('2d');
     this.imgs = {};
+    this.isPlaying = false;
     this.delta = 0;
     this.bird = new Bird();
     this.sky = new Sky();
@@ -26,126 +31,163 @@
       land: this.land,
       birds: this.bird
     };
-    this.handle = 0;
-    this.timeCount = 0;
   }
 
-  FlappyBird.prototype.init = function() {
-    this.bird.init({
-      ctx: this.ctx,
-      img: this.imgs['birds'],
-      speed: 0.15
-    });
-    this.sky.init({
-      ctx: this.ctx,
-      img: this.imgs['sky'],
-      speed: 0.15
-    });
-    this.land.init({
-      ctx: this.ctx,
-      img: this.imgs['land'],
-      canvasH: this.cv.height,
-      speed: 0.15
-    });
-    this.pipes.init({
-      ctx: this.ctx,
-      canvasH: this.cv.height,
-      canvasW: this.cv.width,
-      imgTop: this.imgs['pipe2'],
-      imgBottom: this.imgs['pipe1'],
-      speed: 0.15
-    });
-  };
+  _FlappyBird.prototype = {
+    constructor: _FlappyBird,
 
-  FlappyBird.prototype.renderTimeCount = function() {
-    this.ctx.save();
-    this.ctx.font = '30px serif';
-    this.ctx.fillStyle = 'white';
-    this.ctx.translate(this.cv.width - 100, 50);
-    this.ctx.fillText(this.timeCount.toFixed(2) + 's', 0, 0);
+    init: function() {
+      var that = this;
+      this.timeCount = 0;
 
-    this.ctx.restore();
-  };
-  /**
-   * start playing game
-   * @return {undefined} none
-   */
-  FlappyBird.prototype.start = function() {
-    var that = this;
+      this.sky.init({
+        ctx: this.ctx,
+        img: this.imgs['sky'],
+        speed: config.bgSpeed
+      });
+      this.land.init({
+        ctx: this.ctx,
+        img: this.imgs['land'],
+        canvasH: this.cv.height,
+        speed: config.bgSpeed
+      });
+      this.pipes.init({
+        ctx: this.ctx,
+        canvasH: this.cv.height,
+        canvasW: this.cv.width,
+        imgTop: this.imgs['pipe2'],
+        imgBottom: this.imgs['pipe1'],
+        speed: config.bgSpeed
+      });
+      this.bird.init({
+        ctx: this.ctx,
+        img: this.imgs['birds'],
+        landH: this.cv.height - this.land.imgH,
+        speed: config.fallSpeed,
+        raiseSpeed: config.raiseSpeed
+      });
 
-    // When the images are loaded, the game starts.
-    this.preLoadImage(imgSrcs, function() {
-      // init
-      that.init();
+      this.bird.addListener(function() {
+        that.gameOver();
+      });
+    },
 
-      // interval time
-      var delta = 0;
-      var lastFrameTime = new Date() - 0;
+    renderTimeCount: function() {
+      this.ctx.save();
+      this.ctx.font = '30px serif';
+      this.ctx.fillStyle = 'white';
+      this.ctx.translate(this.cv.width - 200, 50);
+      this.ctx.fillText('Score: ' + this.timeCount.toFixed(2) + 's', 0, 0);
 
-      var render = function() {
-        var curFrameTime = new Date() - 0;
-        delta = curFrameTime - lastFrameTime;
-        lastFrameTime = curFrameTime;
-        that.timeCount += delta / 1000;
+      this.ctx.restore();
+    },
 
-        // Clear the canvas
-        that.ctx.clearRect(0, 0, that.cv.width, that.cv.height);
-        that.ctx.beginPath();
+    getInstance: function(canvas) {
+      if (this.instance == null) {
+        this.instance = new _FlappyBird(canvas);
+        this.instance.registerEvent();
+      }
+      return this.instance;
+    },
 
-        for (var name in that.roles) {
-          that.roles[name].render(delta);
+    welcome: function() {
+      this.isPlaying = false;
+    },
+
+    start: function() {
+      var that = this;
+      this.isPlaying = true;
+
+      // When the images are loaded, the game starts.
+      this.preLoadImage(config.imgSrcs, function() {
+        // init
+        that.init();
+
+        // interval time
+        var delta = 0;
+        var lastFrameTime = new Date() - 0;
+
+        var render = function() {
+          var curFrameTime = new Date() - 0;
+          delta = curFrameTime - lastFrameTime;
+          lastFrameTime = curFrameTime;
+          that.timeCount += delta / 1000;
+
+          // Clear the canvas
+          that.ctx.clearRect(0, 0, that.cv.width, that.cv.height);
+          that.ctx.beginPath();
+
+          for (var name in that.roles) {
+            that.roles[name].render(delta);
+          }
+
+          that.renderTimeCount();
+
+          if (that.isPlaying) {
+            // Call requestAnimationFrame recurrently to render the game.
+            window.requestAnimationFrame(render);
+          }
+        };
+        window.requestAnimationFrame(render);
+      });
+    },
+
+    registerEvent: function() {
+      var that = this;
+      // When you click the canvas, the bird will go up.
+      this.cv.addEventListener('click', function() {
+        that.bird.up();
+      });
+
+      this.btn.addEventListener('click', function() {
+        console.log(that);
+        if (that.status.classList.contains('flappy_show')) {
+          that.start();
+          that.status.classList.remove('flappy_show');
         }
+      });
+    },
 
-        that.renderTimeCount();
+    gameOver: function() {
+      this.isPlaying = false;
+      this.btn.innerHTML = 'Restart';
+      this.msg.innerHTML = 'Game Over';
+      this.msg.classList.add('flappy-msg_over');
+      this.status.classList.add('flappy_show');
+    },
 
-        // Call requestAnimationFrame recurrently to render the game.
-        that.handle = window.requestAnimationFrame(render);
+    /**
+     * To load the images.
+     * @param  {Array}   imgSrcs images' name and src
+     * @param  {Function} fn    callback
+     * @return {undefined}         no return
+     */
+    preLoadImage: function(imgSrcs, fn) {
+      var len = imgSrcs.length;
+      var count = 0;
+      var img;
 
-        // game over
-        if ((that.bird.y >= that.cv.height - that.land.imgH - that.bird
-            .imgH * 1 / 6) ||
-          (that.bird.y - that.bird.imgH * 1 / 6 <= 0) ||
-          (that.ctx.isPointInPath(that.bird.x + that.bird.imgW / 4,
-            that.bird.y))) {
-          window.cancelAnimationFrame(that.handle);
-        }
-      };
-      this.handle = window.requestAnimationFrame(render);
-    });
+      for (var i = 0; i < len; i++) {
+        img = new Image();
+        img.src = imgSrcs[i].src;
+        this.imgs[imgSrcs[i].name] = img;
 
-    // When you click the canvas, the bird will go up.
-    this.cv.addEventListener('click', function() {
-      that.bird.up();
-    });
-  };
+        img.onload = function() {
+          count++;
 
-  /**
-   * To load the images.
-   * @param  {Array}   imgSrcs images' name and src
-   * @param  {Function} fn    callback
-   * @return {undefined}         no return
-   */
-  FlappyBird.prototype.preLoadImage = function(imgSrcs, fn) {
-    var len = imgSrcs.length;
-    var count = 0;
-    var img;
-
-    for (var i = 0; i < len; i++) {
-      img = new Image();
-      img.src = imgSrcs[i].src;
-      this.imgs[imgSrcs[i].name] = img;
-
-      img.onload = function() {
-        count++;
-
-        // when all images had been loaded, call fn
-        if (count == len) {
-          console.log('Loading images success.');
-          fn && fn();
+          // when all images had been loaded, call fn
+          if (count == len) {
+            console.log('Loading images success.');
+            fn && fn();
+          }
         }
       }
     }
   };
+
+  function FlappyBird(canvas) {
+    return _FlappyBird.prototype.getInstance(canvas);
+  }
 
   // Export the FlappyBird object for **Node.js**, with
   // backwards-compatibility for the old `require()` API. If we're in
@@ -160,4 +202,4 @@
     this['FlappyBird'] = FlappyBird;
   }
 
-}).call(this);;
+}).call(this);
