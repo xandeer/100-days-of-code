@@ -104,14 +104,14 @@
 
     ready: function() {
       var that = this;
-      this.registerEvent();
 
       // When the images are loaded, the game starts.
-      this.preLoadImage(config.imgSrcs, function() {
+      this.preLoadImages(config.imgSrcs, function() {
         that.status.classList.add('flappy_show');
 
         // init
         that.init();
+        that.registerEvents();
 
         that.bird.addListener(function() {
           that.gameOver();
@@ -144,7 +144,7 @@
       });
     },
 
-    registerEvent: function() {
+    registerEvents: function() {
       var that = this;
       // When you click the canvas, the bird will go up.
       this.cv.addEventListener('click', function() {
@@ -191,7 +191,7 @@
      * @param  {Function} fn    callback
      * @return {undefined}         no return
      */
-    preLoadImage: function(imgSrcs, fn) {
+    preLoadImages: function(imgSrcs, fn) {
       var len = imgSrcs.length;
       var count = 0;
       var img;
