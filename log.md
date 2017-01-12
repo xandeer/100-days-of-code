@@ -158,8 +158,12 @@ That 5 problems give me a chance to review the methods of `String` & `Array`.
 
 ### Today's Progress
 
-1. Sorted Union. [1]
+1. Sorted Union.
+2. Convert HTML.
+3. Spinal Case.
 
 ### Thoughts
 
-1. [1], I made a mistake with its test case, it really wasted my much time.
+1. I made a mistake with its test case, it really wasted my much time.
+2. Learned a new usage of `String.prototype.replace`, we can put a `function` as its second param.
+3. Reviewed `String.prototype.replace`.
