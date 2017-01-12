@@ -169,3 +169,8 @@ That 5 problems give me a chance to review the methods of `String` & `Array`.
 2. Learned a new usage of `String.prototype.replace`, we can put a `function` as its second param.
 3. Reviewed `String.prototype.replace`.
 4. Optimize the codes step by step. If I meet a problem, I'd just solve it.
+
+
+### Problems
+
+1. Cannot resolve module `webpack-dev-server/client`. I installed it locally, then it fixed.
