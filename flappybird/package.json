@@ -5,9 +5,11 @@
   "main": "main.js",
   "dependencies": {},
   "devDependencies": {
-    "css-loader": "0.26.1",
-    "html-webpack-plugin": "2.26.0",
+    "commitizen": "2.9.5",
     "copy-webpack-plugin": "4.0.1",
+    "css-loader": "0.26.1",
+    "cz-conventional-changelog": "1.2.0",
+    "html-webpack-plugin": "2.26.0",
     "jade": "1.11.0",
     "jade-loader": "0.8.0",
     "node-sass": "4.1.1",
@@ -26,5 +28,10 @@
   },
   "keywords": [],
   "author": "Kevin <kkxandeer@gmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "config": {
+    "commitizen": {
+      "path": "./flappybird/node_modules/cz-conventional-changelog"
+    }
+  }
 }
