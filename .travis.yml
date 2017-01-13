@@ -32,4 +32,4 @@ branches:
     - pub
 env:
  global:
-	 - GH_REF: github.com/xandeer/100-days-of-code.git
+    - GH_REF: github.com/xandeer/100-days-of-code.git
