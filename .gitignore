@@ -3,4 +3,4 @@ node_modules
 npm-debug.log
 index.html
 bundle.js
-flappybird/*.png
+build
