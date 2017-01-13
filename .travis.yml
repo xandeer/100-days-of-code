@@ -30,6 +30,7 @@ after_script:
 branches:
   only:
     - pub
+    - develop
 env:
  global:
     - GH_REF: github.com/xandeer/100-days-of-code.git
