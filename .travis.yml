@@ -7,18 +7,23 @@ install:
   # prepare build flappybird
   - cd flappybird
   - npm install
+  - cd ..
 
 
 #before_script:
  # - npm install -g gulp
 
 script:
+  # build flappybird
+  - cd flappybird
   - npm run deploy
+  - cd ..
 
 after_script:
   # deploy flappybird
-  - cp -a build ../public/flappybird
-  - cd ../public
+  - cp -a flappybird/build public/flappybird
+  # commit & push
+  - cd public
   - git init
   - git config user.name "xandeer"
   - git config user.email "kkxandeer@gmail.com"
@@ -29,8 +34,8 @@ after_script:
 
 branches:
   only:
-    - pub
     - develop
+
 env:
  global:
     - GH_REF: github.com/xandeer/100-days-of-code.git
