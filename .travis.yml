@@ -4,7 +4,7 @@ node_js: stable
 # S: Build Lifecycle
 install:
 	- mkdir public && cp *.md public
-		# prepare build flappybird
+	# prepare build flappybird
 	- cd flappybird
   - npm install
 
