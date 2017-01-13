@@ -1,0 +1,35 @@
+language: node_js
+node_js: stable
+
+# S: Build Lifecycle
+install:
+	- mkdir public && cp *.md public
+		# prepare build flappybird
+	- cd flappybird
+  - npm install
+
+
+#before_script:
+ # - npm install -g gulp
+
+script:
+  - npm run deploy
+
+after_script:
+	# deploy flappybird
+	- cp -a build ../public/flappybird
+	- cd ../public
+  - git init
+  - git config user.name "xandeer"
+  - git config user.email "kkxandeer@gmail.com"
+  - git add -A
+  - git commit -m "Update pages"
+  - git push --force "https://${GH_TOKEN}@${GH_REF}" master:master
+# E: Build LifeCycle
+
+branches:
+  only:
+    - pub
+env:
+ global:
+	 - GH_REF: github.com/xandeer/100-days-of-code.git
