@@ -1,17 +1,13 @@
 var webpack = require('webpack');
 var path = require('path');
+var uglifyJsPlugin = webpack.optimize.UglifyJsPlugin;
 var HtmlWebpackPlugin = require('html-webpack-plugin');
-var OpenBrowserPlugin = require('open-browser-webpack-plugin');
-
-var devPort = 3636;
+var CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
-  // entry: ['./config.js', './main.js'],
-  // entry: './main.js',
+  devtool: 'cheap-source-map',
   entry: [
-    'webpack/hot/dev-server',
-    'webpack-dev-server/client?http://localhost:' + devPort,
-    path.resolve(__dirname, './main.js')
+    path.resolve(__dirname, './main.js'),
   ],
   output: {
     path: __dirname + '/build',
@@ -33,18 +29,18 @@ module.exports = {
     }]
   },
   plugins: [
-    new webpack.HotModuleReplacementPlugin(),
-    new OpenBrowserPlugin({
-      url: 'http://localhost:' + devPort
+    new webpack.optimize.DedupePlugin(),
+    new uglifyJsPlugin({
+      compress: {
+        warnings: false
+      }
     }),
     new HtmlWebpackPlugin({
       template: './index.jade'
-    })
-  ],
-  devServer: {
-    inline: true,
-    hot: true,
-    progress: true,
-    port: devPort
-  }
+    }),
+    new CopyWebpackPlugin([{
+      from: './img',
+      to: 'img'
+    }]),
+  ]
 };

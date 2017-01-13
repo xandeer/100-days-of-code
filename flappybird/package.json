@@ -1,5 +1,5 @@
 {
-  "name": "@username/flybird",
+  "name": "@username/flappybird",
   "version": "1.0.0",
   "description": "",
   "main": "main.js",
@@ -7,17 +7,22 @@
   "devDependencies": {
     "css-loader": "0.26.1",
     "html-webpack-plugin": "2.26.0",
+    "copy-webpack-plugin": "4.0.1",
     "jade": "1.11.0",
     "jade-loader": "0.8.0",
     "node-sass": "4.1.1",
+    "open-browser-webpack-plugin": "0.0.3",
     "resolve-url-loader": "1.6.1",
     "sass-loader": "4.1.1",
     "style-loader": "0.13.1",
     "url-loader": "0.5.7",
-    "webpack": "1.14.0"
+    "webpack": "1.14.0",
+    "webpack-dev-server": "1.16.2"
   },
   "scripts": {
-    "start": "webpack-dev-server"
+    "start": "webpack-dev-server",
+    "build": "webpack",
+    "deploy": "webpack -p --config webpack.production.config.js"
   },
   "keywords": [],
   "author": "Kevin <kkxandeer@gmail.com>",
