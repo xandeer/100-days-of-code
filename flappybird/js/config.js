@@ -4,7 +4,7 @@
   var imgSrcs = imgNames.map(function(val) {
     return {
       name: val,
-      src: '../img/' + val + '.png'
+      src: './img/' + val + '.png'
     };
   });
 

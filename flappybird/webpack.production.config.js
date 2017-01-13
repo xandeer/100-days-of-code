@@ -11,7 +11,7 @@ module.exports = {
   ],
   output: {
     path: __dirname + '/build',
-    publicPath: '/',
+    publicPath: '/100-days-of-code/flappybird',
     filename: './bundle.js'
   },
   module: {
