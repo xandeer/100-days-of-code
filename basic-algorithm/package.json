@@ -7,7 +7,8 @@
     "test": "test"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "commit": "git cz"
   },
   "keywords": [],
   "author": "Kevin <kkxandeer@gmail.com>",
@@ -16,6 +17,12 @@
     "chai": "3.5.0",
     "chai-arrays": "0.0.1",
     "chai-json-equal": "0.0.1",
+    "cz-conventional-changelog": "1.2.0",
     "mocha": "3.2.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./basic-algorithm/node_modules/cz-conventional-changelog"
+    }
   }
 }
