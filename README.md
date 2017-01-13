@@ -1,5 +1,9 @@
 # I've joined the #100DaysOfCode Challenge.
 
+|Travis CI|
+|:-------:|
+|[![Build Status](https://travis-ci.org/xandeer/100-days-of-code.svg?branch=develop)](https://travis-ci.org/xandeer/100-days-of-code)|
+
 ## My Progress
 | [day 00][00]
 | [day 01][01]
