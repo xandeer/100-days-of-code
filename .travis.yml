@@ -3,9 +3,9 @@ node_js: stable
 
 # S: Build Lifecycle
 install:
-	- mkdir public && cp *.md public
-	# prepare build flappybird
-	- cd flappybird
+  - mkdir public && cp *.md public
+  # prepare build flappybird
+  - cd flappybird
   - npm install
 
 
@@ -16,9 +16,9 @@ script:
   - npm run deploy
 
 after_script:
-	# deploy flappybird
-	- cp -a build ../public/flappybird
-	- cd ../public
+  # deploy flappybird
+  - cp -a build ../public/flappybird
+  - cd ../public
   - git init
   - git config user.name "xandeer"
   - git config user.email "kkxandeer@gmail.com"
