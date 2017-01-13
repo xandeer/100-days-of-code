@@ -1,7 +1,6 @@
 # I've joined the #100DaysOfCode Challenge.
 
 ## My Progress
-
 | [day 00][00]
 | [day 01][01]
 | [day 02][02]
@@ -12,6 +11,8 @@
 | [day 07][07]
 | [day 08][08]
 | [day 09][09]
+
+| [day 10][10]
 |
 
 ## Contents
@@ -19,6 +20,15 @@
 * [Log - click here to see my progress](log.md)
 * [FAQ](FAQ.md)
 * [Resources](resources.md)
+
+## Projects
+1. [FlappyBird](http://xandeer.me/100-days-of-code/flappybird)
+
+## Contributors
+Me,/xandeer
+
+- Free Code Camp [profile](https://www.freecodecamp.com/xandeer)
+- Code Pen [profile](http://codepen.io/xandeer/)
 
 ## If you've decided to join:
 1. Read [Join the #100DaysOfCode](https://medium.freecodecamp.com/join-the-100daysofcode-556ddb4579e4)
@@ -35,21 +45,14 @@
 * If you have any questions or ideas about 100DaysOfCode (or other ideas), feel free to reach out to me on Twitter: [@ka11away](https://twitter.com/ka11away)
 * If you like this repo and find it useful, please consider &#9733; starring it (on top right of the page) :)
 
-## Contributors
----
-
-Me,/xandeer
-
-- Free Code Camp [profile](https://www.freecodecamp.com/xandeer)
-- Code Pen [profile](http://codepen.io/xandeer/)
-
-[00]: /log.md#day-00-january-03-2017
-[01]: /log.md#day-01-january-04-2017
-[02]: /log.md#day-02-january-05-2017
-[03]: /log.md#day-03-january-06-2017
-[04]: /log.md#day-04-january-07-2017
-[05]: /log.md#day-05-january-08-2017
-[06]: /log.md#day-06-january-09-2017
-[07]: /log.md#day-07-january-10-2017
-[08]: /log.md#day-08-january-11-2017
-[09]: /log.md#day-09-january-12-2017
+[00]: log.md#day-00-january-03-2017
+[01]: log.md#day-01-january-04-2017
+[02]: log.md#day-02-january-05-2017
+[03]: log.md#day-03-january-06-2017
+[04]: log.md#day-04-january-07-2017
+[05]: log.md#day-05-january-08-2017
+[06]: log.md#day-06-january-09-2017
+[07]: log.md#day-07-january-10-2017
+[08]: log.md#day-08-january-11-2017
+[09]: log.md#day-09-january-12-2017
+[10]: log.md#day-10-january-13-2017
