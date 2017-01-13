@@ -24,7 +24,8 @@
   "scripts": {
     "start": "webpack-dev-server",
     "build": "webpack",
-    "deploy": "webpack -p --config webpack.production.config.js"
+    "deploy": "webpack -p --config webpack.production.config.js",
+    "commit": "git cz"
   },
   "keywords": [],
   "author": "Kevin <kkxandeer@gmail.com>",
