@@ -34,6 +34,13 @@
 - [Day 09: January 12, 2017](#day-09-january-12-2017)
   * [Today's Progress](#todays-progress-9)
   * [Thoughts](#thoughts-9)
+  * [Problems](#problems)
+- [Day 10: January 13, 2017](#day-10-january-13-2017)
+  * [Today's Progress](#todays-progress-10)
+  * [Thoughts](#thoughts-10)
+- [Day 11: January 14, 2017](#day-11-january-14-2017)
+  * [Today's Progress](#todays-progress-11)
+  * [Thoughts](#thoughts-11)
 
 <!-- tocstop -->
 
@@ -189,3 +196,17 @@ That 5 problems give me a chance to review the methods of `String` & `Array`.
 1. At first, I didn't understand the problem, after I read the declaration of the problem again carefully, I saw what should I do.
 2. I use `n / i == 1` to check that if `n` is divisible by `i`. Of course, it's wrong! Then, I print the array that I use it to store primes, the result tells me that "every number is prime". So, I realize where I was wrong. Finally, I replace `n / i == 1` with `n % i === 0`.
 3. I paid much time to deploy FlappyBird to github pages. It's worth to do it. Since then, I could deploy projects to github pages quickly.
+
+
+## Day 11: January 14, 2017
+
+### Today's Progress
+
+1. Finder Keepers.
+2. Drop Elements.
+3. Steamroll Arrays.
+
+### Thoughts
+
+1. Today, I read the illustrations carefully, so I really know results what should I give.
+2. If the results have contained an object, I should use `chai-json-equal` to assert them.
