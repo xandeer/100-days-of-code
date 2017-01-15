@@ -32,6 +32,10 @@ body {
   .active .nav-item {
     background-color: RGBA(251, 188, 73, 1.00) !important;
   }
+
+  .nav-item {
+    color: white !important;
+  }
 }
 
 .navbar-default .navbar-toggle:focus,
