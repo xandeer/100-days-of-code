@@ -1,17 +1,15 @@
-// output: ./index.html
-
 - var portfolio = [{img: './img/calc.jpg', title: 'Calculator'}, {img: '/img/wiki.jpg', title: 'Wikipedia Search Engine'}, {img: './img/weather.jpg', title: 'Weather App'}, {img: './img/pacman.jpg', title: 'Pacman Tic Tac Toe'}];
 - var aboutImg = './img/me.jpg';
 - var aboutText = 'Front-End Developer, like using CLI, and that makes me more efficient. I love running & reading, running gives me a healthier body. Reading-thinking-choosing-praticing, I will get more and more acknowledges by this path.';
+- var wait = ' (wait)';
 
 doctype html
 html
   head
     meta(name='viewport' content="width=device-width,initial-scale=1")
     title Xandeer's Portfolio
-    script(src='bundle.js')
   body
-    nav.navbar.navbar-default.navbar-fixed-top
+    nav#navbar.navbar.navbar-default.navbar-fixed-top
       .container
         .row
           .col-md-offset-1.col-md-10.col-sm-offset-1.col-sm-10.col-xs-12
@@ -21,17 +19,17 @@ html
                 span.icon-bar
                 span.icon-bar
                 span.icon-bar
-              a.navbar-brand(href='#') Xandeer
+              a.nav-item.navbar-brand(href='#' data-target='#home') Xandeer
             .collapse.navbar-collapse#navbar-collapse-1
               ul.nav.navbar-nav.navbar-right
                 li.active
-                  a(href='#home') Home
+                  a.nav-item(href='#home' data-target='#home') Home
                 li
-                  a(href='#about') About
+                  a.nav-item(href='#about' data-target='#about') About
                 li
-                  a(href='#portfolio') Portfolio
+                  a.nav-item(href='#portfolio' data-target='#portfolio') Portfolio
                 li
-                  a(href='#contact') Contact
+                  a.nav-item(href='#contact' data-target='#contact') Contact
 
     main
       section#home.content.home.full-screen
@@ -60,16 +58,16 @@ html
                     .portfolio_body.thumbnail
                       img.portfolio_img.img-responsive(src=val.img)
                       .caption.text-center
-                        h3.portfolio_title= val.title
+                        h3.portfolio_title= val.title + wait
 
       section#contact.content.contact.full-screen
         .container
           .contact_first.row
             .col-md-4.col-sm-4.col-xs-4.col-md-offset-5.col-sm-offset-4.col-xs-offset-3
-              a.contact_btn.btn.btn-default.btn-lg(href='#') Github
+              a.contact_btn.btn.btn-default.btn-lg(href='https://github.com/xandeer') Github
           .row
             .col-md-4.col-sm-4.col-xs-4.col-md-offset-5.col-sm-offset-4.col-xs-offset-3
-              a.contact_btn.btn.btn-default.btn-lg(href='#') FreeCodeCamp
+              a.contact_btn.btn.btn-default.btn-lg(href='https://www.freecodecamp.com/xandeer') FreeCodeCamp
 
     footer.footer
       p.footer_body.text-center xandeer © 2017. All Rights Reversed

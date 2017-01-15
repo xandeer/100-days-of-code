@@ -15,8 +15,30 @@ body {
  * --- navbar begin ---
  */
 .navbar {
-  background-image: linear-gradient(to right, RGBA(249, 200, 54, 1.00), RGBA(255, 193, 116, 1.00));
+  background-color: RGBA(87, 128, 148, 1.00);
+  background-image: map-get($bg, 'home');
   border-bottom: none;
+
+  .navbar-brand {
+    color: RGBA(251, 188, 73, 0.8);
+
+    &:hover {
+      color: RGBA(251, 188, 73, 0.8);
+    }
+  }
+
+  .navbar-toggle.collapsed {
+    background-color: RGBA(251, 188, 73, 0) !important;
+  }
+
+  .active .nav-item {
+    background-color: RGBA(251, 188, 73, 1.00) !important;
+  }
+}
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+  background-color: RGBA(251, 188, 73, 1.00);
 }
 /**
  * --- navbar end ---
@@ -26,14 +48,13 @@ body {
  */
 .full-screen {
   height: 8rem;
-  height: 100vh;
+  height: calc(100vh - 50px);
 }
 /**
  * The common style.
  */
 .content {
   width: 100%;
-  padding-top: 0.5rem;
   background-color: RGBA(254, 203, 120, 1.00);
   background-position: center center;
   background-size: cover;
@@ -42,6 +63,7 @@ body {
  * --- home begin ---
  */
 .home {
+  margin-top: 50px;
   background-color: RGBA(87, 128, 148, 1.00);
   background-image: map-get($bg, 'home');
 }
@@ -135,7 +157,7 @@ body {
 .footer {
   position: relative;
   width: 100%;
-  height: 1rem;
+  height: 0.8rem;
   background-image: linear-gradient(to bottom, RGBA(251, 187, 2, 1.00), RGBA(251, 189, 144, 1.00));
 }
 
