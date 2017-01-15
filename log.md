@@ -41,6 +41,9 @@
 - [Day 11: January 14, 2017](#day-11-january-14-2017)
   * [Today's Progress](#todays-progress-11)
   * [Thoughts](#thoughts-11)
+- [Day 12: January 15, 2017](#day-12-january-15-2017)
+  * [Today's Progress](#todays-progress-12)
+  * [Thoughts](#thoughts-12)
 
 <!-- tocstop -->
 
@@ -210,3 +213,14 @@ That 5 problems give me a chance to review the methods of `String` & `Array`.
 
 1. Today, I read the illustrations carefully, so I really know results what should I give.
 2. If the results have contained an object, I should use `chai-json-equal` to assert them.
+
+
+## Day 12: January 15, 2017
+
+### Today's Progress
+
+1. Binary Agents.
+
+### Thoughts
+
+1. At first, think how to write codes, then code it. Finally, let the repeat statements to a function.
