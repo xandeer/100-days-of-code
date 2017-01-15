@@ -2,7 +2,7 @@
 
 - var portfolio = [{img: './img/calc.jpg', title: 'Calculator'}, {img: '/img/wiki.jpg', title: 'Wikipedia Search Engine'}, {img: './img/weather.jpg', title: 'Weather App'}, {img: './img/pacman.jpg', title: 'Pacman Tic Tac Toe'}];
 - var aboutImg = './img/me.jpg';
-- var aboutText = ' Holisticly re-engineer quality solutions after turnkey vortals. Objectively predominate cross-media methodologies via quality schemas. Assertively evolve.';
+- var aboutText = 'Front-End Developer, like using CLI, and that makes me more efficient. I love running & reading, running gives me a healthier body. Reading-thinking-choosing-praticing, I will get more and more acknowledges by this path.';
 
 doctype html
 html
@@ -25,22 +25,22 @@ html
             .collapse.navbar-collapse#navbar-collapse-1
               ul.nav.navbar-nav.navbar-right
                 li.active
-                  a(href='#') Home
+                  a(href='#home') Home
                 li
-                  a(href='#') About
+                  a(href='#about') About
                 li
-                  a(href='#') Portfolio
+                  a(href='#portfolio') Portfolio
                 li
-                  a(href='#') Contact
+                  a(href='#contact') Contact
 
     main
-      section.content.home.full-screen
+      section#home.content.home.full-screen
         .container
           .row
             .col-md-offset-1.col-md-10.col-sm-offset-1.col-sm-10.col-xs-12
               h2.home_title.text-center Know why you're writing the code you're writing, and how it works.
 
-      section.content.about.full-screen
+      section#about.content.about.full-screen
         .container
           .row
             .col-md-offset-1.col-md-4.col-sm-offset-1.col-sm-4.col-xs-offset-1.col-xs-4
@@ -50,7 +50,7 @@ html
                   h3.about_title About Me
                   p.about_text= aboutText
 
-      section.content.portfolio
+      section#portfolio.content.portfolio
         .container
           .row
             .portfolio_container.col-md-10.col-md-offset-1.col-sm-8.col-sm-offset-2
@@ -62,7 +62,7 @@ html
                       .caption.text-center
                         h3.portfolio_title= val.title
 
-      section.content.contact.full-screen
+      section#contact.content.contact.full-screen
         .container
           .contact_first.row
             .col-md-4.col-sm-4.col-xs-4.col-md-offset-5.col-sm-offset-4.col-xs-offset-3

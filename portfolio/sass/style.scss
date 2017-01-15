@@ -1,5 +1,9 @@
 $bg: (home: url('../img/Filippijnen-Sambawan.jpg'), about: url('../img/Mostar-Bridge.jpg'), portfolio: url('../img/Mostar_Bridge_dive.jpg'), contact: url('../img/Shark-Dive-St-Maarten.jpg'));
 
+* {
+  box-sizing: border-box;
+}
+
 html {
   font-size: 100px;
 }
@@ -7,6 +11,16 @@ html {
 body {
   min-width: 3.2rem;
 }
+/**
+ * --- navbar begin ---
+ */
+.navbar {
+  background-image: linear-gradient(to right, RGBA(249, 200, 54, 1.00), RGBA(255, 193, 116, 1.00));
+  border-bottom: none;
+}
+/**
+ * --- navbar end ---
+ */
 /**
  * Make some sections with screen hight.
  */
@@ -19,7 +33,8 @@ body {
  */
 .content {
   width: 100%;
-  background-color: #ccc;
+  padding-top: 0.5rem;
+  background-color: RGBA(254, 203, 120, 1.00);
   background-position: center center;
   background-size: cover;
 }
@@ -27,11 +42,14 @@ body {
  * --- home begin ---
  */
 .home {
+  background-color: RGBA(87, 128, 148, 1.00);
   background-image: map-get($bg, 'home');
 }
 
 .home_title {
   padding-top: 1.5rem;
+  color: white;
+  font-size: 0.36rem;
 }
 /**
  * --- home end ---
@@ -40,7 +58,8 @@ body {
   * --- about begin ---
   */
 .about {
-  background-image: map-get($bg, 'about');
+  // background-image: map-get($bg, 'about');
+  background: linear-gradient(to bottom, RGBA(27, 169, 187, 1.00), RGBA(190, 195, 161, 1.00));
 }
 
 .about_body {
@@ -48,11 +67,10 @@ body {
   margin-top: 1rem;
   opacity: 0.8;
   border-radius: 10%;
-  background-color: #ccc;
+  background-color: RGBA(249, 193, 112, 1.00);
 }
 
 .about_img {
-  opacity: 0.95;
   width: 50%;
   height: 50%;
 }
@@ -63,7 +81,8 @@ body {
   * --- portfolio begin ---
   */
 .portfolio {
-  background-image: map-get($bg, 'portfolio');
+  // background-image: map-get($bg, 'portfolio');
+  background: linear-gradient(to bottom, RGBA(116, 82, 55, 1.00), RGBA(253, 196, 114, 1.00));
 }
 
 .portfolio_container {
@@ -86,7 +105,8 @@ body {
  * --- contact begin ---
  */
 .contact {
-  background-image: map-get($bg, 'contact');
+  // background-image: map-get($bg, 'contact');
+  background: linear-gradient(to bottom, RGBA(57, 39, 16, 1.00), RGBA(187, 133, 89, 1.00));
 }
 
 .contact_first {
@@ -99,7 +119,12 @@ body {
 
 .contact_btn {
   width: 1.5rem;
-  background-color: rgba(200, 200, 200, 0.7);
+  background-color: RGBA(249, 193, 112, 1.00);
+
+  &:hover {
+    color: white;
+    background-color: RGBA(251, 187, 27, 1.00);
+  }
 }
 /**
  * --- contact end ---
@@ -111,7 +136,7 @@ body {
   position: relative;
   width: 100%;
   height: 1rem;
-  background-color: #ccc;
+  background-image: linear-gradient(to bottom, RGBA(251, 187, 2, 1.00), RGBA(251, 189, 144, 1.00));
 }
 
 .footer_body {
