@@ -8,6 +8,10 @@ install:
   - cd flappybird
   - npm install
   - cd ..
+  # prepare build portfolio
+  - cd portfolio
+  - npm install
+  - cd ..
 
 
 #before_script:
@@ -18,10 +22,16 @@ script:
   - cd flappybird
   - npm run deploy
   - cd ..
+  # build portfolio
+  - cd portfolio
+  - npm run deploy
+  - cd ..
 
 after_script:
   # deploy flappybird
   - cp -a flappybird/build public/flappybird
+  # deploy portfolio
+  - cp -a portfolio/build public/portfolio
   # commit & push
   - cd public
   - git init

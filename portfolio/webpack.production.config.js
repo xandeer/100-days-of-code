@@ -1,10 +1,18 @@
 var webpack = require('webpack');
+var path = require('path');
+var uglifyJsPlugin = webpack.optimize.UglifyJsPlugin;
 var HtmlWebpackPlugin = require('html-webpack-plugin');
+var CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
-  entry: './main.js',
+  devtool: 'cheap-source-map',
+  entry: [
+    path.resolve(__dirname, './main.js'),
+  ],
   output: {
-    filename: 'bundle.js'
+    path: __dirname + '/build',
+    publicPath: '/100-days-of-code/portfolio/',
+    filename: './bundle.js'
   },
   module: {
     loaders: [{
@@ -22,7 +30,12 @@ module.exports = {
     }]
   },
   plugins: [
-    new webpack.HotModuleReplacementPlugin(),
+    new webpack.optimize.DedupePlugin(),
+    new uglifyJsPlugin({
+      compress: {
+        warnings: false
+      }
+    }),
     new webpack.ProvidePlugin({
       jQuery: 'jquery',
       $: 'jquery',
@@ -30,10 +43,10 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       template: './index.jade'
-    })
-  ],
-  devServer: {
-    inline: true,
-    port: 3636
-  }
-}
+    }),
+    new CopyWebpackPlugin([{
+      from: './img',
+      to: 'img'
+    }]),
+  ]
+};
