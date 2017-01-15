@@ -1,5 +1,3 @@
-$bg: (home: url('../img/Filippijnen-Sambawan.jpg'), about: url('../img/Mostar-Bridge.jpg'), portfolio: url('../img/Mostar_Bridge_dive.jpg'), contact: url('../img/Shark-Dive-St-Maarten.jpg'));
-
 * {
   box-sizing: border-box;
 }
@@ -16,7 +14,7 @@ body {
  */
 .navbar {
   background-color: RGBA(87, 128, 148, 1.00);
-  background-image: map-get($bg, 'home');
+  background-image: url('../img/Filippijnen-Sambawan.jpg');
   border-bottom: none;
 
   .navbar-brand {
@@ -65,7 +63,7 @@ body {
 .home {
   margin-top: 50px;
   background-color: RGBA(87, 128, 148, 1.00);
-  background-image: map-get($bg, 'home');
+  background-image: url('../img/Filippijnen-Sambawan.jpg');
 }
 
 .home_title {
