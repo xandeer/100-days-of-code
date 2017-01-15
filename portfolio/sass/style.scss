@@ -88,15 +88,19 @@ body {
 
 .about_body {
   min-width: 2rem;
-  margin-top: 1rem;
+  margin-top: 1.2rem;
   opacity: 0.8;
   border-radius: 10%;
   background-color: RGBA(249, 193, 112, 1.00);
 }
 
 .about_img {
-  width: 50%;
-  height: 50%;
+  margin: 0.2rem auto auto;
+  width: 1.2rem;
+  height: 1.2rem;
+  border-radius: 50%;
+  background-image: url('../img/me.jpg');
+  background-size: cover;
 }
 /**
  * --- about end ---

@@ -1,5 +1,4 @@
-- var portfolio = [{img: './img/calc.jpg', title: 'Calculator'}, {img: '/img/wiki.jpg', title: 'Wikipedia Search Engine'}, {img: './img/weather.jpg', title: 'Weather App'}, {img: './img/pacman.jpg', title: 'Pacman Tic Tac Toe'}];
-- var aboutImg = './img/me.jpg';
+- var portfolio = [{img: './img/calc.jpg', title: 'Calculator'}, {img: './img/wiki.jpg', title: 'Wikipedia Search Engine'}, {img: './img/weather.jpg', title: 'Weather App'}, {img: './img/pacman.jpg', title: 'Pacman Tic Tac Toe'}];
 - var aboutText = 'Front-End Developer, like using CLI, and that makes me more efficient. I love running & reading, running gives me a healthier body. Reading-thinking-choosing-praticing, I will get more and more acknowledges by this path.';
 - var wait = ' (wait)';
 
@@ -43,7 +42,7 @@ html
           .row
             .col-md-offset-1.col-md-4.col-sm-offset-1.col-sm-4.col-xs-offset-1.col-xs-4
               .about_body.thumbnail
-                img.about_img(src=aboutImg).img-circle
+                .about_img
                 .caption.text-center
                   h3.about_title About Me
                   p.about_text= aboutText
