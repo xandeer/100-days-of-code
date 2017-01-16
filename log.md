@@ -244,6 +244,7 @@ That 5 problems give me a chance to review the methods of `String` & `Array`.
 1. Start using 'qiniu' to store my images.
 2. Write `build.sh` to deploy the github-pages with *travis*.
 3. Validate US Telephone Numbers.
+4. Record Collection.
 
 ### Thoughts
 
