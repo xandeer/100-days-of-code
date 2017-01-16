@@ -28,7 +28,7 @@ function xandeerPush() {
     git config user.email "kkxandeer@gmail.com"
     git checkout master
     mv ${public}/* ${previous}
-    git add -A
+    git add --all
     git commit -m "update $1"
     git push
   fi
