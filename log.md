@@ -44,6 +44,10 @@
 - [Day 12: January 15, 2017](#day-12-january-15-2017)
   * [Today's Progress](#todays-progress-12)
   * [Thoughts](#thoughts-12)
+  * [Link(s) to work](#links-to-work-2)
+- [Day 13: January 16, 2017](#day-13-january-16-2017)
+  * [Today's Progress](#todays-progress-13)
+  * [Thoughts](#thoughts-13)
 
 <!-- tocstop -->
 
@@ -231,3 +235,16 @@ That 5 problems give me a chance to review the methods of `String` & `Array`.
 ### Link(s) to work
 
 1. [Xandeer's Portfolio](http://xandeer.me/100-days-of-code/portfolio)
+
+
+## Day 13: January 16, 2017
+
+### Today's Progress
+
+1. Start using 'qiniu' to store my images.
+2. Write `build.sh` to deploy the github-pages with *travis*.
+
+
+### Thoughts
+
+1. Update routine scripts are helpful.

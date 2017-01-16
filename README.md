@@ -20,6 +20,7 @@
 | [day 10][10]
 | [day 11][11]
 | [day 12][12]
+| [day 13][13]
 |
 
 ## Contents
@@ -66,3 +67,4 @@ Me,/xandeer
 [10]: log.md#day-10-january-13-2017
 [11]: log.md#day-11-january-14-2017
 [12]: log.md#day-12-january-15-2017
+[13]: log.md#day-13-january-16-2017
