@@ -23,6 +23,7 @@ function xandeerBuild() {
 function xandeerPush() {
   if [ -d ${public} ]; then
     git clone https://${GH_TOKEN}@${GH_REF} --branch=master ${gh_pages}
+    cp -a ${root}/*.md ${root}/_config.yml ${gh_pages}
     cd ${gh_pages}
     git config --global push.default simple
     git config user.name "xandeer"
