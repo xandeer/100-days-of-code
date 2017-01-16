@@ -3,43 +3,46 @@ node_js: stable
 
 # S: Build Lifecycle
 install:
-  - mkdir public && cp _config.yml *.md public
-  # prepare build flappybird
-  - cd flappybird
-  - npm install
-  - cd ..
-  # prepare build portfolio
-  - cd portfolio
-  - npm install
-  - cd ..
+  # - mkdir public && cp _config.yml *.md public
+  # # prepare build flappybird
+  # - cd flappybird
+  # - npm install
+  # - cd ..
+  # # prepare build portfolio
+  # - cd portfolio
+  # - npm install
+  # - cd ..
 
 
 #before_script:
  # - npm install -g gulp
+ source ./deploy.sh
 
 script:
   # build flappybird
-  - cd flappybird
-  - npm run deploy
-  - cd ..
-  # build portfolio
-  - cd portfolio
-  - npm run deploy
-  - cd ..
+  # - cd flappybird
+  # - npm run deploy
+  # - cd ..
+  # # build portfolio
+  # - cd portfolio
+  # - npm run deploy
+  # - cd ..
+  - xandeerBuild ${items}
 
 after_script:
   # deploy flappybird
-  - cp -a flappybird/build public/flappybird
-  # deploy portfolio
-  - cp -a portfolio/build public/portfolio
-  # commit & push
-  - cd public
-  - git init
-  - git config user.name "xandeer"
-  - git config user.email "kkxandeer@gmail.com"
-  - git add -A
-  - git commit -m "Update pages"
-  - git push --force "https://${GH_TOKEN}@${GH_REF}" master:master
+  # - cp -a flappybird/build public/flappybird
+  # # deploy portfolio
+  # - cp -a portfolio/build public/portfolio
+  # # commit & push
+  # - cd public
+  # - git init
+  # - git config user.name "xandeer"
+  # - git config user.email "kkxandeer@gmail.com"
+  # - git add -A
+  # - git commit -m "Update pages"
+  # - git push --force "https://${GH_TOKEN}@${GH_REF}" master:master
+  - xandeerPush ${items}
 # E: Build LifeCycle
 
 branches:
@@ -49,3 +52,4 @@ branches:
 env:
  global:
     - GH_REF: github.com/xandeer/100-days-of-code.git
+    - items: "portfolio"
