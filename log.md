@@ -243,8 +243,10 @@ That 5 problems give me a chance to review the methods of `String` & `Array`.
 
 1. Start using 'qiniu' to store my images.
 2. Write `build.sh` to deploy the github-pages with *travis*.
-
+3. Validate US Telephone Numbers.
 
 ### Thoughts
 
 1. Update routine scripts are helpful.
+2. Finish a RegExp pattern step by step, think about the general situation,
+then add the unusual situation.
