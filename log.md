@@ -44,6 +44,10 @@
 - [Day 12: January 15, 2017](#day-12-january-15-2017)
   * [Today's Progress](#todays-progress-12)
   * [Thoughts](#thoughts-12)
+  * [Link(s) to work](#links-to-work-2)
+- [Day 13: January 16, 2017](#day-13-january-16-2017)
+  * [Today's Progress](#todays-progress-13)
+  * [Thoughts](#thoughts-13)
 
 <!-- tocstop -->
 
@@ -70,7 +74,7 @@ Bootstrap has done something I don't know. So if a class I'll use from Bootstrap
 
 ### Link(s) to work
 
-[Tribute](http://codepen.io/xandeer/pen/bgGgBm)
+1. [Tribute](http://codepen.io/xandeer/pen/bgGgBm)
 
 
 ## Day 02: January 05, 2017
@@ -220,7 +224,27 @@ That 5 problems give me a chance to review the methods of `String` & `Array`.
 ### Today's Progress
 
 1. Binary Agents.
+2. Truth Check.
+3. Add Together.
+4. Finish the myself portfolio.
 
 ### Thoughts
 
 1. At first, think how to write codes, then code it. Finally, let the repeat statements to a function.
+
+### Link(s) to work
+
+1. [Xandeer's Portfolio](http://xandeer.me/100-days-of-code/portfolio)
+
+
+## Day 13: January 16, 2017
+
+### Today's Progress
+
+1. Start using 'qiniu' to store my images.
+2. Write `build.sh` to deploy the github-pages with *travis*.
+
+
+### Thoughts
+
+1. Update routine scripts are helpful.
