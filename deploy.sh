@@ -2,7 +2,7 @@
 
 root=`pwd`
 public=${root}/public
-previous=${root}/previous
+gh_pages=${root}/gh_pages
 
 function xandeerPrepare() {
   [ -d ${public} ] || mkdir public
@@ -22,12 +22,12 @@ function xandeerBuild() {
 
 function xandeerPush() {
   if [ -d ${public} ]; then
-    git clone ${GH_REF} ${previous}
-    cd ${previous}
+    git clone https://${GH_TOKEN}@${GH_REF} --branch=master ${gh_pages}
+    cd ${gh_pages}
     git config user.name "xandeer"
     git config user.email "kkxandeer@gmail.com"
     git checkout master
-    mv ${public}/* ${previous}
+    cp -a ${public}/* ${gh_pages}
     git add --all
     git commit -m "update $1"
     git push
