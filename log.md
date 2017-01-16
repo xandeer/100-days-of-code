@@ -70,7 +70,7 @@ Bootstrap has done something I don't know. So if a class I'll use from Bootstrap
 
 ### Link(s) to work
 
-[Tribute](http://codepen.io/xandeer/pen/bgGgBm)
+1. [Tribute](http://codepen.io/xandeer/pen/bgGgBm)
 
 
 ## Day 02: January 05, 2017
@@ -220,7 +220,14 @@ That 5 problems give me a chance to review the methods of `String` & `Array`.
 ### Today's Progress
 
 1. Binary Agents.
+2. Truth Check.
+3. Add Together.
+4. Finish the myself portfolio.
 
 ### Thoughts
 
 1. At first, think how to write codes, then code it. Finally, let the repeat statements to a function.
+
+### Link(s) to work
+
+1. [Xandeer's Portfolio](http://xandeer.me/100-days-of-code/portfolio)

@@ -30,6 +30,7 @@
 
 ## Projects
 1. [FlappyBird](http://xandeer.me/100-days-of-code/flappybird)
+2. [Xandeer's Portfolio](http://xandeer.me/100-days-of-code/portfolio)
 
 ## Contributors
 Me,/xandeer
