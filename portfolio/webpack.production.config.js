@@ -2,7 +2,6 @@ var webpack = require('webpack');
 var path = require('path');
 var uglifyJsPlugin = webpack.optimize.UglifyJsPlugin;
 var HtmlWebpackPlugin = require('html-webpack-plugin');
-var CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
   devtool: 'cheap-source-map',
@@ -44,9 +43,5 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './index.jade'
     }),
-    new CopyWebpackPlugin([{
-      from: './img',
-      to: 'img'
-    }]),
   ]
 };

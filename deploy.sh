@@ -9,14 +9,14 @@ function xandeerPrepare() {
 }
 
 function xandeerBuild() {
-  for arg in $1; do
+  for item in $1; do
     xandeerPrepare
-    echo "Begining to build ${arg}"
-    cd ${root}/${arg}
+    echo "Begining to build ${item}"
+    cd ${root}/${item}
     npm install
     npm run deploy
-    mv ${root}/${arg}/build ${public}/${arg}
-    echo "Finish building ${arg}"
+    mv ${root}/${item}/build ${public}/${item}
+    echo "Finish building ${item}"
   done
 }
 
@@ -27,9 +27,12 @@ function xandeerPush() {
     git config --global push.default simple
     git config user.name "xandeer"
     git config user.email "kkxandeer@gmail.com"
-    cp -va ${public}/* ${gh_pages}
-    git add --all
-    git commit -m "update $1"
+    for item in $1; do
+      rm -rf ${gh_pages}/${item}
+      mv ${public}/${item} ${gh_pages}
+      git add --all
+      git commit -m "update ${item}"
+    done
     git push
   fi
 }
