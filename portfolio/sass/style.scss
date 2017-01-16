@@ -1,3 +1,6 @@
+$bg: url("http://oag78t4c2.bkt.clouddn.com/100-days-of-code/portfolio/Filippijnen-Sambawan.jpg");
+$me: url("http://oag78t4c2.bkt.clouddn.com/100-days-of-code/portfolio/me.jpg");
+
 * {
   box-sizing: border-box;
 }
@@ -14,7 +17,7 @@ body {
  */
 .navbar {
   background-color: RGBA(87, 128, 148, 1.00);
-  background-image: url('../img/Filippijnen-Sambawan.jpg');
+  background-image: $bg;
   border-bottom: none;
 
   .navbar-brand {
@@ -49,8 +52,8 @@ body {
  * Make some sections with screen hight.
  */
 .full-screen {
-  height: 8rem;
-  height: calc(100vh - 50px);
+  min-height: 8rem;
+  min-height: calc(100vh - 50px);
 }
 /**
  * The common style.
@@ -67,7 +70,7 @@ body {
 .home {
   margin-top: 50px;
   background-color: RGBA(87, 128, 148, 1.00);
-  background-image: url('../img/Filippijnen-Sambawan.jpg');
+  background-image: $bg;
 }
 
 .home_title {
@@ -99,7 +102,7 @@ body {
   width: 1.2rem;
   height: 1.2rem;
   border-radius: 50%;
-  background-image: url('../img/me.jpg');
+  background-image: $me;
   background-size: cover;
 }
 /**

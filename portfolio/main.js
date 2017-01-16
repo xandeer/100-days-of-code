@@ -41,6 +41,7 @@ $().ready(function() {
       scrollTop: $($this.attr('data-target')).offset().top -
         navbarH
     }, 500);
+    $('.navbar-toggle').trigger('click');
   });
 
   followScroll();

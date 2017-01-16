@@ -1,4 +1,5 @@
-- var portfolio = [{img: './img/calc.jpg', title: 'Calculator'}, {img: './img/wiki.jpg', title: 'Wikipedia Search Engine'}, {img: './img/weather.jpg', title: 'Weather App'}, {img: './img/pacman.jpg', title: 'Pacman Tic Tac Toe'}];
+- var imgPrefix = 'http://oag78t4c2.bkt.clouddn.com/100-days-of-code/portfolio/';
+- var portfolio = [{img: 'calc.jpg', title: 'Calculator'}, {img: 'wiki.jpg', title: 'Wikipedia Search Engine'}, {img: 'weather.jpg', title: 'Weather App'}, {img: 'pacman.jpg', title: 'Pacman Tic Tac Toe'}];
 - var aboutText = 'Front-End Developer, like using CLI, and that makes me more efficient. I love running & reading, running gives me a healthier body. Reading-thinking-choosing-praticing, I will get more and more acknowledges by this path.';
 - var wait = ' (wait)';
 
@@ -55,7 +56,7 @@ html
                 each val in portfolio
                   .col-md-6.col-sm-12.col-xs-12
                     .portfolio_body.thumbnail
-                      img.portfolio_img.img-responsive(src=val.img)
+                      img.portfolio_img.img-responsive(src=imgPrefix + val.img)
                       .caption.text-center
                         h3.portfolio_title= val.title + wait
 
