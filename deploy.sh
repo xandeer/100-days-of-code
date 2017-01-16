@@ -24,10 +24,10 @@ function xandeerPush() {
   if [ -d ${public} ]; then
     git clone https://${GH_TOKEN}@${GH_REF} --branch=master ${gh_pages}
     cd ${gh_pages}
+    git config --global push.default simple
     git config user.name "xandeer"
     git config user.email "kkxandeer@gmail.com"
-    git checkout master
-    cp -a ${public}/* ${gh_pages}
+    cp -va ${public}/* ${gh_pages}
     git add --all
     git commit -m "update $1"
     git push
