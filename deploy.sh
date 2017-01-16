@@ -12,7 +12,7 @@ function xandeerBuild() {
   for arg in $1; do
     xandeerPrepare
     echo "Begining to build ${arg}"
-    cd ${root}${arg}
+    cd ${root}/${arg}
     npm install
     npm run deploy
     mv ${root}/${arg}/build ${public}/${arg}
