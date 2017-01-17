@@ -262,11 +262,14 @@ then add the unusual situation.
 ### Today's Progress
 
 1. Symmetric Difference.
+2. Exact Change.
 
 ### Thoughts
 
 1. Once again, I don't understand the problem carefully.
+2. The logic of this problem isn't so difficult, but I just think it in my brain, it's so easy to forget some details.
 
 ### Link(s) to work
 
 1. [sym](basic-algorithm/sym.js)
+2. [change](basic-algorithm/check-cash-register.js)
