@@ -48,6 +48,10 @@
 - [Day 13: January 16, 2017](#day-13-january-16-2017)
   * [Today's Progress](#todays-progress-13)
   * [Thoughts](#thoughts-13)
+- [Day 14: January 17, 2017](#day-14-january-17-2017)
+  * [Today's Progress](#todays-progress-14)
+  * [Thoughts](#thoughts-14)
+  * [Link(s) to work](#links-to-work-3)
 
 <!-- tocstop -->
 
@@ -243,8 +247,26 @@ That 5 problems give me a chance to review the methods of `String` & `Array`.
 
 1. Start using 'qiniu' to store my images.
 2. Write `build.sh` to deploy the github-pages with *travis*.
-
+3. Validate US Telephone Numbers.
+4. Record Collection.
 
 ### Thoughts
 
 1. Update routine scripts are helpful.
+2. Finish a RegExp pattern step by step, think about the general situation,
+then add the unusual situation.
+
+
+## Day 14: January 17, 2017
+
+### Today's Progress
+
+1. Symmetric Difference.
+
+### Thoughts
+
+1. Once again, I don't understand the problem carefully.
+
+### Link(s) to work
+
+1. [sym](basic-algorithm/sym.js)
