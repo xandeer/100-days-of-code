@@ -263,6 +263,7 @@ then add the unusual situation.
 
 1. Symmetric Difference.
 2. Exact Change.
+3. Start Random Quote, and finish the fundamental functions.
 
 ### Thoughts
 
@@ -273,3 +274,4 @@ then add the unusual situation.
 
 1. [sym](basic-algorithm/sym.js)
 2. [change](basic-algorithm/check-cash-register.js)
+3. [Random Quote](http://xandeer.me/100-days-of-code/random-quote)
