@@ -2,7 +2,7 @@ var webpack = require('webpack');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-  entry: './main.js',
+  entry: './src/js/main.js',
   output: {
     filename: 'bundle.js'
   },
@@ -26,7 +26,7 @@ module.exports = {
       jquery: 'jquery'
     }),
     new HtmlWebpackPlugin({
-      template: './index.jade'
+      template: './src/index.jade'
     })
   ],
   devServer: {

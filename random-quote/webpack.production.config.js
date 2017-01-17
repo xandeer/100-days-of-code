@@ -6,7 +6,7 @@ var HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
   devtool: 'cheap-source-map',
   entry: [
-    path.resolve(__dirname, './main.js'),
+    path.resolve(__dirname, './src/js/main.js'),
   ],
   output: {
     path: __dirname + '/build',
@@ -38,7 +38,7 @@ module.exports = {
       jquery: 'jquery'
     }),
     new HtmlWebpackPlugin({
-      template: './index.jade'
+      template: './src/index.jade'
     }),
   ]
 };
