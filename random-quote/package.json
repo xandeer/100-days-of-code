@@ -1,0 +1,36 @@
+{
+  "name": "@username/random-quote",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {},
+  "devDependencies": {
+    "css-loader": "0.26.1",
+    "cz-conventional-changelog": "1.2.0",
+    "file-loader": "0.9.0",
+    "html-webpack-plugin": "2.26.0",
+    "jade": "1.11.0",
+    "jade-loader": "0.8.0",
+    "jquery": "3.1.1",
+    "node-sass": "4.1.1",
+    "resolve-url-loader": "1.6.1",
+    "sass-loader": "4.1.1",
+    "style-loader": "0.13.1",
+    "url-loader": "0.5.7",
+    "webpack": "1.14.0"
+  },
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack",
+    "deploy": "webpack -p --config webpack.production.config.js",
+    "commit": "git cz"
+  },
+  "keywords": [],
+  "author": "Kevin <kkxandeer@gmail.com>",
+  "license": "ISC",
+  "config": {
+    "commitizen": {
+      "path": "./random-quote/node_modules/cz-conventional-changelog"
+    }
+  }
+}
