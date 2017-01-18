@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100px;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  min-width: 3rem;
+  font-family: 'Raleway', sans-serif;
+  background-color: RGBA(155, 89, 182, 1.00);
+  color: RGBA(155, 89, 182, 1.00);
+}
+
+.hide {
+  display: none;
+}
+
+.quote {
+  margin: 1rem auto 0.2rem;
+  width: 45%;
+  min-height: 1.8rem;
+  background-color: white;
+  letter-spacing: 1px;
+  line-height: 1.5em;
+  font-size: 0.24rem;
+  border-radius: 10px;
+}
+
+.quote-content {
+  padding: 0.2rem 0;
+}
+
+.quote-author {
+  text-align: right;
+  font-style: italic;
+  padding-bottom: 0.2rem;
+  padding-right: 0.5rem;
+  font-size: 0.18rem;
+}
+
+.quote-btns {
+  position: relative;
+  height: 0.7rem;
+  padding-bottom: 0.2rem;
+}
+
+.btn {
+  font-size: 0.20rem;
+  border-radius: 5px;
+  border-style: none;
+  padding: 0.05rem;
+  color: white;
+  outline: none;
+  text-decoration: none;
+  background-color: RGBA(155, 89, 182, 1.00);
+
+  &:hover {
+    transform-origin: center;
+    transform: scale(1.1);
+  }
+}
+
+.quote-twitter {
+  position: absolute;
+  left: 0;
+}
+
+.quote-refresh {
+  position: absolute;
+  right: 0;
+}
+
+footer {
+  text-align: center;
+  margin: 0.1rem auto;
+  color: white;
+  font-size: 0.12rem;
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+}
+@media (max-width: 768px) {
+  .quote {
+    width: 100%;
+  }
+}

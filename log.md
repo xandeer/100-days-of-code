@@ -267,6 +267,7 @@ then add the unusual situation.
 
 1. Symmetric Difference.
 2. Exact Change.
+3. Start Random Quote, and finish the fundamental functions.
 
 ### Thoughts
 
@@ -277,6 +278,7 @@ then add the unusual situation.
 
 1. [sym](basic-algorithm/sym.js)
 2. [change](basic-algorithm/check-cash-register.js)
+3. [Random Quote](http://xandeer.me/100-days-of-code/random-quote)
 
 
 ## Day 15: January 18, 2017
@@ -284,11 +286,14 @@ then add the unusual situation.
 ### Today's Progress
 
 1. Update Inventory.
+2. Random Quote.
 
 ### Thoughts
 
 1. Know why you're writing the code you're writing, and how it works.
+2. Learn how to use `extract-text-webpack-plugin` to extract `scss` to `css`.
 
 ### Link(s) to work
 
 1. [Update Inventory](basic-algorithm/update-inventory.js)
+2. [Random Quote](http://xandeer.me/100-days-of-code/random-quote)

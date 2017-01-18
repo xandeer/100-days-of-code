@@ -1,0 +1,18 @@
+doctype html
+html
+  head
+    meta(name='viewport' content="width=device-width,initial-scale=1")
+    title Random Quote Machine
+    link(rel="stylesheet" href='./style.css')
+
+  body
+    #quote.quote.hide
+      blockquote.quote-body
+        .quote-content
+        .quote-author
+        .quote-btns
+          a(href='#' title='Tweet this quote.' target='_black').quote-twitter.btn to twitter
+          a(href='').quote-refresh.btn new quote
+    footer.hide
+      | by
+      a(href='https://www.freecodecamp.com/xandeer')  xandeer
