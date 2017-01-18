@@ -1,37 +1,26 @@
-var webpack = require('webpack');
 var path = require('path');
-var uglifyJsPlugin = webpack.optimize.UglifyJsPlugin;
+var webpack = require('webpack');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
+var ExtractTextPlugin = require("extract-text-webpack-plugin");
 
 module.exports = {
-  devtool: 'cheap-source-map',
-  entry: [
-    path.resolve(__dirname, './src/js/main.js'),
-  ],
+  entry: './src/js/main.js',
   output: {
     path: __dirname + '/build',
-    publicPath: '/100-days-of-code/random-quote/',
-    filename: './bundle.js'
+    filename: 'bundle.js'
   },
   module: {
     loaders: [{
       test: /\.scss$/,
-      loaders: ['style', 'css', 'sass']
-    }, {
-      test: /\.(woff2?|ttf|eot|svg|jpg)$/,
-      loader: 'url?limit=10000'
+      loader: ExtractTextPlugin.extract("style-loader",
+        "css-loader!sass-loader")
     }, {
       test: /\.jade$/,
       loader: 'jade'
     }]
   },
   plugins: [
-    new webpack.optimize.DedupePlugin(),
-    new uglifyJsPlugin({
-      compress: {
-        warnings: false
-      }
-    }),
+    new webpack.HotModuleReplacementPlugin(),
     new webpack.ProvidePlugin({
       jQuery: 'jquery',
       $: 'jquery',
@@ -40,5 +29,10 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './src/index.jade'
     }),
-  ]
-};
+    new ExtractTextPlugin("style.css")
+  ],
+  devServer: {
+    inline: true,
+    port: 3636
+  }
+}

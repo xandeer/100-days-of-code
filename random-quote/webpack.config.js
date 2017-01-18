@@ -1,18 +1,17 @@
+var path = require('path');
 var webpack = require('webpack');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   entry: './src/js/main.js',
   output: {
+    path: __dirname + '/build',
     filename: 'bundle.js'
   },
   module: {
     loaders: [{
       test: /\.scss$/,
-      loaders: ['style', 'css', 'sass']
-    }, {
-      test: /\.(woff2?|ttf|eot|svg|jpg)$/,
-      loader: 'url?limit=10000'
+      loader: "style!css!sass"
     }, {
       test: /\.jade$/,
       loader: 'jade'
@@ -27,7 +26,7 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       template: './src/index.jade'
-    })
+    }),
   ],
   devServer: {
     inline: true,

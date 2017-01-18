@@ -18,9 +18,18 @@ const data = {
 const tweetPrefix =
   'https://twitter.com/intent/tweet?hashtags=quotes&text=';
 
+const colors = ['#16a085', '#27ae60', '#2c3e50', '#f39c12', '#e74c3c',
+  '#9b59b6', '#FB6964', '#342224', "#472E32", "#BDBB99", "#77B1A9", "#73A857"
+];
+
 $().ready(function() {
 
-  var renderQuote = function renderQuote(data) {
+  var getRandomColor = function(colors) {
+    var rand = Math.floor(Math.random() * colors.length);
+    return colors[rand];
+  };
+
+  var renderQuote = function(data) {
     if (!data.hasOwnProperty('author') || data.author === '') {
       data.author = 'unknow';
     }
@@ -33,19 +42,39 @@ $().ready(function() {
     $('.hide').removeClass('hide');
   }
 
-  function getRandomQuote(option) {
+  var render = function(data) {
+    var color = getRandomColor(colors);
+
+    $('.quote-content, .quote-author').animate({
+      opacity: 0
+    }, 500, function() {
+      $(this).animate({
+        opacity: 1
+      }, 500);
+
+      $('body').css({
+        'color': color,
+        'backgroundColor': color
+      });
+      $('.btn').css('backgroundColor', color);
+
+      renderQuote(data);
+    });
+  };
+
+  var getRandomQuote = function(option) {
     $.ajax({
       type: 'POST',
       url: option.url,
       headers: option.headers,
       success: function(data) {
         var data = JSON.parse(data);
-        renderQuote(data);
+        render(data);
       }
     });
-  }
+  };
 
-  renderQuote(data);
+  render(data);
 
   $('.quote-refresh').click(function(e) {
     e.preventDefault();

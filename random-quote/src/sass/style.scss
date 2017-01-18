@@ -8,9 +8,11 @@ html {
 
 body {
   width: 100%;
+  margin: 0;
   min-width: 3rem;
   font-family: 'Raleway', sans-serif;
-  background-color: RGBA(255, 233, 87, 1.00);
+  background-color: RGBA(155, 89, 182, 1.00);
+  color: RGBA(155, 89, 182, 1.00);
 }
 
 .hide {
@@ -18,7 +20,7 @@ body {
 }
 
 .quote {
-  margin: 1rem auto;
+  margin: 1rem auto 0.2rem;
   width: 45%;
   min-height: 1.8rem;
   background-color: white;
@@ -26,7 +28,6 @@ body {
   line-height: 1.5em;
   font-size: 0.24rem;
   border-radius: 10px;
-  color: RGBA(114, 109, 209, 1.00);
 }
 
 .quote-content {
@@ -55,7 +56,7 @@ body {
   color: white;
   outline: none;
   text-decoration: none;
-  background-color: RGBA(78, 168, 229, 1.00);
+  background-color: RGBA(155, 89, 182, 1.00);
 
   &:hover {
     transform-origin: center;
@@ -72,9 +73,20 @@ body {
   position: absolute;
   right: 0;
 }
+
+footer {
+  text-align: center;
+  margin: 0.1rem auto;
+  color: white;
+  font-size: 0.12rem;
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+}
 @media (max-width: 768px) {
   .quote {
     width: 100%;
-    background-color: RGBA(78, 168, 229, 0);
   }
 }
