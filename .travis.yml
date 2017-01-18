@@ -5,7 +5,7 @@ node_js: stable
 install:
 
 #before_script:
- source ./deploy.sh
+  - source ./deploy.sh
 
 script:
   - xandeerBuild ${items}
@@ -21,4 +21,4 @@ branches:
 env:
  global:
     - GH_REF: github.com/xandeer/100-days-of-code.git
-    - items: "random-quote"
+    - items: ""
