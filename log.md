@@ -52,6 +52,10 @@
   * [Today's Progress](#todays-progress-14)
   * [Thoughts](#thoughts-14)
   * [Link(s) to work](#links-to-work-3)
+- [Day 15: January 18, 2017](#day-15-january-18-2017)
+  * [Today's Progress](#todays-progress-15)
+  * [Thoughts](#thoughts-15)
+  * [Link(s) to work](#links-to-work-4)
 
 <!-- tocstop -->
 
@@ -273,3 +277,18 @@ then add the unusual situation.
 
 1. [sym](basic-algorithm/sym.js)
 2. [change](basic-algorithm/check-cash-register.js)
+
+
+## Day 15: January 18, 2017
+
+### Today's Progress
+
+1. Update Inventory.
+
+### Thoughts
+
+1. Know why you're writing the code you're writing, and how it works.
+
+### Link(s) to work
+
+1. [Update Inventory](basic-algorithm/update-inventory.js)
