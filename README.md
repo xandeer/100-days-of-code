@@ -21,6 +21,8 @@
 | [day 11][11]
 | [day 12][12]
 | [day 13][13]
+| [day 14][14]
+| [day 15][15]
 |
 
 ## Contents
@@ -32,6 +34,7 @@
 ## Projects
 1. [FlappyBird](http://xandeer.me/100-days-of-code/flappybird)
 2. [Xandeer's Portfolio](http://xandeer.me/100-days-of-code/portfolio)
+3. [Random Quote](http://xandeer.me/100-days-of-code/random-quote)
 
 ## Contributors
 Me,/xandeer
@@ -68,3 +71,5 @@ Me,/xandeer
 [11]: log.md#day-11-january-14-2017
 [12]: log.md#day-12-january-15-2017
 [13]: log.md#day-13-january-16-2017
+[14]: log.md#day-14-january-17-2017
+[15]: log.md#day-15-january-18-2017

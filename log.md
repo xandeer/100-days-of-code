@@ -48,6 +48,14 @@
 - [Day 13: January 16, 2017](#day-13-january-16-2017)
   * [Today's Progress](#todays-progress-13)
   * [Thoughts](#thoughts-13)
+- [Day 14: January 17, 2017](#day-14-january-17-2017)
+  * [Today's Progress](#todays-progress-14)
+  * [Thoughts](#thoughts-14)
+  * [Link(s) to work](#links-to-work-3)
+- [Day 15: January 18, 2017](#day-15-january-18-2017)
+  * [Today's Progress](#todays-progress-15)
+  * [Thoughts](#thoughts-15)
+  * [Link(s) to work](#links-to-work-4)
 
 <!-- tocstop -->
 
@@ -243,8 +251,49 @@ That 5 problems give me a chance to review the methods of `String` & `Array`.
 
 1. Start using 'qiniu' to store my images.
 2. Write `build.sh` to deploy the github-pages with *travis*.
-
+3. Validate US Telephone Numbers.
+4. Record Collection.
 
 ### Thoughts
 
 1. Update routine scripts are helpful.
+2. Finish a RegExp pattern step by step, think about the general situation,
+then add the unusual situation.
+
+
+## Day 14: January 17, 2017
+
+### Today's Progress
+
+1. Symmetric Difference.
+2. Exact Change.
+3. Start Random Quote, and finish the fundamental functions.
+
+### Thoughts
+
+1. Once again, I don't understand the problem carefully.
+2. The logic of this problem isn't so difficult, but I just think it in my brain, it's so easy to forget some details.
+
+### Link(s) to work
+
+1. [sym](basic-algorithm/sym.js)
+2. [change](basic-algorithm/check-cash-register.js)
+3. [Random Quote](http://xandeer.me/100-days-of-code/random-quote)
+
+
+## Day 15: January 18, 2017
+
+### Today's Progress
+
+1. Update Inventory.
+2. Random Quote.
+
+### Thoughts
+
+1. Know why you're writing the code you're writing, and how it works.
+2. Learn how to use `extract-text-webpack-plugin` to extract `scss` to `css`.
+
+### Link(s) to work
+
+1. [Update Inventory](basic-algorithm/update-inventory.js)
+2. [Random Quote](http://xandeer.me/100-days-of-code/random-quote)
