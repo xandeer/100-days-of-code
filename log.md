@@ -56,6 +56,10 @@
   * [Today's Progress](#todays-progress-15)
   * [Thoughts](#thoughts-15)
   * [Link(s) to work](#links-to-work-4)
+- [Day 16: January 19, 2017](#day-16-january-19-2017)
+  * [Today's Progress](#todays-progress-16)
+  * [Thoughts](#thoughts-16)
+  * [Link(s) to work](#links-to-work-5)
 
 <!-- tocstop -->
 
@@ -297,3 +301,16 @@ then add the unusual situation.
 
 1. [Update Inventory](basic-algorithm/update-inventory.js)
 2. [Random Quote](http://xandeer.me/100-days-of-code/random-quote)
+
+
+## Day 16: January 19, 2017
+
+### Today's Progress
+
+1. Person.
+
+### Thoughts
+
+1. Closure.
+
+### Link(s) to work
