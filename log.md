@@ -60,6 +60,10 @@
   * [Today's Progress](#todays-progress-16)
   * [Thoughts](#thoughts-16)
   * [Link(s) to work](#links-to-work-5)
+- [Day 17: January 20, 2017](#day-17-january-20-2017)
+  * [Today's Progress](#todays-progress-17)
+  * [Thoughts](#thoughts-17)
+  * [Link(s) to work](#links-to-work-6)
 
 <!-- tocstop -->
 
@@ -314,3 +318,17 @@ then add the unusual situation.
 1. Closure.
 
 ### Link(s) to work
+
+
+## Day 17: January 20, 2017
+
+### Today's Progress
+
+1. Weather.
+
+### Thoughts
+
+
+### Link(s) to work
+
+1. [Weather](http://xandeer.me/100-days-of-code/weather)
