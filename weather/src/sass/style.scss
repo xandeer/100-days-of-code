@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  height: 100vh;
+  background-color: RGBA(14, 136, 235, 1.00);
+  color: white;
+}
+
+.weather {
+  text-align: center;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.weather-title {
+  font-size: 2em;
+  padding-bottom: 1em;
+}
+
+.weather-location {
+  font-size: 1.25em;
+}
+
+.weather-condition {
+  font-size: 1.5em;
+  padding: 1em;
+}
