@@ -332,3 +332,18 @@ then add the unusual situation.
 ### Link(s) to work
 
 1. [Weather](http://xandeer.me/100-days-of-code/weather)
+
+
+## Day 18: January 21, 2017
+
+### Today's Progress
+
+1. Local Weather.
+
+### Thoughts
+
+1. Dependence chain of AJAX requests.
+
+### Link(s) to work
+
+1. [Weather](http://xandeer.me/100-days-of-code/weather)

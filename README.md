@@ -25,6 +25,7 @@
 | [day 15][15]
 | [day 16][16]
 | [day 17][17]
+| [day 18][18]
 |
 
 ## Contents
@@ -37,6 +38,7 @@
 1. [FlappyBird](http://xandeer.me/100-days-of-code/flappybird)
 2. [Xandeer's Portfolio](http://xandeer.me/100-days-of-code/portfolio)
 3. [Random Quote](http://xandeer.me/100-days-of-code/random-quote)
+4. [Local Weather](http://xandeer.me/100-days-of-code/weather)
 
 ## Contributors
 Me,/xandeer
@@ -77,3 +79,4 @@ Me,/xandeer
 [15]: log.md#day-15-january-18-2017
 [16]: log.md#day-16-january-19-2017
 [17]: log.md#day-17-january-20-2017
+[18]: log.md#day-18-january-21-2017
