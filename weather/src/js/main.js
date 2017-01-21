@@ -1,18 +1,41 @@
 require('../sass/style.scss');
 
-window.onload = function() {
-  var weatherContent = document.getElementById('weather-content');
+$().ready(function() {
+  // Generic function to make an AJAX call
+  var fetchData = function(query, dataURL, headers) {
+    // Return the $.ajax promise
+    return $.ajax({
+      data: query,
+      dataType: 'json',
+      url: dataURL,
+      headers: headers
+    });
+  };
 
-  function getPosition(success, error) {
-    if (navigator.geolocation) {
-      navigator.geolocation.getCurrentPosition(success,
-        error);
-    } else {
-      alert(
-        'It seems like Geolocation, which is required for this page, is not enabled in your browser.'
-      );
-    }
-  }
+  // Make AJAX calls
+  // 1. Get location
+  // 2  Get weather
+  var getLocation = fetchData({
+
+    }, 'http://ipinfo.io/json'),
+    getWeather = getLocation.then(function(data) {
+      return fetchData({
+        'lat': data.loc.split(',')[0],
+        'lng': data.loc.split(',')[1]
+      }, 'https://simple-weather.p.mashape.com/weatherdata', {
+        'X-Mashape-Key': 'kZv5pogHZimshNygATAaaKsJ3Ykdp1hFMNyjsnJOqnoEsDXA5F'
+      });
+    });
+
+  getLocation.done(function(data) {
+    console.log(data.loc.split(',')[0]);
+    console.log(data.loc.split(',')[1]);
+  });
+
+  getWeather.done(function(data) {
+    console.log(data);
+    render(data);
+  });
 
   function c2f(c) {
     return Math.round(c * 1.8 + 32);
@@ -23,11 +46,13 @@ window.onload = function() {
   }
 
   function render(data) {
+    var $weatherContent = $('#weather-content');
     var channel = data.query.results.channel;
     var location = channel.description;
     var text = channel.item.condition.text;
     var imgUrl = channel.item.description.match(/http.*[.]gif/)[0];
     var temp = channel.item.condition.temp;
+
     if (channel.units.temperature == 'F') {
       temp = f2c(channel.item.condition.temp);
     }
@@ -38,58 +63,21 @@ window.onload = function() {
       '<div class="weather-img"><img src="' + imgUrl + '"></div>' +
       '<div class="weather-text">' + text + '</div>';
 
-    weatherContent.innerHTML = html;
+    $weatherContent.html(html);
 
-    var weatherToggle = document.getElementById('weather-toggle');
-    weatherToggle.addEventListener('click', function(e) {
-      var weatherTemp = document.getElementById('weather-temp');
-      if (this.classList.contains('weather-celsius')) {
+    $('#weather-toggle').click(function(e) {
+      var $this = $(this);
+      var $weatherTemp = $('#weather-temp');
+      if ($this.hasClass('weather-celsius')) {
 
-        weatherTemp.innerHTML = c2f(weatherTemp.innerHTML);
-        this.classList.remove('weather-celsius');
-        this.innerHTML = 'F';
+        $weatherTemp.html(c2f($weatherTemp.html()));
+        $this.removeClass('weather-celsius');
+        $this.html('F');
       } else {
-        weatherTemp.innerHTML = f2c(weatherTemp.innerHTML);
-        this.classList.add('weather-celsius');
-        this.innerHTML = 'C';
+        $weatherTemp.html(f2c($weatherTemp.html()));
+        $this.addClass('weather-celsius');
+        $this.html('C');
       }
     });
   }
-
-  function getDate(lat, long) {
-    var request = new XMLHttpRequest();
-    request.open('GET',
-      'https://simple-weather.p.mashape.com/weatherdata?lat=' + lat +
-      '&lng=' + long, true);
-    request.setRequestHeader('X-Mashape-Key',
-      'kZv5pogHZimshNygATAaaKsJ3Ykdp1hFMNyjsnJOqnoEsDXA5F');
-
-    request.onload = function() {
-      if (request.status >= 200 && request.status < 400) {
-        // Success!
-        var data = JSON.parse(request.responseText);
-        render(data);
-      } else {
-        // We reached our target server, but it returned an error
-      }
-    };
-
-    request.onerror = function() {
-      // There was a connection error of some sort
-    };
-
-    request.send();
-  }
-
-  function successFunction(position) {
-    var lat = position.coords.latitude;
-    var long = position.coords.longitude;
-    getDate(lat, long);
-  }
-
-  function errorFunction(position) {
-    alert('Error!');
-  }
-
-  getPosition(successFunction, errorFunction);
-};
+});
