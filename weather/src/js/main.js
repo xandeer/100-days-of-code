@@ -27,13 +27,7 @@ $().ready(function() {
       });
     });
 
-  getLocation.done(function(data) {
-    console.log(data.loc.split(',')[0]);
-    console.log(data.loc.split(',')[1]);
-  });
-
   getWeather.done(function(data) {
-    console.log(data);
     render(data);
   });
 
