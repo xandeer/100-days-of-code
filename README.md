@@ -26,6 +26,7 @@
 | [day 16][16]
 | [day 17][17]
 | [day 18][18]
+| [day 19][19]
 |
 
 ## Contents
@@ -80,3 +81,4 @@ Me,/xandeer
 [16]: log.md#day-16-january-19-2017
 [17]: log.md#day-17-january-20-2017
 [18]: log.md#day-18-january-21-2017
+[19]: log.md#day-19-january-22-2017

@@ -64,6 +64,14 @@
   * [Today's Progress](#todays-progress-17)
   * [Thoughts](#thoughts-17)
   * [Link(s) to work](#links-to-work-6)
+- [Day 18: January 21, 2017](#day-18-january-21-2017)
+  * [Today's Progress](#todays-progress-18)
+  * [Thoughts](#thoughts-18)
+  * [Link(s) to work](#links-to-work-7)
+- [Day 19: January 22, 2017](#day-19-january-22-2017)
+  * [Today's Progress](#todays-progress-19)
+  * [Thoughts](#thoughts-19)
+  * [Link(s) to work](#links-to-work-8)
 
 <!-- tocstop -->
 
@@ -347,3 +355,18 @@ then add the unusual situation.
 ### Link(s) to work
 
 1. [Weather](http://xandeer.me/100-days-of-code/weather)
+
+
+## Day 19: January 22, 2017
+
+### Today's Progress
+
+1. Orbital Period.
+
+### Thoughts
+
+1. The most important is finding out what you need to get for the special problems.
+
+### Link(s) to work
+
+1. [Orbital Period](basic-algorithm/orbital-period.js)
