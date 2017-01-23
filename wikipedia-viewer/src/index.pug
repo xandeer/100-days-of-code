@@ -1,0 +1,17 @@
+doctype html
+html
+  head
+    title Wikipedia Viewer
+
+  body
+    main.wiki
+      section#home.wiki-home.full-height
+        .wiki-random
+          a(href="https://en.wikipedia.org/wiki/Special:Random" target="_blank") Click here for a random article
+        .wiki-search
+          input(type='text' placeholder='Type something you want to know')
+          a(href='javascript:void(0);').eks
+      section#results.wiki-results.hide
+        a(href='javascript:void(0);' target='_blank').wiki-link
+          .wiki-title Foresight Institute
+          .wiki-desc This article is about the nanotechnology policy organization. For the similar-sounding craniofacial research institute, see The Forsyth Institute.
