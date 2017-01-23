@@ -72,6 +72,10 @@
   * [Today's Progress](#todays-progress-19)
   * [Thoughts](#thoughts-19)
   * [Link(s) to work](#links-to-work-8)
+- [Day 20: January 23, 2017](#day-20-january-23-2017)
+  * [Today's Progress](#todays-progress-20)
+  * [Thoughts](#thoughts-20)
+  * [Link(s) to work](#links-to-work-9)
 
 <!-- tocstop -->
 
@@ -370,3 +374,18 @@ then add the unusual situation.
 ### Link(s) to work
 
 1. [Orbital Period](basic-algorithm/orbital-period.js)
+
+
+## Day 20: January 23, 2017
+
+### Today's Progress
+
+1. Wikipedia Viewer.
+
+### Thoughts
+
+1. The sober mind is important.
+
+### Link(s) to work
+
+1. [Wikipedia Viewer](http://xandeer.me/100-days-of-code/wikipedia-viewer)
