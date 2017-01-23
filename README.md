@@ -26,6 +26,10 @@
 | [day 16][16]
 | [day 17][17]
 | [day 18][18]
+| [day 19][19]
+|
+
+| [day 20][20]
 |
 
 ## Contents
@@ -39,6 +43,7 @@
 2. [Xandeer's Portfolio](http://xandeer.me/100-days-of-code/portfolio)
 3. [Random Quote](http://xandeer.me/100-days-of-code/random-quote)
 4. [Local Weather](http://xandeer.me/100-days-of-code/weather)
+5. [Wikipedia Viewer](http://xandeer.me/100-days-of-code/wikipedia-viewer)
 
 ## Contributors
 Me,/xandeer
@@ -80,3 +85,5 @@ Me,/xandeer
 [16]: log.md#day-16-january-19-2017
 [17]: log.md#day-17-january-20-2017
 [18]: log.md#day-18-january-21-2017
+[19]: log.md#day-19-january-22-2017
+[20]: log.md#day-20-january-23-2017
