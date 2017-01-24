@@ -76,6 +76,10 @@
   * [Today's Progress](#todays-progress-20)
   * [Thoughts](#thoughts-20)
   * [Link(s) to work](#links-to-work-9)
+- [Day 21: January 24, 2017](#day-21-january-24-2017)
+  * [Today's Progress](#todays-progress-21)
+  * [Thoughts](#thoughts-21)
+  * [Link(s) to work](#links-to-work-10)
 
 <!-- tocstop -->
 
@@ -389,3 +393,18 @@ then add the unusual situation.
 ### Link(s) to work
 
 1. [Wikipedia Viewer](http://xandeer.me/100-days-of-code/wikipedia-viewer)
+
+
+## Day 21: January 24, 2017
+
+### Today's Progress
+
+1. Pairwise.
+
+### Thoughts
+
+1. Do it just by my way, don't take much time for others' thoughts.
+
+### Link(s) to work
+
+1. [Pairwise](basic-algorithm/pairwise.js)
