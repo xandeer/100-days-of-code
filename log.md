@@ -400,6 +400,7 @@ then add the unusual situation.
 ### Today's Progress
 
 1. Pairwise.
+2. Start using `eslint`.
 
 ### Thoughts
 
