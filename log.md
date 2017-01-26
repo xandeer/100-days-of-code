@@ -84,6 +84,10 @@
   * [Today's Progress](#todays-progress-22)
   * [Thoughts](#thoughts-22)
   * [Link(s) to work](#links-to-work-11)
+- [Day 23: January 26, 2017](#day-23-january-26-2017)
+  * [Today's Progress](#todays-progress-23)
+  * [Thoughts](#thoughts-23)
+  * [Link(s) to work](#links-to-work-12)
 
 <!-- tocstop -->
 
@@ -428,3 +432,16 @@ then add the unusual situation.
 ### Link(s) to work
 
 1. [Make Friendly Dates](basic-algorithm/make-friendly-dates.js)
+
+
+## Day 23: January 26, 2017
+
+### Today's Progress
+
+1. Finish twitch's pug constructor and style.
+
+### Thoughts
+
+1. CSS already is my weakness.
+
+### Link(s) to work

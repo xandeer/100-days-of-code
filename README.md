@@ -32,6 +32,7 @@
 | [day 20][20]
 | [day 21][21]
 | [day 22][22]
+| [day 23][23]
 |
 
 ## Contents
@@ -91,3 +92,4 @@ Me,/xandeer
 [20]: log.md#day-20-january-23-2017
 [21]: log.md#day-21-january-24-2017
 [22]: log.md#day-22-january-25-2017
+[23]: log.md#day-23-january-26-2017
