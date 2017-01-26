@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100px;
+}
+
+body {
+  font-size: 0.15rem;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.twitch {
+  width: 85%;
+  margin: auto;
+}
+
+.twitch-header {
+  background-color: RGBA(92, 84, 87, 1.00);
+  color: white;
+  height: 0.8rem;
+  display: flex;
+  justify-content: space-between;
+
+  .twitch-brand {
+    font-size: 0.4rem;
+    line-height: 0.8rem;
+    padding-left: 1em;
+  }
+
+  .twitch-filter {
+    font-size: 0.12rem;
+    font-weight: bold;
+    position: relative;
+    width: 0.85rem;
+    overflow: hidden;
+
+    .twitch-status {
+      position: absolute;
+      margin-top: 0.05rem;
+      height: 0.2rem;
+      line-height: 0.2rem;
+      width: 100%;
+      background-color: white;
+      color: RGBA(92, 84, 87, 1.00);
+      left: 0.59rem;
+
+      &:before {
+        content: '';
+        display: inline-block;
+        margin: 0 0.08rem;
+        width: 0.1rem;
+        height: 0.1rem;
+        border-radius: 50%;
+        background-color: RGBA(92, 84, 87, 1.00);
+        border: 1px solid RGBA(92, 84, 87, 1.00);
+      }
+    }
+
+    .twitch-online {
+      top: 0.25rem;
+
+      &:before {
+        background-color: RGBA(184, 196, 127, 1.00);
+      }
+    }
+
+    .twitch-offline {
+      top: 0.5rem;
+
+      &:before {
+        background-color: #888;
+      }
+    }
+
+    .twitch-status_active {
+      left: 0;
+    }
+  }
+}
+
+.twitch-lists {
+  margin-top: 0.1rem;
+}
+
+.twitch-item {
+  height: 0.7rem;
+  margin-bottom: 2px;
+  position: relative;
+
+  .twitch-link {
+    position: absolute;
+    display: block;
+    width: 30%;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    left: 0.2rem;
+    top: 0.1rem;
+
+    .twitch-img {
+      width: 0.5rem;
+      height: 0.5rem;
+      background-color: #ccc;
+      border: 2px solid #fff;
+      border-radius: 50%;
+    }
+
+    .twitch-title {
+      position: absolute;
+      left: 0.7rem;
+      top: 0;
+    }
+  }
+
+  .twitch-desc {
+    position: absolute;
+    width: 70%;
+    right: 0;
+    height: 0.7rem;
+    line-height: 0.7rem;
+    text-align: center;
+    font-style: italic;
+    overflow: hidden;
+  }
+}
+
+.twitch-item_online {
+  background-color: RGBA(184, 196, 127, 1.00);
+}
+
+.twitch-item_offline {
+  color: RGBA(75, 50, 195, 1.00);
+  background-color: #888;
+}
