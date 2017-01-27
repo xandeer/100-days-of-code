@@ -88,6 +88,10 @@
   * [Today's Progress](#todays-progress-23)
   * [Thoughts](#thoughts-23)
   * [Link(s) to work](#links-to-work-12)
+- [Day 24: January 27, 2017](#day-24-january-27-2017)
+  * [Today's Progress](#todays-progress-24)
+  * [Thoughts](#thoughts-24)
+  * [Link(s) to work](#links-to-work-13)
 
 <!-- tocstop -->
 
@@ -443,5 +447,19 @@ then add the unusual situation.
 ### Thoughts
 
 1. CSS already is my weakness.
+
+### Link(s) to work
+
+
+## Day 24: January 27, 2017
+
+### Today's Progress
+
+1. Add animates by `transform`.
+2. Render data by `vue`.
+
+### Thoughts
+
+1. After finish this project, I need to study the `vue`.
 
 ### Link(s) to work
