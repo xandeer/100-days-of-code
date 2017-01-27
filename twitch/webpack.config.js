@@ -10,15 +10,22 @@ module.exports = {
     path: path.join(projectRoot, '/build'),
     filename: 'bundle.js',
   },
+  // how to use?
   resolve: {
-    extensions: ['', '.js', '.vue', '.json'],
+    extensions: ['', '.js', '.vue', '.json', '.scss'],
     fallback: [path.join(__dirname, '/node_modules')],
     alias: {
-      vue$: 'vue/dist/vue.common.js',
+      // vue$: 'vue/dist/vue.common.js',
+      src: path.resolve(__dirname, '../src'),
+      data$: '../src/assets/data.js',
+      components: path.resolve(__dirname, '../src/components'),
     },
   },
   module: {
     loaders: [{
+      test: /\.vue$/,
+      loader: 'vue',
+    }, {
       test: /\.scss$/,
       loader: 'style!css!sass',
     }, {

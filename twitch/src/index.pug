@@ -8,11 +8,11 @@ html
       .twitch-header
         .twitch-brand TWITCH STREAMERS
         .twitch-filter
-          .twitch-all.twitch-status.twitch-status_active ALL
-          .twitch-online.twitch-status ONLINE
-          .twitch-offline.twitch-status OFFLINE
+          a(href='javascript:void(0);' data-filter='all').twitch-all.twitch-status.twitch-status_active ALL
+          a(href='javascript:void(0);' data-filter='online').twitch-online.twitch-status ONLINE
+          a(href='javascript:void(0);' data-filter='offline').twitch-offline.twitch-status OFFLINE
 
-      .twitch-lists
+      #items.twitch-lists
         .twitch-item.twitch-item_online
           a.twitch-link(href='javascript:void(0);')
             img.twitch-img(src='' alt='')
