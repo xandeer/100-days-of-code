@@ -48,7 +48,8 @@ a {
       width: 100%;
       background-color: white;
       color: RGBA(92, 84, 87, 1.00);
-      left: 0.59rem;
+      transform: translateX(0.59rem);
+      transition: 500ms;
 
       &:before {
         content: '';
@@ -59,6 +60,10 @@ a {
         border-radius: 50%;
         background-color: RGBA(92, 84, 87, 1.00);
         border: 1px solid RGBA(92, 84, 87, 1.00);
+      }
+
+      &:hover {
+        transform: translateX(0);
       }
     }
 
@@ -79,7 +84,11 @@ a {
     }
 
     .twitch-status_active {
-      left: 0;
+      transform: translateX(0);
+
+      &:hover {
+        transform: none;
+      }
     }
   }
 }
