@@ -34,6 +34,7 @@
 | [day 22][22]
 | [day 23][23]
 | [day 24][24]
+| [day 25][25]
 |
 
 ## Contents
@@ -48,6 +49,7 @@
 3. [Random Quote](http://xandeer.me/100-days-of-code/random-quote)
 4. [Local Weather](http://xandeer.me/100-days-of-code/weather)
 5. [Wikipedia Viewer](http://xandeer.me/100-days-of-code/wikipedia-viewer)
+6. [Twitch](http://xandeer.me/100-days-of-code/twitch)
 
 ## Contributors
 Me,/xandeer
@@ -95,3 +97,4 @@ Me,/xandeer
 [22]: log.md#day-22-january-25-2017
 [23]: log.md#day-23-january-26-2017
 [24]: log.md#day-24-january-27-2017
+[25]: log.md#day-25-january-28-2017

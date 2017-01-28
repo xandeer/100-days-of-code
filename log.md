@@ -92,6 +92,10 @@
   * [Today's Progress](#todays-progress-24)
   * [Thoughts](#thoughts-24)
   * [Link(s) to work](#links-to-work-13)
+- [Day 25: January 28, 2017](#day-25-january-28-2017)
+  * [Today's Progress](#todays-progress-25)
+  * [Thoughts](#thoughts-25)
+  * [Link(s) to work](#links-to-work-14)
 
 <!-- tocstop -->
 
@@ -463,3 +467,18 @@ then add the unusual situation.
 1. After finish this project, I need to study the `vue`.
 
 ### Link(s) to work
+
+
+## Day 25: January 28, 2017
+
+### Today's Progress
+
+1. Finish the twitch.
+
+### Thoughts
+
+1. Use `$.when` promising multiple AJAX complete.
+
+### Link(s) to work
+
+1. [Twitch](http://xandeer.me/100-days-of-code/twitch)
