@@ -76,6 +76,26 @@
   * [Today's Progress](#todays-progress-20)
   * [Thoughts](#thoughts-20)
   * [Link(s) to work](#links-to-work-9)
+- [Day 21: January 24, 2017](#day-21-january-24-2017)
+  * [Today's Progress](#todays-progress-21)
+  * [Thoughts](#thoughts-21)
+  * [Link(s) to work](#links-to-work-10)
+- [Day 22: January 25, 2017](#day-22-january-25-2017)
+  * [Today's Progress](#todays-progress-22)
+  * [Thoughts](#thoughts-22)
+  * [Link(s) to work](#links-to-work-11)
+- [Day 23: January 26, 2017](#day-23-january-26-2017)
+  * [Today's Progress](#todays-progress-23)
+  * [Thoughts](#thoughts-23)
+  * [Link(s) to work](#links-to-work-12)
+- [Day 24: January 27, 2017](#day-24-january-27-2017)
+  * [Today's Progress](#todays-progress-24)
+  * [Thoughts](#thoughts-24)
+  * [Link(s) to work](#links-to-work-13)
+- [Day 25: January 28, 2017](#day-25-january-28-2017)
+  * [Today's Progress](#todays-progress-25)
+  * [Thoughts](#thoughts-25)
+  * [Link(s) to work](#links-to-work-14)
 
 <!-- tocstop -->
 
@@ -389,3 +409,76 @@ then add the unusual situation.
 ### Link(s) to work
 
 1. [Wikipedia Viewer](http://xandeer.me/100-days-of-code/wikipedia-viewer)
+
+
+## Day 21: January 24, 2017
+
+### Today's Progress
+
+1. Pairwise.
+2. Start using `eslint`.
+
+### Thoughts
+
+1. Do it just by my way, don't take much time for others' thoughts.
+
+### Link(s) to work
+
+1. [Pairwise](basic-algorithm/pairwise.js)
+
+
+## Day 22: January 25, 2017
+
+### Today's Progress
+
+1. Make friendly dates.
+
+### Thoughts
+
+1. Don't have so much challenge.
+
+### Link(s) to work
+
+1. [Make Friendly Dates](basic-algorithm/make-friendly-dates.js)
+
+
+## Day 23: January 26, 2017
+
+### Today's Progress
+
+1. Finish twitch's pug constructor and style.
+
+### Thoughts
+
+1. CSS already is my weakness.
+
+### Link(s) to work
+
+
+## Day 24: January 27, 2017
+
+### Today's Progress
+
+1. Add animates by `transform`.
+2. Render data by `vue`.
+
+### Thoughts
+
+1. After finish this project, I need to study the `vue`.
+
+### Link(s) to work
+
+
+## Day 25: January 28, 2017
+
+### Today's Progress
+
+1. Finish the twitch.
+
+### Thoughts
+
+1. Use `$.when` promising multiple AJAX complete.
+
+### Link(s) to work
+
+1. [Twitch](http://xandeer.me/100-days-of-code/twitch)
