@@ -12,18 +12,11 @@ module.exports = {
     path: path.join(projectRoot, '/build'),
     filename: 'bundle.js',
   },
-  resolve: {
-    extensions: ['', '.js', '.vue', '.json'],
-    fallback: [path.join(__dirname, '/node_modules')],
-    alias: {
-      vue$: 'vue/dist/vue.common.js',
-      src: path.resolve(__dirname, '../src'),
-      assets: path.resolve(__dirname, '../src/assets'),
-      components: path.resolve(__dirname, '../src/components'),
-    },
-  },
   module: {
     loaders: [{
+      test: /\.vue$/,
+      loader: 'vue',
+    }, {
       test: /\.scss$/,
       loader: ExtractTextPlugin.extract('style-loader',
         'css-loader!sass-loader'),
