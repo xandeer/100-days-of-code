@@ -482,3 +482,10 @@ then add the unusual situation.
 ### Link(s) to work
 
 1. [Twitch](http://xandeer.me/100-days-of-code/twitch)
+
+
+## Day 26: January 29, 2017
+
+### Today's Progress
+
+1. Fix the twitch's dependencies.
