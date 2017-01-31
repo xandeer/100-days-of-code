@@ -96,6 +96,10 @@
   * [Today's Progress](#todays-progress-25)
   * [Thoughts](#thoughts-25)
   * [Link(s) to work](#links-to-work-14)
+- [Day 26: January 29, 2017](#day-26-january-29-2017)
+  * [Today's Progress](#todays-progress-26)
+- [Day 27: January 31, 2017](#day-27-january-31-2017)
+  * [Today's Progress](#todays-progress-27)
 
 <!-- tocstop -->
 
@@ -489,3 +493,10 @@ then add the unusual situation.
 ### Today's Progress
 
 1. Fix the twitch's dependencies.
+
+
+## Day 27: January 31, 2017
+
+### Today's Progress
+
+1. Read Vue's introduction and Vue instance.
