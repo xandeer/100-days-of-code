@@ -37,6 +37,7 @@
 | [day 25][25]
 | [day 26][26]
 | [day 27][27]
+| [day 28][28]
 |
 
 ## Contents
@@ -102,3 +103,4 @@ Me,/xandeer
 [25]: log.md#day-25-january-28-2017
 [26]: log.md#day-26-january-29-2017
 [27]: log.md#day-27-january-31-2017
+[28]: log.md#day-28-february-01-2017
