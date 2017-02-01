@@ -53,7 +53,7 @@ function parseDate(stream, channel) {
   }
 
   items.push({
-    status: `twitch-item_${status}`,
+    status,
     link,
     src,
     alt,
