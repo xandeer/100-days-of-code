@@ -102,6 +102,8 @@
   * [Today's Progress](#todays-progress-27)
 - [Day 28: February 01, 2017](#day-28-february-01-2017)
   * [Today's Progress](#todays-progress-28)
+- [Day 29: February 02, 2017](#day-29-february-02-2017)
+  * [Today's Progress](#todays-progress-29)
 
 <!-- tocstop -->
 
@@ -509,3 +511,10 @@ then add the unusual situation.
 ### Today's Progress
 
 1. Read Vue template syntax, computed properties and watchers, class and style bindings.
+
+
+## Day 29: February 02, 2017
+
+### Today's Progress
+
+1. Read Vue conditional rendering, list rendering, event handling and form input bindings.
