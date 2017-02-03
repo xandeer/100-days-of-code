@@ -41,6 +41,9 @@
 | [day 29][29]
 |
 
+| [day 30][30]
+|
+
 ## Contents
 * [Rules](rules.md)
 * [Log - click here to see my progress](log.md)
@@ -106,3 +109,4 @@ Me,/xandeer
 [27]: log.md#day-27-january-31-2017
 [28]: log.md#day-28-february-01-2017
 [29]: log.md#day-29-february-02-2017
+[30]: log.md#day-30-february-03-2017
