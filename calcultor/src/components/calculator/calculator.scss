@@ -5,7 +5,7 @@
   text-align: right;
   padding: 0 0.1rem;
 
-  .answer {
+  .current {
     font-size: 0.23rem;
     height: 60%;
     line-height: 0.6rem;
@@ -14,6 +14,7 @@
 
   .expression {
     font-size: 0.18rem;
+    height: 40%;
     line-height: 0.4rem;
   }
 }
@@ -30,10 +31,16 @@ td {
   text-align: center;
   font-size: 0.26rem;
   background-color: RGBA(224, 224, 224, 1.00);
+  transition: 200ms;
+
+  &:hover {
+    transform: scale(1.015);
+  }
 }
 
-.gray {
-  background-color: RGBA(214, 214, 214, 1.00);
+.danger {
+  background-color: RGBA(238, 66, 87, 1.00);
+  color: #fff;
 }
 
 .operator {
