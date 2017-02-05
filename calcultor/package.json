@@ -64,7 +64,7 @@
   },
   "config": {
     "commitizen": {
-      "path": "./twitch/node_modules/cz-conventional-changelog"
+      "path": "./calcultor/node_modules/cz-conventional-changelog"
     }
   }
 }
