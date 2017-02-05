@@ -1,0 +1,49 @@
+.display-area {
+  background-color: RGBA(153, 153, 153, 0.8);
+  color: #fff;
+  height: 1rem;
+  text-align: right;
+  padding: 0 0.1rem;
+
+  .answer {
+    font-size: 0.23rem;
+    height: 60%;
+    line-height: 0.6rem;
+    border-bottom: 1px solid black;
+  }
+
+  .expression {
+    font-size: 0.18rem;
+    line-height: 0.4rem;
+  }
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  height: 3rem;
+}
+
+td {
+  border: 1px solid RGBA(142, 142, 142, 1.00);
+  width: 25%;
+  text-align: center;
+  font-size: 0.26rem;
+  background-color: RGBA(224, 224, 224, 1.00);
+}
+
+.gray {
+  background-color: RGBA(214, 214, 214, 1.00);
+}
+
+.operator {
+  background-color: RGBA(245, 146, 62, 1.00);
+  color: #fff;
+}
+
+.disable-select {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
