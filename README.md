@@ -43,6 +43,7 @@
 
 | [day 30][30]
 | [day 31][31]
+| [day 32][32]
 |
 
 ## Contents
@@ -112,3 +113,4 @@ Me,/xandeer
 [29]: log.md#day-29-february-02-2017
 [30]: log.md#day-30-february-03-2017
 [31]: log.md#day-31-february-04-2017
+[32]: log.md#day-32-february-05-2017

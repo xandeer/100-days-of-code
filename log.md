@@ -108,6 +108,10 @@
   * [Today's Progress](#todays-progress-30)
 - [Day 31: February 04, 2017](#day-31-february-04-2017)
   * [Today's Progress](#todays-progress-31)
+- [Day 32: February 05, 2017](#day-32-february-05-2017)
+  * [Today's Progress](#todays-progress-32)
+  * [Thoughts](#thoughts-26)
+  * [Link(s) to work](#links-to-work-15)
 
 <!-- tocstop -->
 
@@ -536,3 +540,18 @@ then add the unusual situation.
 ### Today's Progress
 
 1. Read Vue reactivity in depth.
+
+
+## Day 32: February 05, 2017
+
+### Today's Progress
+
+1. Start calculator project with Vue.
+
+### Thoughts
+
+1. Convert the knowledges to my capabilities.
+
+### Link(s) to work
+
+1. [calculator](calculator)
