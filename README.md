@@ -50,6 +50,7 @@
 4. [Local Weather](http://xandeer.me/100-days-of-code/weather)
 5. [Wikipedia Viewer](http://xandeer.me/100-days-of-code/wikipedia-viewer)
 6. [Twitch](http://xandeer.me/100-days-of-code/twitch)
+7. [Calculator](http://xanseer.me/100-days-of-code/calculator)
 
 ## Contributors
 Me,/xandeer
