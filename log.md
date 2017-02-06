@@ -566,6 +566,7 @@ then add the unusual situation.
 ### Today's Progress
 
 1. Finish calculator.
+2. Start pomodoro clock, finish its style.
 
 ### Thoughts
 
