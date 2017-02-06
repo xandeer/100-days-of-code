@@ -44,6 +44,7 @@
 | [day 30][30]
 | [day 31][31]
 | [day 32][32]
+| [day 33][33]
 |
 
 ## Contents
@@ -59,6 +60,7 @@
 4. [Local Weather](http://xandeer.me/100-days-of-code/weather)
 5. [Wikipedia Viewer](http://xandeer.me/100-days-of-code/wikipedia-viewer)
 6. [Twitch](http://xandeer.me/100-days-of-code/twitch)
+7. [calculator](http://xandeer.me/100-days-of-code/calculator)
 
 ## Contributors
 Me,/xandeer
@@ -114,3 +116,4 @@ Me,/xandeer
 [30]: log.md#day-30-february-03-2017
 [31]: log.md#day-31-february-04-2017
 [32]: log.md#day-32-february-05-2017
+[33]: log.md#day-33-february-06-2017

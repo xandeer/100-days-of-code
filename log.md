@@ -112,6 +112,10 @@
   * [Today's Progress](#todays-progress-32)
   * [Thoughts](#thoughts-26)
   * [Link(s) to work](#links-to-work-15)
+- [Day 33: February 06, 2017](#day-33-february-06-2017)
+  * [Today's Progress](#todays-progress-33)
+  * [Thoughts](#thoughts-27)
+  * [Link(s) to work](#links-to-work-16)
 
 <!-- tocstop -->
 
@@ -555,3 +559,18 @@ then add the unusual situation.
 ### Link(s) to work
 
 1. [calculator](calculator)
+
+
+## Day 33: February 06, 2017
+
+### Today's Progress
+
+1. Finish calculator.
+
+### Thoughts
+
+1. I should think more about status changes.
+
+### Link(s) to work
+
+1. [calculator](http://xandeer.me/100-days-of-code/calculator)
