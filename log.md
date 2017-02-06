@@ -96,6 +96,26 @@
   * [Today's Progress](#todays-progress-25)
   * [Thoughts](#thoughts-25)
   * [Link(s) to work](#links-to-work-14)
+- [Day 26: January 29, 2017](#day-26-january-29-2017)
+  * [Today's Progress](#todays-progress-26)
+- [Day 27: January 31, 2017](#day-27-january-31-2017)
+  * [Today's Progress](#todays-progress-27)
+- [Day 28: February 01, 2017](#day-28-february-01-2017)
+  * [Today's Progress](#todays-progress-28)
+- [Day 29: February 02, 2017](#day-29-february-02-2017)
+  * [Today's Progress](#todays-progress-29)
+- [Day 30: February 03, 2017](#day-30-february-03-2017)
+  * [Today's Progress](#todays-progress-30)
+- [Day 31: February 04, 2017](#day-31-february-04-2017)
+  * [Today's Progress](#todays-progress-31)
+- [Day 32: February 05, 2017](#day-32-february-05-2017)
+  * [Today's Progress](#todays-progress-32)
+  * [Thoughts](#thoughts-26)
+  * [Link(s) to work](#links-to-work-15)
+- [Day 33: February 06, 2017](#day-33-february-06-2017)
+  * [Today's Progress](#todays-progress-33)
+  * [Thoughts](#thoughts-27)
+  * [Link(s) to work](#links-to-work-16)
 
 <!-- tocstop -->
 
@@ -482,3 +502,75 @@ then add the unusual situation.
 ### Link(s) to work
 
 1. [Twitch](http://xandeer.me/100-days-of-code/twitch)
+
+
+## Day 26: January 29, 2017
+
+### Today's Progress
+
+1. Fix the twitch's dependencies.
+
+
+## Day 27: January 31, 2017
+
+### Today's Progress
+
+1. Read Vue's introduction and Vue instance.
+
+
+## Day 28: February 01, 2017
+
+### Today's Progress
+
+1. Read Vue template syntax, computed properties and watchers, class and style bindings.
+
+
+## Day 29: February 02, 2017
+
+### Today's Progress
+
+1. Read Vue conditional rendering, list rendering, event handling and form input bindings.
+
+
+## Day 30: February 03, 2017
+
+### Today's Progress
+
+1. Read Vue components.
+
+
+## Day 31: February 04, 2017
+
+### Today's Progress
+
+1. Read Vue reactivity in depth.
+
+
+## Day 32: February 05, 2017
+
+### Today's Progress
+
+1. Start calculator project with Vue.
+
+### Thoughts
+
+1. Convert the knowledges to my capabilities.
+
+### Link(s) to work
+
+1. [calculator](calculator)
+
+
+## Day 33: February 06, 2017
+
+### Today's Progress
+
+1. Finish calculator.
+
+### Thoughts
+
+1. I should think more about status changes.
+
+### Link(s) to work
+
+1. [calculator](http://xandeer.me/100-days-of-code/calculator)
