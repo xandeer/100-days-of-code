@@ -65,7 +65,7 @@
   },
   "config": {
     "commitizen": {
-      "path": "./calcultor/node_modules/cz-conventional-changelog"
+      "path": "./calculator/node_modules/cz-conventional-changelog"
     }
   }
 }
