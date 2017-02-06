@@ -1,0 +1,66 @@
+#pomodoro {
+  width: 360px;
+  height: 500px;
+  margin: auto;
+}
+
+.left {
+  float: left;
+}
+
+.clearfix:after {
+  content: '';
+  display: block;
+  visibility: hidden;
+  clear: both;
+}
+
+.settings {
+  width: 100%;
+
+  .break,
+  .session {
+    width: 50%;
+
+    span {
+      font-size: 32px;
+    }
+
+    .value {
+      padding: 0 15px;
+    }
+  }
+}
+
+.clock {
+  width: 300px;
+  height: 300px;
+  line-height: 300px;
+  margin: 36px auto;
+  border: 2px solid #99CC00;
+  border-radius: 50%;
+  font-size: 50px;
+  position: relative;
+  overflow: hidden;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-radius: 50%;
+    border: 4px solid #333;
+  }
+
+  .fill {
+    height: 10%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #99CC00;
+    z-index: -1;
+  }
+}
