@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import pomodoro from './components/pomodoro/pomodoro';
+import pomodoro from './components/pomodoro/pomodoro.vue';
 
 export default {
   name: 'app',
