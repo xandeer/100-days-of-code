@@ -1,0 +1,96 @@
+
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  text-align: center;
+  color: #fff;
+  margin-top: 60px;
+}
+#app header {
+    font-size: 56px;
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+#pomodoro {
+  width: 360px;
+  height: 500px;
+  margin: auto;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.left {
+  float: left;
+}
+.clearfix:after {
+  content: '';
+  display: block;
+  visibility: hidden;
+  clear: both;
+}
+.settings {
+  width: 100%;
+}
+.settings .break,
+  .settings .session {
+    width: 50%;
+}
+.settings .break [class$='-label'],
+    .settings .session [class$='-label'] {
+      margin-bottom: 10px;
+}
+.settings .break span,
+    .settings .session span {
+      font-size: 32px;
+}
+.settings .break .value,
+    .settings .session .value {
+      padding: 0 15px;
+}
+.settings .break .increase,
+    .settings .break .reduce,
+    .settings .session .increase,
+    .settings .session .reduce {
+      cursor: pointer;
+}
+.clock {
+  width: 300px;
+  height: 300px;
+  line-height: 300px;
+  margin: 36px auto;
+  border: 2px solid #9c0;
+  border-radius: 50%;
+  font-size: 50px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+.clock:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-radius: 50%;
+    border: 4px solid #333;
+}
+.clock .fill {
+    height: 10%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #9c0;
+    z-index: -1;
+}
+.clock .fill.session {
+      background-color: #9c0;
+}
+.clock .fill.rest {
+      background-color: #f44;
+}
+
+/*# sourceMappingURL=app.c6d480f1684630df4fb78e80f95c1230.css.map*/
