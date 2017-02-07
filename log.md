@@ -116,6 +116,10 @@
   * [Today's Progress](#todays-progress-33)
   * [Thoughts](#thoughts-27)
   * [Link(s) to work](#links-to-work-16)
+- [Day 34: February 07, 2017](#day-34-february-07-2017)
+  * [Today's Progress](#todays-progress-34)
+  * [Thoughts](#thoughts-28)
+  * [Link(s) to work](#links-to-work-17)
 
 <!-- tocstop -->
 
@@ -575,3 +579,19 @@ then add the unusual situation.
 ### Link(s) to work
 
 1. [calculator](http://xandeer.me/100-days-of-code/calculator)
+
+
+## Day 34: February 07, 2017
+
+### Today's Progress
+
+1. Finish pomodoro clock.
+
+### Thoughts
+
+1. Retry pug mixin, it's really awesome.
+2. Try use scss's variable.
+
+### Link(s) to work
+
+1. [pomodoro clock](http://xandeer.me/100-days-of-code/pomodoro)
