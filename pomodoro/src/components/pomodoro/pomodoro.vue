@@ -14,7 +14,7 @@ mixin setting(name, alias)
     +setting('session')
   .clock(@click='toggle()')
     | {{ time }}
-    .fill(:class='status')(:style='fillStyle')
+    .fill(:class='status', :style='fillStyle')
 </template>
 
 <script src='./pomodoro.js'></script>
