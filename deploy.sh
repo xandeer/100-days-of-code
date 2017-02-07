@@ -1,36 +1,38 @@
 #!/usr/bin/env bash
 
-root=`pwd`
-public=${root}/public
-gh_pages=${root}/gh_pages
+ROOT=`pwd`
+PUBLIC=${ROOT}/public
+GH_PAGES=${ROOT}/gh_pages
+# since calculator, replace 'build' with 'dist'
+DIST_PATH=dist
 
 function xandeerPrepare() {
-  [ -d ${public} ] || mkdir public
+  [ -d ${PUBLIC} ] || mkdir public
 }
 
 function xandeerBuild() {
   for item in $1; do
     xandeerPrepare
     echo "Begining to build ${item}"
-    cd ${root}/${item}
+    cd ${ROOT}/${item}
     npm install
     npm run deploy
-    mv ${root}/${item}/build ${public}/${item}
+    mv ${ROOT}/${item}/${DIST_PATH} ${PUBLIC}/${item}
     echo "Finish building ${item}"
   done
 }
 
 function xandeerPush() {
-  if [ -d ${public} ]; then
-    git clone https://${GH_TOKEN}@${GH_REF} --branch=master ${gh_pages}
-    cp -a ${root}/*.md ${root}/_config.yml ${gh_pages}
-    cd ${gh_pages}
+  if [ -d ${PUBLIC} ]; then
+    git clone https://${GH_TOKEN}@${GH_REF} --branch=master ${GH_PAGES}
+    cp -a ${ROOT}/*.md ${ROOT}/_config.yml ${GH_PAGES}
+    cd ${GH_PAGES}
     git config --global push.default simple
     git config user.name "xandeer"
     git config user.email "kkxandeer@gmail.com"
     for item in $1; do
-      rm -rf ${gh_pages}/${item}
-      mv ${public}/${item} ${gh_pages}
+      rm -rf ${GH_PAGES}/${item}
+      mv ${PUBLIC}/${item} ${GH_PAGES}
       git add --all
       git commit -m "update ${item}"
     done
