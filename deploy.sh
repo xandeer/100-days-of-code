@@ -5,6 +5,8 @@ PUBLIC=${ROOT}/public
 GH_PAGES=${ROOT}/gh_pages
 # since calculator, replace 'build' with 'dist'
 DIST_PATH=dist
+# since calculator, replace 'deploy' with 'build'
+BUILD='npm run build'
 
 function xandeerPrepare() {
   [ -d ${PUBLIC} ] || mkdir public
@@ -16,7 +18,7 @@ function xandeerBuild() {
     echo "Begining to build ${item}"
     cd ${ROOT}/${item}
     npm install
-    npm run deploy
+    ${BUILD}
     mv ${ROOT}/${item}/${DIST_PATH} ${PUBLIC}/${item}
     echo "Finish building ${item}"
   done
