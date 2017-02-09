@@ -120,6 +120,10 @@
   * [Today's Progress](#todays-progress-34)
   * [Thoughts](#thoughts-28)
   * [Link(s) to work](#links-to-work-17)
+- [Day 35: February 08, 2017](#day-35-february-08-2017)
+  * [Today's Progress](#todays-progress-35)
+  * [Thoughts](#thoughts-29)
+  * [Link(s) to work](#links-to-work-18)
 
 <!-- tocstop -->
 
@@ -595,3 +599,18 @@ then add the unusual situation.
 ### Link(s) to work
 
 1. [pomodoro clock](http://xandeer.me/100-days-of-code/pomodoro)
+
+
+## Day 35: February 08, 2017
+
+### Today's Progress
+
+1. Finish Tic Tac Toe with a fool computer player.
+
+### Thoughts
+
+1. Every start is suffering.
+
+### Link(s) to work
+
+1. [Tic Tac Toe](tic-tac-toe)
