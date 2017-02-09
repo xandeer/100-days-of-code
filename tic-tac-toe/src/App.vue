@@ -18,11 +18,30 @@ export default {
 <style lang='scss'>
 
 html {
-  font-size: 100px;
+  font-size: 125px;
+}
+
+@media screen and (max-width : 1204px) {
+  html {
+    font-size: 125px;
+  }
+}
+
+@media screen and (max-width : 768px) {
+  html {
+    font-size: 100px;
+  }
+}
+
+@media screen and (max-width : 320px) {
+  html {
+    font-size: 75px;
+  }
 }
 
 body {
-  font-size: .15rem;
+  font-size: 0.15rem;
+  margin: 0 auto;
 }
 
 * {
@@ -35,11 +54,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 0.6rem;
 
   header {
     font: 0.56rem bold;
-    margin-bottom: 40px;
+    margin-bottom: 0.4rem;
   }
 }
 </style>
