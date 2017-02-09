@@ -1,0 +1,227 @@
+
+html {
+  font-size: 125px;
+}
+@media screen and (max-width: 1204px) {
+html {
+    font-size: 125px;
+}
+}
+@media screen and (max-width: 768px) {
+html {
+    font-size: 100px;
+}
+}
+@media screen and (max-width: 320px) {
+html {
+    font-size: 75px;
+}
+}
+body {
+  font-size: 0.15rem;
+  margin: 0 auto;
+}
+* {
+  box-sizing: border-box;
+}
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 0.6rem;
+}
+#app header {
+    font: 0.56rem bold;
+    margin-bottom: 0.4rem;
+}
+
+button {
+  font-size: 0.18rem;
+  font-weight: bold;
+  border-style: none;
+  cursor: pointer;
+  background-color: transparent;
+  color: #A6B2AC;
+  outline: none;
+  border: 4px solid transparent;
+}
+button:hover {
+    border-radius: 15px;
+    border: 4px dotted #0DA192;
+    color: #0DA192;
+}
+.container {
+  width: 3.6rem;
+  height: 4rem;
+  border: 0.2rem solid #F0B487;
+  border-top: 0.6rem solid #F0B487;
+  background: radial-gradient(circle, #264C3A, #101D1C);
+  border-radius: 0.1rem;
+  margin: auto;
+  position: relative;
+}
+.container > div {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.starter p {
+  font-size: 0.46rem;
+  font-weight: bold;
+  color: #fff;
+}
+.starter .starter-btn {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.choice p {
+  font-size: 0.36rem;
+  font-weight: bold;
+  color: #fff;
+}
+.choice .choice-btn {
+  width: 60%;
+  margin: auto;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.choice .choice-btn button {
+    font-size: 0.36rem;
+}
+.choice .back {
+  margin-top: 0.2rem;
+  color: #fff;
+}
+.choice .back:hover {
+    color: #0DA192;
+}
+.status {
+  width: 3rem !important;
+  height: 0.6rem !important;
+  font-size: 0.15rem;
+  line-height: 0.7em;
+  transform: translateY(-100%);
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  z-index: 99;
+}
+.status > div {
+    -ms-flex: 1;
+        flex: 1;
+}
+.status .reset {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: column;
+        flex-flow: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+}
+.status .reset button {
+      color: #fff;
+}
+.status .reset button:hover {
+        color: #0DA192;
+}
+.board {
+  padding: 0.1rem;
+  font-size: 0;
+}
+.board ul {
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-padding-start: 0;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+}
+.board .board-item {
+    -ms-flex: 1 0 33%;
+        flex: 1 0 33%;
+    display: block;
+    width: 1rem;
+    height: 1rem;
+    list-style: none;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    cursor: pointer;
+    font-size: 1rem;
+    line-height: 0.8rem;
+    color: #A6B2AC;
+}
+.board .board-item span {
+      display: inline-block;
+      width: 100%;
+      height: 100%;
+}
+.board .border_right {
+    border-right: 4px solid #0DA192;
+}
+.board .border_bottom {
+    border-bottom: 4px solid #0DA192;
+}
+.over {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  line-height: 3rem;
+  font-size: 0.36rem;
+  font-weight: bold;
+  font-style: italic;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+.turn {
+  height: 0.4rem !important;
+  line-height: 0.4rem;
+  font-size: 0.16rem;
+  font-weight: bold;
+  color: #fff;
+  z-index: -1;
+}
+.turn .turn-item {
+    top: -1rem;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    background-color: #00C8C8;
+}
+.turn .turn-item:last-child {
+      background-color: #C86464;
+      right: 0;
+}
+
+/*
+* Transition settings
+*/
+.slide-enter-active,
+.slide-leave-active {
+  transition: all 0.5s;
+}
+.slide-enter,
+.slide-leave-active {
+  transform: translateY(100%);
+}
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s;
+}
+.fade-enter,
+.fade-leave-active {
+  opacity: 0;
+}
+
+/*# sourceMappingURL=app.294a780aedde1ff7455fa4699e7c6e51.css.map*/
