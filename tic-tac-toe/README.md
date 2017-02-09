@@ -2,6 +2,8 @@
 
 > A Vue.js project
 
+[Demo](http://xandeer.me/100-days-of-code/tic-tac-toe)
+
 ## Build Setup
 
 ``` bash

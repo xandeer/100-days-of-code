@@ -124,6 +124,10 @@
   * [Today's Progress](#todays-progress-35)
   * [Thoughts](#thoughts-29)
   * [Link(s) to work](#links-to-work-18)
+- [Day 36: February 09, 2017](#day-36-february-09-2017)
+  * [Today's Progress](#todays-progress-36)
+  * [Thoughts](#thoughts-30)
+  * [Link(s) to work](#links-to-work-19)
 
 <!-- tocstop -->
 
@@ -614,3 +618,19 @@ then add the unusual situation.
 ### Link(s) to work
 
 1. [Tic Tac Toe](tic-tac-toe)
+
+
+## Day 36: February 09, 2017
+
+### Today's Progress
+
+1. Make a cleverer computer player.
+2. Use Vue transition effects make some animations.
+
+### Thoughts
+
+1. Be careful about the initial status.
+
+### Link(s) to work
+
+1. [Tic Tac Toe](http://xandeer.me/100-days-of-code/tic-tac-toe)
