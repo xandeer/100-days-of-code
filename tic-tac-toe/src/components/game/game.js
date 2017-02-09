@@ -84,6 +84,7 @@ export default {
       this.score0 = 0;
       this.score1 = 0;
       this.draw = 0;
+      this.gameOver = false;
     },
     setPlayerCount(playerCount) {
       this.show = 1;
