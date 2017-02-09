@@ -143,7 +143,7 @@ export default {
           // need to replace with a clever algorithm
           // this.move(this.status.indexOf(-1));
           this.move(this.moveToWhere());
-        }, 500);
+        }, 800);
       }
     },
     isFirstMove() {
