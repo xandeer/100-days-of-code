@@ -2,7 +2,7 @@
 mixin lists
   ul
     each i in [0, 1, 2, 3, 4, 5, 6, 7, 8]
-      li(class=(i < 6 ? 'border_bottom' : ''), class=((i + 1) % 3 ? 'border_right' : ''), class='board-item', @click='move(' + i + ')') {{ status[#{i}] === -1 ? '' : status[#{i}] === 0 ? player1 : player2 }}
+      li(class=(i < 6 ? 'border_bottom' : ''), class=((i + 1) % 3 ? 'border_right' : ''), class='board-item', @click='playerMove(' + i + ')') {{ status[#{i}] === -1 ? '' : status[#{i}] === 0 ? player1 : player2 }}
 #game
   .container
     .turn
