@@ -128,6 +128,10 @@
   * [Today's Progress](#todays-progress-36)
   * [Thoughts](#thoughts-30)
   * [Link(s) to work](#links-to-work-19)
+- [Day 37: February 10, 2017](#day-37-february-10-2017)
+  * [Today's Progress](#todays-progress-37)
+  * [Thoughts](#thoughts-31)
+  * [Link(s) to work](#links-to-work-20)
 
 <!-- tocstop -->
 
@@ -634,3 +638,19 @@ then add the unusual situation.
 ### Link(s) to work
 
 1. [Tic Tac Toe](http://xandeer.me/100-days-of-code/tic-tac-toe)
+
+
+## Day 37: February 10, 2017
+
+### Today's Progress
+
+1. Install aws-cli, and use it to start/stop ec2.
+2. Customize my vue-cli template for webpack.
+
+### Thoughts
+
+1. Good tools can give me 10X, so waste time for setting them is valuable.
+
+### Link(s) to work
+
+1. [Vue Template for Webpack](https://github.com/xandeer/webpack)
