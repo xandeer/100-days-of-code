@@ -1,0 +1,171 @@
+* {
+  box-sizing: border-box;
+}
+
+.simon {
+  margin: auto;
+  border: 10px solid #333;
+  width: 450px;
+  height: 450px;
+  border-radius: 50%;
+  background-color: #333;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  position: relative;
+  user-select: none;
+}
+
+.simon-item {
+  position: relative;
+  width: 50%;
+  height: 50%;
+  overflow: hidden;
+  border: 15px solid #333;
+  opacity: 0.7;
+
+  &.light {
+    opacity: 1;
+  }
+}
+
+.simon-ctl {
+  position: absolute;
+  background-color: #fff;
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 12px;
+  opacity: 1;
+}
+
+.ctl-top {
+  font-size: 48px;
+  font-weight: 2em;
+  padding-top: 20px;
+}
+
+.ctl-middle {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 10px;
+
+  .middle-item {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .middle-item:first-child {
+    flex: 1.5;
+  }
+
+  .count-val {
+    width: 70%;
+    height: 40px;
+    line-height: 40px;
+    background-color: #333;
+    border-radius: 10px;
+    color: #ff4c4c;
+    font-weight: bold;
+    font-size: 24px;
+  }
+
+  .ctl-btn {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 5px solid #333;
+
+    &.enabled:hover {
+      transform: scale(1.1);
+      cursor: pointer;
+    }
+
+    &.active {
+      background-color: #fed93f;
+    }
+  }
+}
+
+.ctl-bottom {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 60%;
+  position: absolute;
+  left: 50%;
+  bottom: 15px;
+  transform: translate(-50%);
+
+  .switch {
+    width: 40px;
+    height: 20px;
+    background-color: #333;
+    border-radius: 5px;
+    cursor: pointer;
+
+    .switch-inner {
+      width: 50%;
+      height: 100%;
+      border: 2px solid #333;
+      border-radius: 5px;
+      background-color: #3193de;
+      transition: transform 0.3s;
+
+      &.on {
+        transform: translate(100%);
+      }
+    }
+  }
+}
+
+.circle {
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  border-radius: 50%;
+
+  &.enabled {
+    cursor: pointer;
+  }
+}
+
+.tl {
+  top: 0;
+  left: 0;
+}
+
+.tr {
+  top: 0;
+  right: 0;
+}
+
+.bl {
+  bottom: 0;
+  left: 0;
+}
+
+.br {
+  bottom: 0;
+  right: 0;
+}
+
+.bg_red {
+  background-color: #ff4c4c;
+}
+
+.bg_blue {
+  background-color: #1c8cff;
+}
+
+.bg_yellow {
+  background-color: #fed93f;
+}
+
+.bg_green {
+  background-color: #13ff7c;
+}
