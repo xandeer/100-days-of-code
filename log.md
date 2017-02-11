@@ -132,6 +132,10 @@
   * [Today's Progress](#todays-progress-37)
   * [Thoughts](#thoughts-31)
   * [Link(s) to work](#links-to-work-20)
+- [Day 38: February 11, 2017](#day-38-february-11-2017)
+  * [Today's Progress](#todays-progress-38)
+  * [Thoughts](#thoughts-32)
+  * [Link(s) to work](#links-to-work-21)
 
 <!-- tocstop -->
 
@@ -654,3 +658,19 @@ then add the unusual situation.
 ### Link(s) to work
 
 1. [Vue Template for Webpack](https://github.com/xandeer/webpack)
+
+
+## Day 38: February 11, 2017
+
+### Today's Progress
+
+1. Update `vue-cli` template for webpack2.
+2. Start simon game, finish style and do some function.
+
+### Thoughts
+
+1. Start with a small step, then go forward step by step.
+
+### Link(s) to work
+
+1. [Simon](simon)
