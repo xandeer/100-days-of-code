@@ -124,6 +124,22 @@
   * [Today's Progress](#todays-progress-35)
   * [Thoughts](#thoughts-29)
   * [Link(s) to work](#links-to-work-18)
+- [Day 36: February 09, 2017](#day-36-february-09-2017)
+  * [Today's Progress](#todays-progress-36)
+  * [Thoughts](#thoughts-30)
+  * [Link(s) to work](#links-to-work-19)
+- [Day 37: February 10, 2017](#day-37-february-10-2017)
+  * [Today's Progress](#todays-progress-37)
+  * [Thoughts](#thoughts-31)
+  * [Link(s) to work](#links-to-work-20)
+- [Day 38: February 11, 2017](#day-38-february-11-2017)
+  * [Today's Progress](#todays-progress-38)
+  * [Thoughts](#thoughts-32)
+  * [Link(s) to work](#links-to-work-21)
+- [Day 39: February 12, 2017](#day-39-february-12-2017)
+  * [Today's Progress](#todays-progress-39)
+  * [Thoughts](#thoughts-33)
+  * [Link(s) to work](#links-to-work-22)
 
 <!-- tocstop -->
 
@@ -614,3 +630,66 @@ then add the unusual situation.
 ### Link(s) to work
 
 1. [Tic Tac Toe](tic-tac-toe)
+
+
+## Day 36: February 09, 2017
+
+### Today's Progress
+
+1. Make a cleverer computer player.
+2. Use Vue transition effects make some animations.
+
+### Thoughts
+
+1. Be careful about the initial status.
+
+### Link(s) to work
+
+1. [Tic Tac Toe](http://xandeer.me/100-days-of-code/tic-tac-toe)
+
+
+## Day 37: February 10, 2017
+
+### Today's Progress
+
+1. Install aws-cli, and use it to start/stop ec2.
+2. Customize my vue-cli template for webpack.
+
+### Thoughts
+
+1. Good tools can give me 10X, so waste time for setting them is valuable.
+
+### Link(s) to work
+
+1. [Vue Template for Webpack](https://github.com/xandeer/webpack)
+
+
+## Day 38: February 11, 2017
+
+### Today's Progress
+
+1. Update `vue-cli` template for webpack2.
+2. Start simon game, finish style and do some function.
+
+### Thoughts
+
+1. Start with a small step, then go forward step by step.
+
+### Link(s) to work
+
+1. [Simon](simon)
+
+
+## Day 39: February 12, 2017
+
+### Today's Progress
+
+1. Finish simon game, then get codefreecamp's front-end certification.
+
+### Thoughts
+
+1. I don't know what can I type here, but 40 days coding really give me progression.
+
+### Link(s) to work
+
+1. [Simon Game](http://xandeer.me/100-days-of-code/simon)

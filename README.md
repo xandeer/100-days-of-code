@@ -47,6 +47,10 @@
 | [day 33][33]
 | [day 34][34]
 | [day 35][35]
+| [day 36][36]
+| [day 37][37]
+| [day 38][38]
+| [day 39][39]
 |
 
 ## Contents
@@ -64,6 +68,9 @@
 6. [Twitch](http://xandeer.me/100-days-of-code/twitch)
 7. [Calculator](http://xandeer.me/100-days-of-code/calculator)
 8. [Pomodoro Clock](http://xandeer.me/100-days-of-code/pomodoro)
+9. [Tic Tac Toe](http://xandeer.me/100-days-of-code/tic-tac-toe)
+10. [Vue Template for Webpack](https://github.com/xandeer/webpack)
+11. [Simon Game](http://xandeer.me/100-days-of-code/simon)
 
 ## Contributors
 Me,/xandeer
@@ -122,3 +129,7 @@ Me,/xandeer
 [33]: log.md#day-33-february-06-2017
 [34]: log.md#day-34-february-07-2017
 [35]: log.md#day-35-february-08-2017
+[36]: log.md#day-36-february-09-2017
+[37]: log.md#day-37-february-10-2017
+[38]: log.md#day-38-february-11-2017
+[39]: log.md#day-39-february-12-2017
