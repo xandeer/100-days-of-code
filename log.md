@@ -136,6 +136,10 @@
   * [Today's Progress](#todays-progress-38)
   * [Thoughts](#thoughts-32)
   * [Link(s) to work](#links-to-work-21)
+- [Day 39: February 12, 2017](#day-39-february-12-2017)
+  * [Today's Progress](#todays-progress-39)
+  * [Thoughts](#thoughts-33)
+  * [Link(s) to work](#links-to-work-22)
 
 <!-- tocstop -->
 
@@ -674,3 +678,18 @@ then add the unusual situation.
 ### Link(s) to work
 
 1. [Simon](simon)
+
+
+## Day 39: February 12, 2017
+
+### Today's Progress
+
+1. Finish simon game, then get codefreecamp's front-end certification.
+
+### Thoughts
+
+1. I don't know what can I type here, but 40 days coding really give me progression.
+
+### Link(s) to work
+
+1. [Simon Game](http://xandeer.me/100-days-of-code/simon)
