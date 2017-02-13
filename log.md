@@ -140,6 +140,9 @@
   * [Today's Progress](#todays-progress-39)
   * [Thoughts](#thoughts-33)
   * [Link(s) to work](#links-to-work-22)
+- [Day 40: February 13, 2017](#day-40-february-13-2017)
+  * [Today's Progress](#todays-progress-40)
+  * [Thoughts](#thoughts-34)
 
 <!-- tocstop -->
 
@@ -693,3 +696,14 @@ then add the unusual situation.
 ### Link(s) to work
 
 1. [Simon Game](http://xandeer.me/100-days-of-code/simon)
+
+
+## Day 40: February 13, 2017
+
+### Today's Progress
+
+1. Learn Vuex.
+
+### Thoughts
+
+1. Get good free api is difficult, and it will waste much time.

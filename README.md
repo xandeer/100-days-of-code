@@ -53,6 +53,9 @@
 | [day 39][39]
 |
 
+| [day 40][40]
+|
+
 ## Contents
 * [Rules](rules.md)
 * [Log - click here to see my progress](log.md)
@@ -133,3 +136,4 @@ Me,/xandeer
 [37]: log.md#day-37-february-10-2017
 [38]: log.md#day-38-february-11-2017
 [39]: log.md#day-39-february-12-2017
+[40]: log.md#day-40-february-13-2017
