@@ -54,6 +54,7 @@
 |
 
 | [day 40][40]
+| [day 41][41]
 |
 
 ## Contents
@@ -137,3 +138,4 @@ Me,/xandeer
 [38]: log.md#day-38-february-11-2017
 [39]: log.md#day-39-february-12-2017
 [40]: log.md#day-40-february-13-2017
+[41]: log.md#day-41-february-14-2017
