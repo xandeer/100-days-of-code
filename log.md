@@ -145,6 +145,9 @@
   * [Thoughts](#thoughts-34)
 - [Day 41: February 14, 2017](#day-41-february-14-2017)
   * [Today's Progress](#todays-progress-41)
+- [Day 42: February 15, 2017](#day-42-february-15-2017)
+  * [Today's Progress](#todays-progress-42)
+  * [Thoughts](#thoughts-35)
 
 <!-- tocstop -->
 
@@ -716,3 +719,14 @@ then add the unusual situation.
 ### Today's Progress
 
 1. Start gank.io, finish contents list.
+
+
+## Day 42: February 15, 2017
+
+### Today's Progress
+
+1. Pratice vuex and vue-router.
+
+### Thoughts
+
+1. Vue is really a good framework.
