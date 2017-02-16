@@ -148,6 +148,9 @@
 - [Day 42: February 15, 2017](#day-42-february-15-2017)
   * [Today's Progress](#todays-progress-42)
   * [Thoughts](#thoughts-35)
+- [Day 43: February 16, 2017](#day-43-february-16-2017)
+  * [Today's Progress](#todays-progress-43)
+  * [Thoughts](#thoughts-36)
 
 <!-- tocstop -->
 
@@ -730,3 +733,14 @@ then add the unusual situation.
 ### Thoughts
 
 1. Vue is really a good framework.
+
+
+## Day 43: February 16, 2017
+
+### Today's Progress
+
+1. Try Swiper3 and vue-awesome-swiper.
+
+### Thoughts
+
+1. Before do it, I should design it at first.
