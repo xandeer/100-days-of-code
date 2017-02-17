@@ -151,6 +151,10 @@
 - [Day 43: February 16, 2017](#day-43-february-16-2017)
   * [Today's Progress](#todays-progress-43)
   * [Thoughts](#thoughts-36)
+- [Day 44: February 17, 2017](#day-44-february-17-2017)
+  * [Today's Progress](#todays-progress-44)
+  * [Thoughts](#thoughts-37)
+  * [Link(s) to work](#links-to-work-23)
 
 <!-- tocstop -->
 
@@ -744,3 +748,20 @@ then add the unusual situation.
 ### Thoughts
 
 1. Before do it, I should design it at first.
+
+
+## Day 44: February 17, 2017
+
+### Today's Progress
+
+1. Replace home page's routers with swiper.
+2. Save the last read position.
+
+### Thoughts
+
+1. I should take some time to read documents of the techs which I want to use,
+then practice the features that I may use. Read -> Try
+
+### Link(s) to work
+
+1. [Gank.io](http://xandeer.me/gank)

@@ -57,6 +57,7 @@
 | [day 41][41]
 | [day 42][42]
 | [day 43][43]
+| [day 44][44]
 |
 
 ## Contents
@@ -77,6 +78,7 @@
 9. [Tic Tac Toe](http://xandeer.me/100-days-of-code/tic-tac-toe)
 10. [Vue Template for Webpack](https://github.com/xandeer/webpack)
 11. [Simon Game](http://xandeer.me/100-days-of-code/simon)
+12. [Gank.io](http://xandeer.me/gank)
 
 ## Contributors
 Me,/xandeer
@@ -143,3 +145,4 @@ Me,/xandeer
 [41]: log.md#day-41-february-14-2017
 [42]: log.md#day-42-february-15-2017
 [43]: log.md#day-43-february-16-2017
+[44]: log.md#day-44-february-17-2017
