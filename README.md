@@ -58,6 +58,7 @@
 | [day 42][42]
 | [day 43][43]
 | [day 44][44]
+| [day 45][45]
 |
 
 ## Contents
@@ -146,3 +147,4 @@ Me,/xandeer
 [42]: log.md#day-42-february-15-2017
 [43]: log.md#day-43-february-16-2017
 [44]: log.md#day-44-february-17-2017
+[45]: log.md#day-45-february-18-2017

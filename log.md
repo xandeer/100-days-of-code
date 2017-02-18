@@ -155,6 +155,10 @@
   * [Today's Progress](#todays-progress-44)
   * [Thoughts](#thoughts-37)
   * [Link(s) to work](#links-to-work-23)
+- [Day 45: February 18, 2017](#day-45-february-18-2017)
+  * [Today's Progress](#todays-progress-45)
+  * [Thoughts](#thoughts-38)
+  * [Link(s) to work](#links-to-work-24)
 
 <!-- tocstop -->
 
@@ -761,6 +765,24 @@ then add the unusual situation.
 
 1. I should take some time to read documents of the techs which I want to use,
 then practice the features that I may use. Read -> Try
+
+### Link(s) to work
+
+1. [Gank.io](http://xandeer.me/gank)
+
+
+## Day 45: February 18, 2017
+
+### Today's Progress
+
+1. Add modify theme color's page.
+2. Optimize the codes.
+3. Use compression-webpack-plugin.
+4. Add readme.
+
+### Thoughts
+
+1. Step by step is important.
 
 ### Link(s) to work
 
