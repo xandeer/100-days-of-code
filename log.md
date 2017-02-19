@@ -159,6 +159,10 @@
   * [Today's Progress](#todays-progress-45)
   * [Thoughts](#thoughts-38)
   * [Link(s) to work](#links-to-work-24)
+- [Day 46: February 19, 2017](#day-46-february-19-2017)
+  * [Today's Progress](#todays-progress-46)
+  * [Thoughts](#thoughts-39)
+  * [Link(s) to work](#links-to-work-25)
 
 <!-- tocstop -->
 
@@ -783,6 +787,21 @@ then practice the features that I may use. Read -> Try
 ### Thoughts
 
 1. Step by step is important.
+
+### Link(s) to work
+
+1. [Gank.io](http://xandeer.me/gank)
+
+
+## Day 46: February 19, 2017
+
+### Today's Progress
+
+1. Change theme with a circle color picker.
+
+### Thoughts
+
+1. Use CSS3 transition to make animations.
 
 ### Link(s) to work
 
