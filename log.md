@@ -163,6 +163,10 @@
   * [Today's Progress](#todays-progress-46)
   * [Thoughts](#thoughts-39)
   * [Link(s) to work](#links-to-work-25)
+- [Day 47: February 20, 2017](#day-47-february-20-2017)
+  * [Today's Progress](#todays-progress-47)
+  * [Thoughts](#thoughts-40)
+  * [Link(s) to work](#links-to-work-26)
 
 <!-- tocstop -->
 
@@ -802,6 +806,22 @@ then practice the features that I may use. Read -> Try
 ### Thoughts
 
 1. Use CSS3 transition to make animations.
+
+### Link(s) to work
+
+1. [Gank.io](http://xandeer.me/gank)
+
+
+## Day 47: February 20, 2017
+
+### Today's Progress
+
+1. Use local storage to save the mode and theme.
+2. Fix a bug about swiper pagination's rerender.
+
+### Thoughts
+
+1. Find the reason of problems at first time.
 
 ### Link(s) to work
 
