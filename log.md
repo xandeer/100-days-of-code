@@ -167,6 +167,14 @@
   * [Today's Progress](#todays-progress-47)
   * [Thoughts](#thoughts-40)
   * [Link(s) to work](#links-to-work-26)
+- [Day 48: February 21, 2017](#day-48-february-21-2017)
+  * [Today's Progress](#todays-progress-48)
+  * [Thoughts](#thoughts-41)
+  * [Link(s) to work](#links-to-work-27)
+- [Day 49: February 22, 2017](#day-49-february-22-2017)
+  * [Today's Progress](#todays-progress-49)
+  * [Thoughts](#thoughts-42)
+  * [Link(s) to work](#links-to-work-28)
 
 <!-- tocstop -->
 
@@ -822,6 +830,39 @@ then practice the features that I may use. Read -> Try
 ### Thoughts
 
 1. Find the reason of problems at first time.
+
+### Link(s) to work
+
+1. [Gank.io](http://xandeer.me/gank)
+
+
+## Day 48: February 21, 2017
+
+### Today's Progress
+
+1. See more about Vue's transition.
+2. Change loading spinner's position to bottom.
+3. Change welfare page's layout.
+4. Add HTML branch.
+
+### Thoughts
+
+1. Some problems I think they are easy, but they may give me surprises after I try to resolve them
+
+### Link(s) to work
+
+1. [Gank.io](http://xandeer.me/gank)
+
+
+## Day 49: February 22, 2017
+
+### Today's Progress
+
+1. Write a summary about gank project.
+
+### Thoughts
+
+1. [summary](http://xandeer.me/2017/02/Vue-%E5%88%9D%E4%BD%93%E9%AA%8C/)
 
 ### Link(s) to work
 
