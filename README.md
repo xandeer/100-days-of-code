@@ -65,6 +65,9 @@
 | [day 49][49]
 |
 
+| [day 50][50]
+|
+
 ## Contents
 * [Rules](rules.md)
 * [Log - click here to see my progress](log.md)
@@ -84,6 +87,7 @@
 10. [Vue Template for Webpack](https://github.com/xandeer/webpack)
 11. [Simon Game](http://xandeer.me/100-days-of-code/simon)
 12. [Gank.io](http://xandeer.me/gank)
+13. [Resume](http://xandeer.me/resume)
 
 ## Contributors
 Me,/xandeer
@@ -156,3 +160,4 @@ Me,/xandeer
 [47]: log.md#day-47-february-20-2017
 [48]: log.md#day-48-february-21-2017
 [49]: log.md#day-49-february-22-2017
+[50]: log.md#day-50-february-23-2017

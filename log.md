@@ -175,6 +175,9 @@
   * [Today's Progress](#todays-progress-49)
   * [Thoughts](#thoughts-42)
   * [Link(s) to work](#links-to-work-28)
+- [Day 50: February 23, 2017](#day-50-february-23-2017)
+  * [Today's Progress](#todays-progress-50)
+  * [Link(s) to work](#links-to-work-29)
 
 <!-- tocstop -->
 
@@ -867,3 +870,15 @@ then practice the features that I may use. Read -> Try
 ### Link(s) to work
 
 1. [Gank.io](http://xandeer.me/gank)
+
+
+## Day 50: February 23, 2017
+
+### Today's Progress
+
+1. Finish a static web for resume.
+
+
+### Link(s) to work
+
+1. [Resume](http://xandeer.me/resume)
