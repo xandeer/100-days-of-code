@@ -178,6 +178,9 @@
 - [Day 50: February 23, 2017](#day-50-february-23-2017)
   * [Today's Progress](#todays-progress-50)
   * [Link(s) to work](#links-to-work-29)
+- [Day 51: February 24, 2017](#day-51-february-24-2017)
+  * [Today's Progress](#todays-progress-51)
+  * [Link(s) to work](#links-to-work-30)
 
 <!-- tocstop -->
 
@@ -878,6 +881,16 @@ then practice the features that I may use. Read -> Try
 
 1. Finish a static web for resume.
 
+### Link(s) to work
+
+1. [Resume](http://xandeer.me/resume)
+
+
+## Day 51: February 24, 2017
+
+### Today's Progress
+
+1. Divide resume to several modules.
 
 ### Link(s) to work
 
