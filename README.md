@@ -67,6 +67,7 @@
 
 | [day 50][50]
 | [day 51][51]
+| [day 52][52]
 |
 
 ## Contents
@@ -163,3 +164,4 @@ Me,/xandeer
 [49]: log.md#day-49-february-22-2017
 [50]: log.md#day-50-february-23-2017
 [51]: log.md#day-51-february-24-2017
+[52]: log.md#day-52-february-25-2017
