@@ -185,6 +185,10 @@
   - [Day 52: February 25, 2017](#day-52-february-25-2017)
     - [Today's Progress](#todays-progress-52)
     - [Thoughts](#thoughts-43)
+  - [Day 53: February 26, 2017](#day-53-february-26-2017)
+    - [Today's Progress](#todays-progress-53)
+    - [Thoughts](#thoughts-44)
+    - [Link(s) to work](#links-to-work-31)
 
 <!-- /TOC -->
 
@@ -910,3 +914,18 @@ then practice the features that I may use. Read -> Try
 ### Thoughts
 
 1. VSCode is a nice editor.
+
+
+## Day 53: February 26, 2017
+
+### Today's Progress
+
+1. Fix 3 small bugs for gank.
+
+### Thoughts
+
+1. Maybe I need write some comments next time.
+
+### Link(s) to work
+
+1. [Gank.io](http://xandeer.me/gank)
