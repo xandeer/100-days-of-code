@@ -189,6 +189,8 @@
     - [Today's Progress](#todays-progress-53)
     - [Thoughts](#thoughts-44)
     - [Link(s) to work](#links-to-work-31)
+  - [Day 54: February 27, 2017](#day-54-february-27-2017)
+    - [Today's Progress](#todays-progress-54)
 
 <!-- /TOC -->
 
@@ -929,3 +931,11 @@ then practice the features that I may use. Read -> Try
 ### Link(s) to work
 
 1. [Gank.io](http://xandeer.me/gank)
+
+
+## Day 54: February 27, 2017
+
+### Today's Progress
+
+1. Review vue's documents.
+2. Read some front-end articles.
