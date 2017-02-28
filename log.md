@@ -191,6 +191,10 @@
     - [Link(s) to work](#links-to-work-31)
   - [Day 54: February 27, 2017](#day-54-february-27-2017)
     - [Today's Progress](#todays-progress-54)
+  - [Day 55: February 28, 2017](#day-55-february-28-2017)
+    - [Today's Progress](#todays-progress-55)
+    - [Thoughts](#thoughts-45)
+    - [Link(s) to work](#links-to-work-32)
 
 <!-- /TOC -->
 
@@ -939,3 +943,21 @@ then practice the features that I may use. Read -> Try
 
 1. Review vue's documents.
 2. Read some front-end articles.
+
+
+## Day 55: February 28, 2017
+
+### Today's Progress
+
+1. Replace http with https for xandeer.me.
+2. Read vue's components' document.
+3. Init vue-circle-choice.
+
+### Thoughts
+
+1. Start is difficult.
+
+### Link(s) to work
+
+1. [xandeer](https://xandeer.me)
+2. [vue-circle-choice](https://github.com/xandeer/vue-circle-choice)
