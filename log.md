@@ -195,6 +195,10 @@
     - [Today's Progress](#todays-progress-55)
     - [Thoughts](#thoughts-45)
     - [Link(s) to work](#links-to-work-32)
+  - [Day 56: March 01, 2017](#day-56-march-01-2017)
+    - [Today's Progress](#todays-progress-56)
+    - [Thoughts](#thoughts-46)
+    - [Link(s) to work](#links-to-work-33)
 
 <!-- /TOC -->
 
@@ -961,3 +965,19 @@ then practice the features that I may use. Read -> Try
 
 1. [xandeer](https://xandeer.me)
 2. [vue-circle-choice](https://github.com/xandeer/vue-circle-choice)
+
+
+## Day 56: March 01, 2017
+
+### Today's Progress
+
+1. Finish vue-circle-choice.
+2. Read ES6's moudle document.
+
+### Thoughts
+
+1. I need know what I write.
+
+### Link(s) to work
+
+1. [vue-circle-choice](https://github.com/xandeer/vue-circle-choice)
