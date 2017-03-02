@@ -199,6 +199,10 @@
     - [Today's Progress](#todays-progress-56)
     - [Thoughts](#thoughts-46)
     - [Link(s) to work](#links-to-work-33)
+  - [Day 57: March 02, 2017](#day-57-march-02-2017)
+    - [Today's Progress](#todays-progress-57)
+    - [Thoughts](#thoughts-47)
+    - [Link(s) to work](#links-to-work-34)
 
 <!-- /TOC -->
 
@@ -981,3 +985,19 @@ then practice the features that I may use. Read -> Try
 ### Link(s) to work
 
 1. [vue-circle-choice](https://github.com/xandeer/vue-circle-choice)
+
+
+## Day 57: March 02, 2017
+
+### Today's Progress
+
+1. Use vue-circle-choice in gank.
+2. Read ES6's module & promise documents.
+
+### Thoughts
+
+1. Read books can get knowledges quickly.
+
+### Link(s) to work
+
+1. [Gank.io](http://xandeer.me/gank)
