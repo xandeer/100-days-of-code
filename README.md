@@ -73,6 +73,7 @@
 | [day 55][55]
 | [day 56][56]
 | [day 57][57]
+| [day 58][58]
 |
 
 ## Contents
@@ -93,14 +94,16 @@
 9. [Tic Tac Toe](http://xandeer.me/100-days-of-code/tic-tac-toe)
 10. [Vue Template for Webpack](https://github.com/xandeer/webpack)
 11. [Simon Game](http://xandeer.me/100-days-of-code/simon)
-12. [Gank.io](http://xandeer.me/gank)
-13. [Resume](http://xandeer.me/resume)
+12. [Gank.io](https://github.com/xandeer/gank)
+13. [Resume](https://github.com/xandeer/resume)
+14. [vue-circle-choice](https://github.com/xandeer/vue-circle-choice)
 
 ## Contributors
 Me,/xandeer
 
 - Free Code Camp [profile](https://www.freecodecamp.com/xandeer)
 - Code Pen [profile](http://codepen.io/xandeer/)
+- [Blog](https://xandeer.me)
 
 ## If you've decided to join:
 1. Read [Join the #100DaysOfCode](https://medium.freecodecamp.com/join-the-100daysofcode-556ddb4579e4)
@@ -175,3 +178,4 @@ Me,/xandeer
 [55]: log.md#day-55-february-28-2017
 [56]: log.md#day-56-march-01-2017
 [57]: log.md#day-57-march-02-2017
+[58]: log.md#day-58-march-03-2017

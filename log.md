@@ -203,6 +203,10 @@
     - [Today's Progress](#todays-progress-57)
     - [Thoughts](#thoughts-47)
     - [Link(s) to work](#links-to-work-34)
+  - [Day 58: March 03, 2017](#day-58-march-03-2017)
+    - [Today's Progress](#todays-progress-58)
+    - [Thoughts](#thoughts-48)
+    - [Link(s) to work](#links-to-work-35)
 
 <!-- /TOC -->
 
@@ -1001,3 +1005,18 @@ then practice the features that I may use. Read -> Try
 ### Link(s) to work
 
 1. [Gank.io](http://xandeer.me/gank)
+
+
+## Day 58: March 03, 2017
+
+### Today's Progress
+
+1. Write a circular navigation, but haven't finished.
+
+### Thoughts
+
+1. Thoughts are more important than implements.
+
+### Link(s) to work
+
+1. [Circulr-Nav](https://github.com/xandeer/vue-circle-choice)
