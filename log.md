@@ -207,6 +207,9 @@
     - [Today's Progress](#todays-progress-58)
     - [Thoughts](#thoughts-48)
     - [Link(s) to work](#links-to-work-35)
+  - [Day 59: March 04, 2017](#day-59-march-04-2017)
+    - [Today's Progress](#todays-progress-59)
+    - [Link(s) to work](#links-to-work-36)
 
 <!-- /TOC -->
 
@@ -1016,6 +1019,17 @@ then practice the features that I may use. Read -> Try
 ### Thoughts
 
 1. Thoughts are more important than implements.
+
+### Link(s) to work
+
+1. [Circulr-Nav](https://github.com/xandeer/vue-circle-choice)
+
+
+## Day 59: March 04, 2017
+
+### Today's Progress
+
+1. Finish basic circular nav, but can't with icon.
 
 ### Link(s) to work
 
