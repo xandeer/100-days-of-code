@@ -210,6 +210,10 @@
   - [Day 59: March 04, 2017](#day-59-march-04-2017)
     - [Today's Progress](#todays-progress-59)
     - [Link(s) to work](#links-to-work-36)
+  - [Day 60: March 05, 2017](#day-60-march-05-2017)
+    - [Today's Progress](#todays-progress-60)
+    - [Thoughts](#thoughts-49)
+    - [Link(s) to work](#links-to-work-37)
 
 <!-- /TOC -->
 
@@ -1030,6 +1034,22 @@ then practice the features that I may use. Read -> Try
 ### Today's Progress
 
 1. Finish basic circular nav, but can't with icon.
+
+### Link(s) to work
+
+1. [Circulr-Nav](https://github.com/xandeer/vue-circle-choice)
+
+
+## Day 60: March 05, 2017
+
+### Today's Progress
+
+1. Finish circular nav.
+2. Study dpr(device pixel ratio).
+
+### Thoughts
+
+1. Draw knowledges' maps, then get it one by one.
 
 ### Link(s) to work
 

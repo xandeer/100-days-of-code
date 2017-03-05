@@ -75,6 +75,7 @@
 | [day 57][57]
 | [day 58][58]
 | [day 59][59]
+| [day 60][60]
 |
 
 ## Contents
@@ -181,3 +182,5 @@ Me,/xandeer
 [57]: log.md#day-57-march-02-2017
 [58]: log.md#day-58-march-03-2017
 [59]: log.md#day-59-march-04-2017
+[59]: log.md#day-59-march-04-2017
+[60]: log.md#day-60-march-05-2017
