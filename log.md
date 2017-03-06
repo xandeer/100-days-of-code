@@ -214,6 +214,9 @@
     - [Today's Progress](#todays-progress-60)
     - [Thoughts](#thoughts-49)
     - [Link(s) to work](#links-to-work-37)
+  - [Day 61: March 06, 2017](#day-61-march-06-2017)
+    - [Today's Progress](#todays-progress-61)
+    - [Link(s) to work](#links-to-work-38)
 
 <!-- /TOC -->
 
@@ -1054,3 +1057,14 @@ then practice the features that I may use. Read -> Try
 ### Link(s) to work
 
 1. [Circulr-Nav](https://github.com/xandeer/vue-circle-choice)
+
+
+## Day 61: March 06, 2017
+
+### Today's Progress
+
+1. Update resume.
+
+### Link(s) to work
+
+1. [Resume](https://github.com/xandeer/resume)
