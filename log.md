@@ -220,6 +220,9 @@
   - [Day 61: March 07, 2017](#day-61-march-07-2017)
     - [Today's Progress](#todays-progress-62)
     - [Link(s) to work](#links-to-work-39)
+  - [Day 63: March 08, 2017](#day-63-march-08-2017)
+    - [Today's Progress](#todays-progress-63)
+    - [Link(s) to work](#links-to-work-40)
 
 <!-- /TOC -->
 
@@ -1082,3 +1085,17 @@ then practice the features that I may use. Read -> Try
 ### Link(s) to work
 
 1. [Gank.io](https://github.com/xandeer/gank)
+
+
+## Day 63: March 08, 2017
+
+### Today's Progress
+
+1. Update resume.
+2. Read how to resolve css & js compatible problems.
+3. Fix a bug about gank, it's navigation state didn't change when back router history.
+
+### Link(s) to work
+
+1. [Resume](https://github.com/xandeer/resume)
+2. [Gank.io](https://github.com/xandeer/gank)
