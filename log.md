@@ -223,6 +223,9 @@
   - [Day 63: March 08, 2017](#day-63-march-08-2017)
     - [Today's Progress](#todays-progress-63)
     - [Link(s) to work](#links-to-work-40)
+  - [Day 64: March 09, 2017](#day-64-march-09-2017)
+    - [Today's Progress](#todays-progress-64)
+    - [Thoughts](#thoughts-50)
 
 <!-- /TOC -->
 
@@ -1099,3 +1102,15 @@ then practice the features that I may use. Read -> Try
 
 1. [Resume](https://github.com/xandeer/resume)
 2. [Gank.io](https://github.com/xandeer/gank)
+
+
+## Day 64: March 09, 2017
+
+### Today's Progress
+
+1. Fix device orientation problem.
+2. Try leancloud with node.
+
+### Thoughts
+
+1. Compatible problems are awful, they always took me much time.
