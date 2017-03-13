@@ -226,6 +226,8 @@
   - [Day 64: March 09, 2017](#day-64-march-09-2017)
     - [Today's Progress](#todays-progress-64)
     - [Thoughts](#thoughts-50)
+  - [Day 65: March 13, 2017](#day-65-march-13-2017)
+    - [Today's Progress](#todays-progress-65)
 
 <!-- /TOC -->
 
@@ -1114,3 +1116,12 @@ then practice the features that I may use. Read -> Try
 ### Thoughts
 
 1. Compatible problems are awful, they always took me much time.
+
+
+## Day 65: March 13, 2017
+
+### Today's Progress
+
+1. Learn ES6's Symbol, Proxy, Set and Map.
+2. Read react introduction.
+3. Read weex's documents, then drop it now.
