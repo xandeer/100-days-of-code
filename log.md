@@ -230,6 +230,10 @@
     - [Today's Progress](#todays-progress-65)
   - [Day 66: March 14, 2017](#day-66-march-14-2017)
     - [Today's Progress](#todays-progress-66)
+  - [Day 67: March 15, 2017](#day-67-march-15-2017)
+    - [Today's Progress](#todays-progress-67)
+    - [Thoughts](#thoughts-51)
+    - [Link(s) to work](#links-to-work-41)
 
 <!-- /TOC -->
 
@@ -1135,3 +1139,18 @@ then practice the features that I may use. Read -> Try
 
 1. Scan the react projects with the most stars.
 2. Look for NeteaseMusic API.
+
+
+## Day 67: March 15, 2017
+
+### Today's Progress
+
+1. Write react demo codes with ruanf's repository.
+
+### Thoughts
+
+1. React and vue have similar features. 
+
+### Link(s) to work
+
+1. [react-demo](https://github.com/xandeer/react-demo)

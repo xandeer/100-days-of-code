@@ -84,6 +84,7 @@
 | [day 64][64]
 | [day 65][65]
 | [day 66][66]
+| [day 67][67]
 |
 
 ## Contents
@@ -107,6 +108,7 @@
 12. [Gank.io](https://github.com/xandeer/gank)
 13. [Resume](https://github.com/xandeer/resume)
 14. [vue-circle-choice](https://github.com/xandeer/vue-circle-choice)
+15. [react-demo](https://github.com/xandeer/react-demo)
 
 ## Contributors
 Me,/xandeer
@@ -197,3 +199,4 @@ Me,/xandeer
 [64]: log.md#day-64-march-09-2017
 [65]: log.md#day-65-march-13-2017
 [66]: log.md#day-66-march-14-2017
+[67]: log.md#day-67-march-15-2017
