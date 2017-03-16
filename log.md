@@ -234,6 +234,8 @@
     - [Today's Progress](#todays-progress-67)
     - [Thoughts](#thoughts-51)
     - [Link(s) to work](#links-to-work-41)
+  - [Day 68: March 16, 2017](#day-68-march-16-2017)
+    - [Today's Progress](#todays-progress-68)
 
 <!-- /TOC -->
 
@@ -1154,3 +1156,10 @@ then practice the features that I may use. Read -> Try
 ### Link(s) to work
 
 1. [react-demo](https://github.com/xandeer/react-demo)
+
+
+## Day 68: March 16, 2017
+
+### Today's Progress
+
+1. Read some articles about browers' compatibilities.
