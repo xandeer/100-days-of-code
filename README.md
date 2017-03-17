@@ -86,6 +86,7 @@
 | [day 66][66]
 | [day 67][67]
 | [day 68][68]
+| [day 69][69]
 |
 
 ## Contents
@@ -202,3 +203,4 @@ Me,/xandeer
 [66]: log.md#day-66-march-14-2017
 [67]: log.md#day-67-march-15-2017
 [68]: log.md#day-68-march-16-2017
+[69]: log.md#day-69-march-17-2017
