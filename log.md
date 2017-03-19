@@ -238,6 +238,8 @@
     - [Today's Progress](#todays-progress-68)
   - [Day 69: March 17, 2017](#day-69-march-17-2017)
     - [Today's Progress](#todays-progress-69)
+  - [Day 70: March 19, 2017](#day-70-march-19-2017)
+    - [Today's Progress](#todays-progress-70)
 
 <!-- /TOC -->
 
@@ -1172,3 +1174,10 @@ then practice the features that I may use. Read -> Try
 ### Today's Progress
 
 1. Review object and prototype.
+
+
+## Day 70: March 19, 2017
+
+### Today's Progress
+
+1. Read yarn documents, then try it.

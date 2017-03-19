@@ -89,6 +89,9 @@
 | [day 69][69]
 |
 
+| [day70][70]
+|
+
 ## Contents
 * [Rules](rules.md)
 * [Log - click here to see my progress](log.md)
@@ -204,3 +207,4 @@ Me,/xandeer
 [67]: log.md#day-67-march-15-2017
 [68]: log.md#day-68-march-16-2017
 [69]: log.md#day-69-march-17-2017
+[70]: log.md#day-70-march-19-2017
