@@ -90,6 +90,7 @@
 |
 
 | [day70][70]
+| [day71][71]
 |
 
 ## Contents
@@ -208,3 +209,4 @@ Me,/xandeer
 [68]: log.md#day-68-march-16-2017
 [69]: log.md#day-69-march-17-2017
 [70]: log.md#day-70-march-19-2017
+[71]: log.md#day-71-march-21-2017

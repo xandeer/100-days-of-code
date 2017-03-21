@@ -240,6 +240,8 @@
     - [Today's Progress](#todays-progress-69)
   - [Day 70: March 19, 2017](#day-70-march-19-2017)
     - [Today's Progress](#todays-progress-70)
+  - [Day 71: March 21, 2017](#day-71-march-21-2017)
+    - [Today's Progress](#todays-progress-71)
 
 <!-- /TOC -->
 
@@ -1181,3 +1183,10 @@ then practice the features that I may use. Read -> Try
 ### Today's Progress
 
 1. Read yarn documents, then try it.
+
+
+## Day 71: March 21, 2017
+
+### Today's Progress
+
+1. Read the codes of axios.
