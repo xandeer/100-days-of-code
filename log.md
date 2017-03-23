@@ -242,6 +242,8 @@
     - [Today's Progress](#todays-progress-70)
   - [Day 71: March 21, 2017](#day-71-march-21-2017)
     - [Today's Progress](#todays-progress-71)
+  - [Day 72: March 23, 2017](#day-72-march-23-2017)
+    - [Today's Progress](#todays-progress-72)
 
 <!-- /TOC -->
 
@@ -1190,3 +1192,10 @@ then practice the features that I may use. Read -> Try
 ### Today's Progress
 
 1. Read the codes of axios.
+
+
+## Day 72: March 23, 2017
+
+### Today's Progress
+
+1. Try to use chartjs.
