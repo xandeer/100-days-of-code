@@ -244,6 +244,10 @@
     - [Today's Progress](#todays-progress-71)
   - [Day 72: March 23, 2017](#day-72-march-23-2017)
     - [Today's Progress](#todays-progress-72)
+  - [Day 73: March 25, 2017](#day-73-march-25-2017)
+    - [Today's Progress](#todays-progress-73)
+    - [Thoughts](#thoughts-52)
+    - [Link(s) to work](#links-to-work-42)
 
 <!-- /TOC -->
 
@@ -1199,3 +1203,18 @@ then practice the features that I may use. Read -> Try
 ### Today's Progress
 
 1. Try to use chartjs.
+
+
+## Day 73: March 25, 2017
+
+### Today's Progress
+
+1. Try to use Echarts.
+
+### Thoughts
+
+1. There's some data's change that made some side affects.
+
+### Link(s) to work
+
+1. [echarts-demo](https://github.com/xandeer/echarts-demo)
