@@ -248,6 +248,8 @@
     - [Today's Progress](#todays-progress-73)
     - [Thoughts](#thoughts-52)
     - [Link(s) to work](#links-to-work-42)
+  - [Day 74: April 04, 2017](#day-74-april-04-2017)
+    - [Today's Progress](#todays-progress-74)
 
 <!-- /TOC -->
 
@@ -1218,3 +1220,10 @@ then practice the features that I may use. Read -> Try
 ### Link(s) to work
 
 1. [echarts-demo](https://github.com/xandeer/echarts-demo)
+
+
+## Day 74: April 04, 2017
+
+### Today's Progress
+
+1. Read Framework7's documents.
