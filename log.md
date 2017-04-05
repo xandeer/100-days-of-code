@@ -250,6 +250,8 @@
     - [Link(s) to work](#links-to-work-42)
   - [Day 74: April 04, 2017](#day-74-april-04-2017)
     - [Today's Progress](#todays-progress-74)
+  - [Day 75: April 05, 2017](#day-75-april-05-2017)
+    - [Today's Progress](#todays-progress-75)
 
 <!-- /TOC -->
 
@@ -1227,3 +1229,11 @@ then practice the features that I may use. Read -> Try
 ### Today's Progress
 
 1. Read Framework7's documents.
+
+
+## Day 75: April 05, 2017
+
+### Today's Progress
+
+1. Read Cordova's documents.
+2. Start writing code for work.
