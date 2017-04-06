@@ -252,6 +252,9 @@
     - [Today's Progress](#todays-progress-74)
   - [Day 75: April 05, 2017](#day-75-april-05-2017)
     - [Today's Progress](#todays-progress-75)
+  - [Day 76: April 06, 2017](#day-76-april-06-2017)
+    - [Today's Progress](#todays-progress-76)
+    - [Thoughts](#thoughts-53)
 
 <!-- /TOC -->
 
@@ -1237,3 +1240,13 @@ then practice the features that I may use. Read -> Try
 
 1. Read Cordova's documents.
 2. Start writing code for work.
+
+## Day 76: April 06, 2017
+
+### Today's Progress
+
+1. Finish welcome page and the half of signin page.
+
+### Thoughts
+
+1. Find the real problem in JavaScript library is easier than some other languages.
