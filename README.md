@@ -96,6 +96,7 @@
 | [day74][74]
 | [day75][75]
 | [day76][76]
+| [day77][77]
 |
 
 ## Contents
@@ -220,3 +221,4 @@ Me,/xandeer
 [74]: log.md#day-74-april-04-2017
 [75]: log.md#day-75-april-05-2017
 [76]: log.md#day-76-april-06-2017
+[77]: log.md#day-77-april-07-2017

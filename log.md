@@ -255,6 +255,8 @@
   - [Day 76: April 06, 2017](#day-76-april-06-2017)
     - [Today's Progress](#todays-progress-76)
     - [Thoughts](#thoughts-53)
+  - [Day 77: April 07, 2017](#day-77-april-07-2017)
+    - [Today's Progress](#todays-progress-77)
 
 <!-- /TOC -->
 
@@ -1241,6 +1243,7 @@ then practice the features that I may use. Read -> Try
 1. Read Cordova's documents.
 2. Start writing code for work.
 
+
 ## Day 76: April 06, 2017
 
 ### Today's Progress
@@ -1250,3 +1253,10 @@ then practice the features that I may use. Read -> Try
 ### Thoughts
 
 1. Find the real problem in JavaScript library is easier than some other languages.
+
+
+## Day 77: April 07, 2017
+
+### Today's Progress
+
+1. Finish signin and signup page.
