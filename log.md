@@ -257,6 +257,8 @@
     - [Thoughts](#thoughts-53)
   - [Day 77: April 07, 2017](#day-77-april-07-2017)
     - [Today's Progress](#todays-progress-77)
+  - [Day 78: April 09, 2017](#day-78-april-09-2017)
+    - [Today's Progress](#todays-progress-78)
 
 <!-- /TOC -->
 
@@ -1260,3 +1262,10 @@ then practice the features that I may use. Read -> Try
 ### Today's Progress
 
 1. Finish signin and signup page.
+
+
+## Day 78: April 09, 2017
+
+### Today's Progress
+
+1. Read Cordova's documents and f7-vue-webpack-template's hooks.
