@@ -259,6 +259,8 @@
     - [Today's Progress](#todays-progress-77)
   - [Day 78: April 09, 2017](#day-78-april-09-2017)
     - [Today's Progress](#todays-progress-78)
+  - [Day 79: April 10, 2017](#day-79-april-10-2017)
+    - [Today's Progress](#todays-progress-79)
 
 <!-- /TOC -->
 
@@ -1269,3 +1271,11 @@ then practice the features that I may use. Read -> Try
 ### Today's Progress
 
 1. Read Cordova's documents and f7-vue-webpack-template's hooks.
+
+
+## Day 79: April 10, 2017
+
+### Today's Progress
+
+1. Use i18n for vue.
+2. Try to use keychain.
