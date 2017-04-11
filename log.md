@@ -261,6 +261,8 @@
     - [Today's Progress](#todays-progress-78)
   - [Day 79: April 10, 2017](#day-79-april-10-2017)
     - [Today's Progress](#todays-progress-79)
+  - [Day 80: April 11, 2017](#day-80-april-11-2017)
+    - [Today's Progress](#todays-progress-80)
 
 <!-- /TOC -->
 
@@ -1279,3 +1281,11 @@ then practice the features that I may use. Read -> Try
 
 1. Use i18n for vue.
 2. Try to use keychain.
+
+
+## Day 80: April 11, 2017
+
+### Today's Progress
+
+1. Use keychain.
+2. Scan the f7-vue-webpack-template's dev settings.
