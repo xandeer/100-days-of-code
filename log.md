@@ -263,6 +263,9 @@
     - [Today's Progress](#todays-progress-79)
   - [Day 80: April 11, 2017](#day-80-april-11-2017)
     - [Today's Progress](#todays-progress-80)
+  - [Day 81: April 12, 2017](#day-81-april-12-2017)
+    - [Today's Progress](#todays-progress-81)
+    - [Thoughts](#thoughts-54)
 
 <!-- /TOC -->
 
@@ -1289,3 +1292,14 @@ then practice the features that I may use. Read -> Try
 
 1. Use keychain.
 2. Scan the f7-vue-webpack-template's dev settings.
+
+
+## Day 81: April 12, 2017
+
+### Today's Progress
+1. Write a toast component.
+2. Learn how to use webpack-dev-server's proxy.
+
+### Thoughts
+
+1. Have to read the original documents. After that, if problem hasn't been resolved, I'll need to find the source codes.

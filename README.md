@@ -102,6 +102,8 @@
 |
 
 | [day80][80]
+| [day81][81]
+|
 
 ## Contents
 * [Rules](rules.md)
@@ -229,3 +231,4 @@ Me,/xandeer
 [78]: log.md#day-78-april-09-2017
 [79]: log.md#day-79-april-10-2017
 [80]: log.md#day-80-april-11-2017
+[81]: log.md#day-81-april-12-2017
