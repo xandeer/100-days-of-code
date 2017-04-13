@@ -266,6 +266,9 @@
   - [Day 81: April 12, 2017](#day-81-april-12-2017)
     - [Today's Progress](#todays-progress-81)
     - [Thoughts](#thoughts-54)
+  - [Day 82: April 13, 2017](#day-82-april-13-2017)
+    - [Today's Progress](#todays-progress-82)
+    - [Thoughts](#thoughts-55)
 
 <!-- /TOC -->
 
@@ -1297,9 +1300,22 @@ then practice the features that I may use. Read -> Try
 ## Day 81: April 12, 2017
 
 ### Today's Progress
+
 1. Write a toast component.
 2. Learn how to use webpack-dev-server's proxy.
 
 ### Thoughts
 
 1. Have to read the original documents. After that, if problem hasn't been resolved, I'll need to find the source codes.
+
+
+## Day 82: April 13, 2017
+
+### Today's Progress
+
+1. Finish signIn and signUp's ajax request.
+2. Learn to use vue's mixin.
+
+### Thoughts
+
+1. I've learned a lot about colleagues.
