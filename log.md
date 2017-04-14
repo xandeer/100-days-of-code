@@ -1319,3 +1319,10 @@ then practice the features that I may use. Read -> Try
 ### Thoughts
 
 1. I've learned a lot about colleagues.
+
+
+## Day 83: April 14, 2017
+
+### Today's Progress
+
+1. Use vue's mixin to optimize the code.

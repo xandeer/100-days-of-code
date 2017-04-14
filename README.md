@@ -104,6 +104,7 @@
 | [day80][80]
 | [day81][81]
 | [day82][82]
+| [day83][83]
 |
 
 ## Contents
@@ -234,3 +235,4 @@ Me,/xandeer
 [80]: log.md#day-80-april-11-2017
 [81]: log.md#day-81-april-12-2017
 [82]: log.md#day-82-april-13-2017
+[83]: log.md#day-83-april-14-2017
