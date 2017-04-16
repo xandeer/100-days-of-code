@@ -1326,3 +1326,10 @@ then practice the features that I may use. Read -> Try
 ### Today's Progress
 
 1. Use vue's mixin to optimize the code.
+
+
+## Day 84: April 16, 2017
+
+### Today's Progress
+
+1. Read webpack's core concepts.
