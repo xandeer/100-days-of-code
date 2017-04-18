@@ -269,6 +269,12 @@
   - [Day 82: April 13, 2017](#day-82-april-13-2017)
     - [Today's Progress](#todays-progress-82)
     - [Thoughts](#thoughts-55)
+  - [Day 83: April 14, 2017](#day-83-april-14-2017)
+    - [Today's Progress](#todays-progress-83)
+  - [Day 84: April 16, 2017](#day-84-april-16-2017)
+    - [Today's Progress](#todays-progress-84)
+  - [Day 85: April 18, 2017](#day-85-april-18-2017)
+    - [Today's Progress](#todays-progress-85)
 
 <!-- /TOC -->
 
@@ -1333,3 +1339,11 @@ then practice the features that I may use. Read -> Try
 ### Today's Progress
 
 1. Read webpack's core concepts.
+
+
+## Day 85: April 18, 2017
+
+### Today's Progress
+
+1. Write an article about modify a plugin of vscode.
+2. Read the webpack settings from vue-cli.
