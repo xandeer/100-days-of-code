@@ -1347,3 +1347,10 @@ then practice the features that I may use. Read -> Try
 
 1. Write an article about modify a plugin of vscode.
 2. Read the webpack settings from vue-cli.
+
+
+## Day 86: April 19, 2017
+
+### Today's Progress
+
+1. Modify cordova template framework7 vue webpack setting.
