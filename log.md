@@ -275,6 +275,10 @@
     - [Today's Progress](#todays-progress-84)
   - [Day 85: April 18, 2017](#day-85-april-18-2017)
     - [Today's Progress](#todays-progress-85)
+  - [Day 86: April 19, 2017](#day-86-april-19-2017)
+    - [Today's Progress](#todays-progress-86)
+  - [Day 87: April 20, 2017](#day-87-april-20-2017)
+    - [Today's Progress](#todays-progress-87)
 
 <!-- /TOC -->
 
@@ -1354,3 +1358,10 @@ then practice the features that I may use. Read -> Try
 ### Today's Progress
 
 1. Modify cordova template framework7 vue webpack setting.
+
+
+## Day 87: April 20, 2017
+
+### Today's Progress
+
+1. Do some F7 page settings.
