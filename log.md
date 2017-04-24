@@ -1365,3 +1365,14 @@ then practice the features that I may use. Read -> Try
 ### Today's Progress
 
 1. Do some F7 page settings.
+
+
+## Day 88: April 24, 2017
+
+### Today's Progress
+
+1. Start settings page.
+
+### Thoughts
+
+1. Think more times about what to do.
