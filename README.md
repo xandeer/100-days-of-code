@@ -110,6 +110,7 @@
 | [day86][86]
 | [day87][87]
 | [day88][88]
+| [day89][89]
 |
 
 ## Contents
@@ -246,3 +247,4 @@ Me,/xandeer
 [86]: log.md#day-86-april-19-2017
 [87]: log.md#day-87-april-20-2017
 [88]: log.md#day-88-april-24-2017
+[89]: log.md#day-89-april-25-2017

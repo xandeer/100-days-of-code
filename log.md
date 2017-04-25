@@ -279,6 +279,11 @@
     - [Today's Progress](#todays-progress-86)
   - [Day 87: April 20, 2017](#day-87-april-20-2017)
     - [Today's Progress](#todays-progress-87)
+  - [Day 88: April 24, 2017](#day-88-april-24-2017)
+    - [Today's Progress](#todays-progress-88)
+    - [Thoughts](#thoughts-56)
+  - [Day 89: April 25, 2017](#day-89-april-25-2017)
+    - [Today's Progress](#todays-progress-89)
 
 <!-- /TOC -->
 
@@ -1376,3 +1381,10 @@ then practice the features that I may use. Read -> Try
 ### Thoughts
 
 1. Think more times about what to do.
+
+
+## Day 89: April 25, 2017
+
+### Today's Progress
+
+1. Finish the most of settings page.
