@@ -284,6 +284,8 @@
     - [Thoughts](#thoughts-56)
   - [Day 89: April 25, 2017](#day-89-april-25-2017)
     - [Today's Progress](#todays-progress-89)
+  - [Day 90: April 26, 2017](#day-90-april-26-2017)
+    - [Today's Progress](#todays-progress-90)
 
 <!-- /TOC -->
 
@@ -1395,11 +1397,3 @@ then practice the features that I may use. Read -> Try
 ### Today's Progress
 
 1. Finish idea lists page.
-
-### Thoughts
-
-
-
-### Link(s) to work
-
-
