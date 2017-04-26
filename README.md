@@ -113,6 +113,9 @@
 | [day89][89]
 |
 
+| [day90][90]
+|
+
 ## Contents
 * [Rules](rules.md)
 * [Log - click here to see my progress](log.md)
@@ -248,3 +251,4 @@ Me,/xandeer
 [87]: log.md#day-87-april-20-2017
 [88]: log.md#day-88-april-24-2017
 [89]: log.md#day-89-april-25-2017
+[90]: log.md#day-90-april-26-2017

@@ -1388,3 +1388,18 @@ then practice the features that I may use. Read -> Try
 ### Today's Progress
 
 1. Finish the most of settings page.
+
+
+## Day 90: April 26, 2017
+
+### Today's Progress
+
+1. Finish idea lists page.
+
+### Thoughts
+
+
+
+### Link(s) to work
+
+
