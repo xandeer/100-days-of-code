@@ -286,6 +286,8 @@
     - [Today's Progress](#todays-progress-89)
   - [Day 90: April 26, 2017](#day-90-april-26-2017)
     - [Today's Progress](#todays-progress-90)
+  - [Day 91: April 27, 2017](#day-91-april-27-2017)
+    - [Today's Progress](#todays-progress-91)
 
 <!-- /TOC -->
 
@@ -1397,3 +1399,11 @@ then practice the features that I may use. Read -> Try
 ### Today's Progress
 
 1. Finish idea lists page.
+
+
+## Day 91: April 27, 2017
+
+### Today's Progress
+
+1. Add events handler for idea lists page.
+2. Start idea detail page.
