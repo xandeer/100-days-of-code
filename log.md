@@ -1407,3 +1407,11 @@ then practice the features that I may use. Read -> Try
 
 1. Add events handler for idea lists page.
 2. Start idea detail page.
+
+
+## Day 92: April 28, 2017
+
+### Today's Progress
+
+1. Add idea detail page.
+2. Add comment popup.

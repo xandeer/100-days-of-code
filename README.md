@@ -115,6 +115,7 @@
 
 | [day90][90]
 | [day91][91]
+| [day92][92]
 |
 
 ## Contents
@@ -254,3 +255,4 @@ Me,/xandeer
 [89]: log.md#day-89-april-25-2017
 [90]: log.md#day-90-april-26-2017
 [91]: log.md#day-91-april-27-2017
+[92]: log.md#day-92-april-28-2017
