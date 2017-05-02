@@ -288,6 +288,10 @@
     - [Today's Progress](#todays-progress-90)
   - [Day 91: April 27, 2017](#day-91-april-27-2017)
     - [Today's Progress](#todays-progress-91)
+  - [Day 92: April 28, 2017](#day-92-april-28-2017)
+    - [Today's Progress](#todays-progress-92)
+  - [Day 93: May 02, 2017](#day-93-may-02-2017)
+    - [Today's Progress](#todays-progress-93)
 
 <!-- /TOC -->
 
@@ -1415,3 +1419,10 @@ then practice the features that I may use. Read -> Try
 
 1. Add idea detail page.
 2. Add comment popup.
+
+
+## Day 93: May 02, 2017
+
+### Today's Progress
+
+1. Add comment and idea popup by a same component.
