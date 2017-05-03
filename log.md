@@ -1426,3 +1426,10 @@ then practice the features that I may use. Read -> Try
 ### Today's Progress
 
 1. Add comment and idea popup by a same component.
+
+
+## Day 94: May 03, 2017
+
+### Today's Progress
+
+1. Fix a problem about navbar's align.
