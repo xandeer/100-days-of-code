@@ -292,6 +292,10 @@
     - [Today's Progress](#todays-progress-92)
   - [Day 93: May 02, 2017](#day-93-may-02-2017)
     - [Today's Progress](#todays-progress-93)
+  - [Day 94: May 03, 2017](#day-94-may-03-2017)
+    - [Today's Progress](#todays-progress-94)
+  - [Day 95: May 04, 2017](#day-95-may-04-2017)
+    - [Today's Progress](#todays-progress-95)
 
 <!-- /TOC -->
 
@@ -1433,3 +1437,11 @@ then practice the features that I may use. Read -> Try
 ### Today's Progress
 
 1. Fix a problem about navbar's align.
+
+
+## Day 95: May 04, 2017
+
+### Today's Progress
+
+1. Use vuex to store the data of ideas and comments.
+2. Add preload animations for ideas.

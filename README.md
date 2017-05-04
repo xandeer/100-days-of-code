@@ -118,6 +118,7 @@
 | [day92][92]
 | [day93][93]
 | [day94][94]
+| [day95][95]
 |
 
 ## Contents
@@ -260,3 +261,4 @@ Me,/xandeer
 [92]: log.md#day-92-april-28-2017
 [93]: log.md#day-93-may-02-2017
 [94]: log.md#day-94-may-03-2017
+[95]: log.md#day-95-may-04-2017
