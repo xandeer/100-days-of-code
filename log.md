@@ -1445,3 +1445,10 @@ then practice the features that I may use. Read -> Try
 
 1. Use vuex to store the data of ideas and comments.
 2. Add preload animations for ideas.
+
+
+## Day 96: May 05, 2017
+
+### Today's Progress
+
+1. Fix some bugs.
