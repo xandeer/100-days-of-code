@@ -296,6 +296,10 @@
     - [Today's Progress](#todays-progress-94)
   - [Day 95: May 04, 2017](#day-95-may-04-2017)
     - [Today's Progress](#todays-progress-95)
+  - [Day 96: May 05, 2017](#day-96-may-05-2017)
+    - [Today's Progress](#todays-progress-96)
+  - [Day 97: May 06, 2017](#day-97-may-06-2017)
+    - [Today's Progress](#todays-progress-97)
 
 <!-- /TOC -->
 
@@ -1452,3 +1456,10 @@ then practice the features that I may use. Read -> Try
 ### Today's Progress
 
 1. Fix some bugs.
+
+
+## Day 97: May 06, 2017
+
+### Today's Progress
+
+1. Use cordova-plugin-file to get logs.
