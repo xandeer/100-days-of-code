@@ -1472,3 +1472,11 @@ then practice the features that I may use. Read -> Try
 ### Today's Progress
 
 1. Use file plugin to store data.
+
+
+## Day 99: May 10, 2017
+
+### Today's Progress
+
+1. Customize statusbar.
+2. Modify add card's view.
